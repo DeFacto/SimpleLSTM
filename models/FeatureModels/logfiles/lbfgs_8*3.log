@@ -1,0 +1,4876 @@
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =          225     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  7.76313D-01    |proj g|=  2.14466D-01
+
+At iterate    1    f=  7.29349D-01    |proj g|=  1.35846D-01
+
+At iterate    2    f=  6.90864D-01    |proj g|=  1.63581D-02
+
+At iterate    3    f=  6.88715D-01    |proj g|=  1.52603D-02
+
+At iterate    4    f=  6.84414D-01    |proj g|=  3.66839D-02
+
+At iterate    5    f=  6.82252D-01    |proj g|=  6.07514D-02
+
+At iterate    6    f=  6.72228D-01    |proj g|=  9.75164D-02
+
+At iterate    7    f=  6.60847D-01    |proj g|=  1.18060D-01
+
+At iterate    8    f=  6.15033D-01    |proj g|=  6.85628D-02
+
+At iterate    9    f=  5.72478D-01    |proj g|=  1.21966D-01
+
+At iterate   10    f=  5.44799D-01    |proj g|=  5.05460D-02
+
+At iterate   11    f=  5.35071D-01    |proj g|=  4.15252D-02
+
+At iterate   12    f=  5.20742D-01    |proj g|=  4.75417D-02
+
+At iterate   13    f=  5.05704D-01    |proj g|=  2.97934D-02
+
+At iterate   14    f=  5.00925D-01    |proj g|=  1.19570D-02
+
+At iterate   15    f=  4.97766D-01    |proj g|=  1.44605D-02
+
+At iterate   16    f=  4.96680D-01    |proj g|=  5.99706D-03
+
+At iterate   17    f=  4.96084D-01    |proj g|=  5.99180D-03
+
+At iterate   18    f=  4.93257D-01    |proj g|=  8.93936D-03
+
+At iterate   19    f=  4.91711D-01    |proj g|=  8.50333D-03
+
+At iterate   20    f=  4.90455D-01    |proj g|=  1.66863D-02
+
+At iterate   21    f=  4.89955D-01    |proj g|=  1.46062D-02
+
+At iterate   22    f=  4.89293D-01    |proj g|=  5.80167D-03
+
+At iterate   23    f=  4.89146D-01    |proj g|=  5.99257D-03
+
+At iterate   24    f=  4.88736D-01    |proj g|=  8.09890D-03
+
+At iterate   25    f=  4.88248D-01    |proj g|=  8.55562D-03
+
+At iterate   26    f=  4.87791D-01    |proj g|=  8.83510D-03
+
+At iterate   27    f=  4.87542D-01    |proj g|=  1.41975D-02
+
+At iterate   28    f=  4.86905D-01    |proj g|=  4.85655D-03
+
+At iterate   29    f=  4.86605D-01    |proj g|=  7.80746D-03
+
+At iterate   30    f=  4.86270D-01    |proj g|=  7.49792D-03
+
+At iterate   31    f=  4.85452D-01    |proj g|=  6.95886D-03
+
+At iterate   32    f=  4.84987D-01    |proj g|=  6.38503D-03
+
+At iterate   33    f=  4.84238D-01    |proj g|=  4.79865D-03
+
+At iterate   34    f=  4.83566D-01    |proj g|=  1.43472D-02
+
+At iterate   35    f=  4.82987D-01    |proj g|=  5.22984D-03
+
+At iterate   36    f=  4.82701D-01    |proj g|=  9.79346D-03
+
+At iterate   37    f=  4.82482D-01    |proj g|=  6.03822D-03
+
+At iterate   38    f=  4.82328D-01    |proj g|=  4.30035D-03
+
+At iterate   39    f=  4.81950D-01    |proj g|=  3.01272D-03
+
+At iterate   40    f=  4.81838D-01    |proj g|=  4.97657D-03
+
+At iterate   41    f=  4.81679D-01    |proj g|=  4.20154D-03
+
+At iterate   42    f=  4.81550D-01    |proj g|=  5.04181D-03
+
+At iterate   43    f=  4.81217D-01    |proj g|=  1.03981D-02
+
+At iterate   44    f=  4.80978D-01    |proj g|=  6.01083D-03
+
+At iterate   45    f=  4.80789D-01    |proj g|=  9.34040D-03
+
+At iterate   46    f=  4.80659D-01    |proj g|=  4.30618D-03
+
+At iterate   47    f=  4.80617D-01    |proj g|=  3.21716D-03
+
+At iterate   48    f=  4.80549D-01    |proj g|=  4.88896D-03
+
+At iterate   49    f=  4.80448D-01    |proj g|=  5.02911D-03
+
+At iterate   50    f=  4.80149D-01    |proj g|=  6.96568D-03
+
+At iterate   51    f=  4.79945D-01    |proj g|=  3.49390D-03
+
+At iterate   52    f=  4.79698D-01    |proj g|=  3.92144D-03
+
+At iterate   53    f=  4.79466D-01    |proj g|=  4.09403D-03
+
+At iterate   54    f=  4.79221D-01    |proj g|=  6.58384D-03
+
+At iterate   55    f=  4.78814D-01    |proj g|=  7.24928D-03
+
+At iterate   56    f=  4.78463D-01    |proj g|=  9.98169D-03
+
+At iterate   57    f=  4.78383D-01    |proj g|=  1.35415D-02
+
+At iterate   58    f=  4.78155D-01    |proj g|=  4.42671D-03
+
+At iterate   59    f=  4.78062D-01    |proj g|=  6.68330D-03
+
+At iterate   60    f=  4.77979D-01    |proj g|=  5.92566D-03
+
+At iterate   61    f=  4.77702D-01    |proj g|=  5.45080D-03
+
+At iterate   62    f=  4.77641D-01    |proj g|=  8.86672D-03
+
+At iterate   63    f=  4.77435D-01    |proj g|=  4.63329D-03
+
+At iterate   64    f=  4.77413D-01    |proj g|=  2.39412D-03
+
+At iterate   65    f=  4.77360D-01    |proj g|=  8.57919D-03
+
+At iterate   66    f=  4.77169D-01    |proj g|=  3.41240D-03
+
+At iterate   67    f=  4.77134D-01    |proj g|=  6.88499D-03
+
+At iterate   68    f=  4.76990D-01    |proj g|=  3.15015D-03
+
+At iterate   69    f=  4.76727D-01    |proj g|=  8.64775D-03
+
+At iterate   70    f=  4.76484D-01    |proj g|=  1.42065D-02
+
+At iterate   71    f=  4.76310D-01    |proj g|=  1.79602D-02
+
+At iterate   72    f=  4.75978D-01    |proj g|=  1.02913D-02
+
+At iterate   73    f=  4.75657D-01    |proj g|=  4.84283D-03
+
+At iterate   74    f=  4.75444D-01    |proj g|=  4.78657D-03
+
+At iterate   75    f=  4.75289D-01    |proj g|=  1.34794D-02
+
+At iterate   76    f=  4.74808D-01    |proj g|=  4.91998D-03
+
+At iterate   77    f=  4.74576D-01    |proj g|=  5.84681D-03
+
+At iterate   78    f=  4.74313D-01    |proj g|=  5.69397D-03
+
+At iterate   79    f=  4.73772D-01    |proj g|=  1.69644D-02
+
+At iterate   80    f=  4.73346D-01    |proj g|=  8.33986D-03
+
+At iterate   81    f=  4.73203D-01    |proj g|=  9.29973D-03
+
+At iterate   82    f=  4.72998D-01    |proj g|=  1.02728D-02
+
+At iterate   83    f=  4.72854D-01    |proj g|=  7.46700D-03
+
+At iterate   84    f=  4.72640D-01    |proj g|=  7.01196D-03
+
+At iterate   85    f=  4.72487D-01    |proj g|=  3.75304D-03
+
+At iterate   86    f=  4.72378D-01    |proj g|=  5.87453D-03
+
+At iterate   87    f=  4.72190D-01    |proj g|=  7.56605D-03
+
+At iterate   88    f=  4.72024D-01    |proj g|=  7.95689D-03
+
+At iterate   89    f=  4.71804D-01    |proj g|=  6.74309D-03
+
+At iterate   90    f=  4.71562D-01    |proj g|=  3.69991D-03
+
+At iterate   91    f=  4.71462D-01    |proj g|=  7.20814D-03
+
+At iterate   92    f=  4.71267D-01    |proj g|=  5.78734D-03
+
+At iterate   93    f=  4.71101D-01    |proj g|=  3.26009D-03
+
+At iterate   94    f=  4.70984D-01    |proj g|=  5.90327D-03
+
+At iterate   95    f=  4.70850D-01    |proj g|=  9.33528D-03
+
+At iterate   96    f=  4.70776D-01    |proj g|=  1.01648D-02
+
+At iterate   97    f=  4.70699D-01    |proj g|=  1.20729D-02
+
+At iterate   98    f=  4.70608D-01    |proj g|=  4.54448D-03
+
+At iterate   99    f=  4.70542D-01    |proj g|=  6.56716D-03
+
+At iterate  100    f=  4.70468D-01    |proj g|=  5.24692D-03
+
+At iterate  101    f=  4.70284D-01    |proj g|=  8.15721D-03
+
+At iterate  102    f=  4.70069D-01    |proj g|=  6.44040D-03
+
+At iterate  103    f=  4.69633D-01    |proj g|=  6.20861D-03
+
+At iterate  104    f=  4.69435D-01    |proj g|=  5.28438D-03
+
+At iterate  105    f=  4.69159D-01    |proj g|=  7.91740D-03
+
+At iterate  106    f=  4.68798D-01    |proj g|=  1.66088D-02
+
+At iterate  107    f=  4.68474D-01    |proj g|=  5.13847D-03
+
+At iterate  108    f=  4.68329D-01    |proj g|=  4.54481D-03
+
+At iterate  109    f=  4.68187D-01    |proj g|=  6.88587D-03
+
+At iterate  110    f=  4.68079D-01    |proj g|=  1.86665D-02
+
+At iterate  111    f=  4.67808D-01    |proj g|=  6.33795D-03
+
+At iterate  112    f=  4.67680D-01    |proj g|=  5.84674D-03
+
+At iterate  113    f=  4.67550D-01    |proj g|=  1.17041D-02
+
+At iterate  114    f=  4.67270D-01    |proj g|=  7.38396D-03
+
+At iterate  115    f=  4.67062D-01    |proj g|=  7.38479D-03
+
+At iterate  116    f=  4.66807D-01    |proj g|=  3.80580D-03
+
+At iterate  117    f=  4.66557D-01    |proj g|=  6.60785D-03
+
+At iterate  118    f=  4.66463D-01    |proj g|=  1.06530D-02
+
+At iterate  119    f=  4.66244D-01    |proj g|=  1.73784D-02
+
+At iterate  120    f=  4.65980D-01    |proj g|=  8.33687D-03
+
+At iterate  121    f=  4.65790D-01    |proj g|=  4.52247D-03
+
+At iterate  122    f=  4.65546D-01    |proj g|=  8.45650D-03
+
+At iterate  123    f=  4.65525D-01    |proj g|=  1.72083D-02
+
+At iterate  124    f=  4.65283D-01    |proj g|=  8.65599D-03
+
+At iterate  125    f=  4.65155D-01    |proj g|=  1.36506D-02
+
+At iterate  126    f=  4.65009D-01    |proj g|=  1.07064D-02
+
+At iterate  127    f=  4.64742D-01    |proj g|=  1.39598D-02
+
+At iterate  128    f=  4.64563D-01    |proj g|=  1.43065D-02
+
+At iterate  129    f=  4.64241D-01    |proj g|=  8.10263D-03
+
+At iterate  130    f=  4.63881D-01    |proj g|=  1.73909D-02
+
+At iterate  131    f=  4.63546D-01    |proj g|=  7.24787D-03
+
+At iterate  132    f=  4.63332D-01    |proj g|=  5.27117D-03
+
+At iterate  133    f=  4.63057D-01    |proj g|=  1.60883D-02
+
+At iterate  134    f=  4.62897D-01    |proj g|=  9.86321D-03
+
+At iterate  135    f=  4.62661D-01    |proj g|=  1.74167D-02
+
+At iterate  136    f=  4.62477D-01    |proj g|=  6.58822D-03
+
+At iterate  137    f=  4.62134D-01    |proj g|=  1.37216D-02
+
+At iterate  138    f=  4.61896D-01    |proj g|=  8.19211D-03
+
+At iterate  139    f=  4.61807D-01    |proj g|=  5.77574D-03
+
+At iterate  140    f=  4.61628D-01    |proj g|=  7.88078D-03
+
+At iterate  141    f=  4.61444D-01    |proj g|=  6.01329D-03
+
+At iterate  142    f=  4.61065D-01    |proj g|=  1.99513D-02
+
+At iterate  143    f=  4.60738D-01    |proj g|=  7.18036D-03
+
+At iterate  144    f=  4.60606D-01    |proj g|=  7.41869D-03
+
+At iterate  145    f=  4.60471D-01    |proj g|=  1.74671D-02
+
+At iterate  146    f=  4.60173D-01    |proj g|=  9.54167D-03
+
+At iterate  147    f=  4.60004D-01    |proj g|=  5.68928D-03
+
+At iterate  148    f=  4.59940D-01    |proj g|=  2.10148D-02
+
+At iterate  149    f=  4.59690D-01    |proj g|=  8.05666D-03
+
+At iterate  150    f=  4.59535D-01    |proj g|=  8.00071D-03
+
+At iterate  151    f=  4.59132D-01    |proj g|=  1.06529D-02
+
+At iterate  152    f=  4.58959D-01    |proj g|=  1.57396D-02
+
+At iterate  153    f=  4.58755D-01    |proj g|=  8.83138D-03
+
+At iterate  154    f=  4.58670D-01    |proj g|=  7.60944D-03
+
+At iterate  155    f=  4.58602D-01    |proj g|=  1.43216D-02
+
+At iterate  156    f=  4.58489D-01    |proj g|=  1.54115D-02
+
+At iterate  157    f=  4.58377D-01    |proj g|=  1.69047D-02
+
+At iterate  158    f=  4.58253D-01    |proj g|=  7.43277D-03
+
+At iterate  159    f=  4.58162D-01    |proj g|=  8.49290D-03
+
+At iterate  160    f=  4.58102D-01    |proj g|=  8.07399D-03
+
+At iterate  161    f=  4.58011D-01    |proj g|=  1.57410D-02
+
+At iterate  162    f=  4.57788D-01    |proj g|=  1.66598D-02
+
+At iterate  163    f=  4.57683D-01    |proj g|=  8.38942D-03
+
+At iterate  164    f=  4.57602D-01    |proj g|=  5.33717D-03
+
+At iterate  165    f=  4.57539D-01    |proj g|=  1.10281D-02
+
+At iterate  166    f=  4.57517D-01    |proj g|=  1.79479D-02
+
+At iterate  167    f=  4.57406D-01    |proj g|=  7.79434D-03
+
+At iterate  168    f=  4.57319D-01    |proj g|=  7.22441D-03
+
+At iterate  169    f=  4.57244D-01    |proj g|=  7.96587D-03
+
+At iterate  170    f=  4.57092D-01    |proj g|=  1.19093D-02
+
+At iterate  171    f=  4.57071D-01    |proj g|=  1.24315D-02
+
+At iterate  172    f=  4.56954D-01    |proj g|=  7.16008D-03
+
+At iterate  173    f=  4.56878D-01    |proj g|=  5.02016D-03
+
+At iterate  174    f=  4.56764D-01    |proj g|=  8.59786D-03
+
+At iterate  175    f=  4.56707D-01    |proj g|=  8.05117D-03
+
+At iterate  176    f=  4.56659D-01    |proj g|=  1.89512D-02
+
+At iterate  177    f=  4.56571D-01    |proj g|=  7.01206D-03
+
+At iterate  178    f=  4.56528D-01    |proj g|=  1.08463D-02
+
+At iterate  179    f=  4.56502D-01    |proj g|=  4.49072D-03
+
+At iterate  180    f=  4.56469D-01    |proj g|=  5.71680D-03
+
+At iterate  181    f=  4.56418D-01    |proj g|=  6.14845D-03
+
+At iterate  182    f=  4.56375D-01    |proj g|=  4.78964D-03
+
+At iterate  183    f=  4.56372D-01    |proj g|=  7.18655D-03
+
+At iterate  184    f=  4.56315D-01    |proj g|=  6.80990D-03
+
+At iterate  185    f=  4.56284D-01    |proj g|=  8.24285D-03
+
+At iterate  186    f=  4.56238D-01    |proj g|=  7.09149D-03
+
+At iterate  187    f=  4.56174D-01    |proj g|=  5.92402D-03
+
+At iterate  188    f=  4.56125D-01    |proj g|=  7.45235D-03
+
+At iterate  189    f=  4.56117D-01    |proj g|=  1.47765D-02
+
+At iterate  190    f=  4.56085D-01    |proj g|=  5.11250D-03
+
+At iterate  191    f=  4.56070D-01    |proj g|=  4.11962D-03
+
+At iterate  192    f=  4.56038D-01    |proj g|=  1.10565D-02
+
+At iterate  193    f=  4.56005D-01    |proj g|=  7.30151D-03
+
+At iterate  194    f=  4.55928D-01    |proj g|=  5.08117D-03
+
+At iterate  195    f=  4.55847D-01    |proj g|=  8.54178D-03
+
+At iterate  196    f=  4.55775D-01    |proj g|=  1.13725D-02
+
+At iterate  197    f=  4.55688D-01    |proj g|=  5.78148D-03
+
+At iterate  198    f=  4.55655D-01    |proj g|=  6.17965D-03
+
+At iterate  199    f=  4.55596D-01    |proj g|=  4.62389D-03
+
+At iterate  200    f=  4.55565D-01    |proj g|=  3.65253D-03
+
+At iterate  201    f=  4.55471D-01    |proj g|=  1.37044D-02
+
+At iterate  202    f=  4.55399D-01    |proj g|=  7.93009D-03
+
+At iterate  203    f=  4.55310D-01    |proj g|=  6.47833D-03
+
+At iterate  204    f=  4.55257D-01    |proj g|=  1.03966D-02
+
+At iterate  205    f=  4.55189D-01    |proj g|=  7.41039D-03
+
+At iterate  206    f=  4.55171D-01    |proj g|=  1.28050D-02
+
+At iterate  207    f=  4.55114D-01    |proj g|=  6.23038D-03
+
+At iterate  208    f=  4.55078D-01    |proj g|=  4.02813D-03
+
+At iterate  209    f=  4.55029D-01    |proj g|=  8.49939D-03
+
+At iterate  210    f=  4.54980D-01    |proj g|=  8.51354D-03
+
+At iterate  211    f=  4.54884D-01    |proj g|=  6.30345D-03
+
+At iterate  212    f=  4.54811D-01    |proj g|=  2.04074D-02
+
+At iterate  213    f=  4.54720D-01    |proj g|=  9.77139D-03
+
+At iterate  214    f=  4.54674D-01    |proj g|=  6.66949D-03
+
+At iterate  215    f=  4.54638D-01    |proj g|=  4.76327D-03
+
+At iterate  216    f=  4.54585D-01    |proj g|=  9.02183D-03
+
+At iterate  217    f=  4.54504D-01    |proj g|=  7.90985D-03
+
+At iterate  218    f=  4.54441D-01    |proj g|=  1.09484D-02
+
+At iterate  219    f=  4.54325D-01    |proj g|=  1.07420D-02
+
+At iterate  220    f=  4.54246D-01    |proj g|=  1.08872D-02
+
+At iterate  221    f=  4.54178D-01    |proj g|=  7.80031D-03
+
+At iterate  222    f=  4.54107D-01    |proj g|=  6.73813D-03
+
+At iterate  223    f=  4.54060D-01    |proj g|=  8.99384D-03
+
+At iterate  224    f=  4.54009D-01    |proj g|=  6.44173D-03
+
+At iterate  225    f=  4.53955D-01    |proj g|=  7.38482D-03
+
+At iterate  226    f=  4.53861D-01    |proj g|=  6.58094D-03
+
+At iterate  227    f=  4.53779D-01    |proj g|=  2.33577D-02
+
+At iterate  228    f=  4.53560D-01    |proj g|=  1.21873D-02
+
+At iterate  229    f=  4.53417D-01    |proj g|=  9.45894D-03
+
+At iterate  230    f=  4.53384D-01    |proj g|=  1.30596D-02
+
+At iterate  231    f=  4.53164D-01    |proj g|=  1.08433D-02
+
+At iterate  232    f=  4.53000D-01    |proj g|=  1.36738D-02
+
+At iterate  233    f=  4.52809D-01    |proj g|=  7.49425D-03
+
+At iterate  234    f=  4.52673D-01    |proj g|=  6.68730D-03
+
+At iterate  235    f=  4.52592D-01    |proj g|=  1.94953D-02
+
+At iterate  236    f=  4.52434D-01    |proj g|=  1.97411D-02
+
+At iterate  237    f=  4.52274D-01    |proj g|=  1.85140D-02
+
+At iterate  238    f=  4.52134D-01    |proj g|=  2.49307D-02
+
+At iterate  239    f=  4.52081D-01    |proj g|=  2.14521D-02
+
+At iterate  240    f=  4.51843D-01    |proj g|=  8.14577D-03
+
+At iterate  241    f=  4.51751D-01    |proj g|=  9.00216D-03
+
+At iterate  242    f=  4.51650D-01    |proj g|=  1.92156D-02
+
+At iterate  243    f=  4.51506D-01    |proj g|=  1.08194D-02
+
+At iterate  244    f=  4.51318D-01    |proj g|=  1.17185D-02
+
+At iterate  245    f=  4.51278D-01    |proj g|=  1.28161D-02
+
+At iterate  246    f=  4.51206D-01    |proj g|=  2.28056D-02
+
+At iterate  247    f=  4.51123D-01    |proj g|=  6.18009D-03
+
+At iterate  248    f=  4.51073D-01    |proj g|=  6.43411D-03
+
+At iterate  249    f=  4.51014D-01    |proj g|=  7.56002D-03
+
+At iterate  250    f=  4.50907D-01    |proj g|=  1.13886D-02
+
+At iterate  251    f=  4.50807D-01    |proj g|=  1.25384D-02
+
+At iterate  252    f=  4.50677D-01    |proj g|=  7.51175D-03
+
+At iterate  253    f=  4.50606D-01    |proj g|=  8.45107D-03
+
+At iterate  254    f=  4.50542D-01    |proj g|=  1.17810D-02
+
+At iterate  255    f=  4.50479D-01    |proj g|=  1.56275D-02
+
+At iterate  256    f=  4.50423D-01    |proj g|=  8.24920D-03
+
+At iterate  257    f=  4.50396D-01    |proj g|=  1.26738D-02
+
+At iterate  258    f=  4.50359D-01    |proj g|=  5.97416D-03
+
+At iterate  259    f=  4.50318D-01    |proj g|=  8.65269D-03
+
+At iterate  260    f=  4.50293D-01    |proj g|=  6.68742D-03
+
+At iterate  261    f=  4.50241D-01    |proj g|=  6.60729D-03
+
+At iterate  262    f=  4.50191D-01    |proj g|=  1.18908D-02
+
+At iterate  263    f=  4.50132D-01    |proj g|=  7.41327D-03
+
+At iterate  264    f=  4.50087D-01    |proj g|=  6.24727D-03
+
+At iterate  265    f=  4.50042D-01    |proj g|=  8.47053D-03
+
+At iterate  266    f=  4.50001D-01    |proj g|=  1.03023D-02
+
+At iterate  267    f=  4.49966D-01    |proj g|=  8.23669D-03
+
+At iterate  268    f=  4.49938D-01    |proj g|=  8.09263D-03
+
+At iterate  269    f=  4.49892D-01    |proj g|=  6.17237D-03
+
+At iterate  270    f=  4.49857D-01    |proj g|=  1.20633D-02
+
+At iterate  271    f=  4.49835D-01    |proj g|=  4.38006D-03
+
+At iterate  272    f=  4.49806D-01    |proj g|=  8.04921D-03
+
+At iterate  273    f=  4.49790D-01    |proj g|=  1.93637D-02
+
+At iterate  274    f=  4.49717D-01    |proj g|=  9.82393D-03
+
+At iterate  275    f=  4.49696D-01    |proj g|=  4.35937D-03
+
+At iterate  276    f=  4.49696D-01    |proj g|=  9.01327D-03
+
+At iterate  277    f=  4.49668D-01    |proj g|=  4.65804D-03
+
+At iterate  278    f=  4.49649D-01    |proj g|=  8.92722D-03
+
+At iterate  279    f=  4.49624D-01    |proj g|=  6.06430D-03
+
+At iterate  280    f=  4.49602D-01    |proj g|=  6.61814D-03
+
+At iterate  281    f=  4.49577D-01    |proj g|=  6.69983D-03
+
+At iterate  282    f=  4.49577D-01    |proj g|=  1.50638D-02
+
+At iterate  283    f=  4.49532D-01    |proj g|=  5.97139D-03
+
+At iterate  284    f=  4.49518D-01    |proj g|=  3.65713D-03
+
+At iterate  285    f=  4.49498D-01    |proj g|=  7.22439D-03
+
+At iterate  286    f=  4.49476D-01    |proj g|=  7.35921D-03
+
+At iterate  287    f=  4.49444D-01    |proj g|=  7.08617D-03
+
+At iterate  288    f=  4.49423D-01    |proj g|=  5.23682D-03
+
+At iterate  289    f=  4.49384D-01    |proj g|=  5.59190D-03
+
+At iterate  290    f=  4.49329D-01    |proj g|=  4.23396D-03
+
+At iterate  291    f=  4.49280D-01    |proj g|=  1.58194D-02
+
+At iterate  292    f=  4.49242D-01    |proj g|=  4.74497D-03
+
+At iterate  293    f=  4.49224D-01    |proj g|=  8.20728D-03
+
+At iterate  294    f=  4.49187D-01    |proj g|=  9.91621D-03
+
+At iterate  295    f=  4.49151D-01    |proj g|=  8.87832D-03
+
+At iterate  296    f=  4.49086D-01    |proj g|=  1.08275D-02
+
+At iterate  297    f=  4.49057D-01    |proj g|=  7.49444D-03
+
+At iterate  298    f=  4.49033D-01    |proj g|=  6.89923D-03
+
+At iterate  299    f=  4.48992D-01    |proj g|=  6.38918D-03
+
+At iterate  300    f=  4.48964D-01    |proj g|=  7.48651D-03
+
+At iterate  301    f=  4.48932D-01    |proj g|=  4.52716D-03
+
+At iterate  302    f=  4.48920D-01    |proj g|=  7.85455D-03
+
+At iterate  303    f=  4.48893D-01    |proj g|=  5.52389D-03
+
+At iterate  304    f=  4.48868D-01    |proj g|=  3.86136D-03
+
+At iterate  305    f=  4.48838D-01    |proj g|=  4.18864D-03
+
+At iterate  306    f=  4.48811D-01    |proj g|=  5.63931D-03
+
+At iterate  307    f=  4.48775D-01    |proj g|=  5.70214D-03
+
+At iterate  308    f=  4.48759D-01    |proj g|=  2.26868D-02
+
+At iterate  309    f=  4.48722D-01    |proj g|=  7.11353D-03
+
+At iterate  310    f=  4.48708D-01    |proj g|=  7.92221D-03
+
+At iterate  311    f=  4.48691D-01    |proj g|=  7.03957D-03
+
+At iterate  312    f=  4.48649D-01    |proj g|=  5.71775D-03
+
+At iterate  313    f=  4.48627D-01    |proj g|=  5.78081D-03
+
+At iterate  314    f=  4.48595D-01    |proj g|=  1.06181D-02
+
+At iterate  315    f=  4.48558D-01    |proj g|=  5.87429D-03
+
+At iterate  316    f=  4.48538D-01    |proj g|=  6.43797D-03
+
+At iterate  317    f=  4.48507D-01    |proj g|=  8.36347D-03
+
+At iterate  318    f=  4.48498D-01    |proj g|=  1.06708D-02
+
+At iterate  319    f=  4.48459D-01    |proj g|=  5.78654D-03
+
+At iterate  320    f=  4.48444D-01    |proj g|=  8.48065D-03
+
+At iterate  321    f=  4.48411D-01    |proj g|=  5.43054D-03
+
+At iterate  322    f=  4.48367D-01    |proj g|=  5.59521D-03
+
+At iterate  323    f=  4.48329D-01    |proj g|=  8.47805D-03
+
+At iterate  324    f=  4.48293D-01    |proj g|=  4.11594D-03
+
+At iterate  325    f=  4.48268D-01    |proj g|=  5.01493D-03
+
+At iterate  326    f=  4.48255D-01    |proj g|=  5.47867D-03
+
+At iterate  327    f=  4.48230D-01    |proj g|=  5.32995D-03
+
+At iterate  328    f=  4.48199D-01    |proj g|=  1.73949D-02
+
+At iterate  329    f=  4.48172D-01    |proj g|=  7.40728D-03
+
+At iterate  330    f=  4.48165D-01    |proj g|=  4.64012D-03
+
+At iterate  331    f=  4.48156D-01    |proj g|=  3.04691D-03
+
+At iterate  332    f=  4.48145D-01    |proj g|=  7.83307D-03
+
+At iterate  333    f=  4.48135D-01    |proj g|=  5.29541D-03
+
+At iterate  334    f=  4.48121D-01    |proj g|=  5.27566D-03
+
+At iterate  335    f=  4.48105D-01    |proj g|=  8.08607D-03
+
+At iterate  336    f=  4.48086D-01    |proj g|=  4.37670D-03
+
+At iterate  337    f=  4.48070D-01    |proj g|=  7.16876D-03
+
+At iterate  338    f=  4.48055D-01    |proj g|=  6.11883D-03
+
+At iterate  339    f=  4.48029D-01    |proj g|=  4.48257D-03
+
+At iterate  340    f=  4.48008D-01    |proj g|=  5.81840D-03
+
+At iterate  341    f=  4.47985D-01    |proj g|=  1.91641D-02
+
+At iterate  342    f=  4.47965D-01    |proj g|=  4.17897D-03
+
+At iterate  343    f=  4.47954D-01    |proj g|=  3.79227D-03
+
+At iterate  344    f=  4.47945D-01    |proj g|=  3.08073D-03
+
+At iterate  345    f=  4.47923D-01    |proj g|=  3.15474D-03
+
+At iterate  346    f=  4.47909D-01    |proj g|=  7.22070D-03
+
+At iterate  347    f=  4.47898D-01    |proj g|=  7.42187D-03
+
+At iterate  348    f=  4.47858D-01    |proj g|=  5.42060D-03
+
+At iterate  349    f=  4.47849D-01    |proj g|=  7.07123D-03
+
+At iterate  350    f=  4.47819D-01    |proj g|=  6.71380D-03
+
+At iterate  351    f=  4.47805D-01    |proj g|=  5.43184D-03
+
+At iterate  352    f=  4.47790D-01    |proj g|=  5.15812D-03
+
+At iterate  353    f=  4.47780D-01    |proj g|=  8.35431D-03
+
+At iterate  354    f=  4.47764D-01    |proj g|=  1.00318D-02
+
+At iterate  355    f=  4.47746D-01    |proj g|=  6.91929D-03
+
+At iterate  356    f=  4.47734D-01    |proj g|=  4.69282D-03
+
+At iterate  357    f=  4.47701D-01    |proj g|=  5.77676D-03
+
+At iterate  358    f=  4.47657D-01    |proj g|=  1.14312D-02
+
+At iterate  359    f=  4.47642D-01    |proj g|=  9.15666D-03
+
+At iterate  360    f=  4.47616D-01    |proj g|=  3.73909D-03
+
+At iterate  361    f=  4.47592D-01    |proj g|=  3.10919D-03
+
+At iterate  362    f=  4.47567D-01    |proj g|=  1.05636D-02
+
+At iterate  363    f=  4.47554D-01    |proj g|=  4.92629D-03
+
+At iterate  364    f=  4.47528D-01    |proj g|=  4.82835D-03
+
+At iterate  365    f=  4.47502D-01    |proj g|=  1.66528D-02
+
+At iterate  366    f=  4.47480D-01    |proj g|=  9.52950D-03
+
+At iterate  367    f=  4.47440D-01    |proj g|=  5.94548D-03
+
+At iterate  368    f=  4.47419D-01    |proj g|=  8.09521D-03
+
+At iterate  369    f=  4.47380D-01    |proj g|=  4.74199D-03
+
+At iterate  370    f=  4.47327D-01    |proj g|=  9.59860D-03
+
+At iterate  371    f=  4.47287D-01    |proj g|=  1.06443D-02
+
+At iterate  372    f=  4.47205D-01    |proj g|=  1.25513D-02
+
+At iterate  373    f=  4.47157D-01    |proj g|=  9.44381D-03
+
+At iterate  374    f=  4.47096D-01    |proj g|=  8.07855D-03
+
+At iterate  375    f=  4.47067D-01    |proj g|=  6.59675D-03
+
+At iterate  376    f=  4.47018D-01    |proj g|=  6.31609D-03
+
+At iterate  377    f=  4.46981D-01    |proj g|=  8.99888D-03
+
+At iterate  378    f=  4.46940D-01    |proj g|=  4.00675D-03
+
+At iterate  379    f=  4.46919D-01    |proj g|=  3.91616D-03
+
+At iterate  380    f=  4.46917D-01    |proj g|=  1.08692D-02
+
+At iterate  381    f=  4.46882D-01    |proj g|=  6.94830D-03
+
+At iterate  382    f=  4.46872D-01    |proj g|=  8.95077D-03
+
+At iterate  383    f=  4.46853D-01    |proj g|=  6.89531D-03
+
+At iterate  384    f=  4.46838D-01    |proj g|=  7.33963D-03
+
+At iterate  385    f=  4.46811D-01    |proj g|=  4.28618D-03
+
+At iterate  386    f=  4.46773D-01    |proj g|=  4.73120D-03
+
+At iterate  387    f=  4.46746D-01    |proj g|=  8.85980D-03
+
+At iterate  388    f=  4.46717D-01    |proj g|=  5.95588D-03
+
+At iterate  389    f=  4.46683D-01    |proj g|=  9.55941D-03
+
+At iterate  390    f=  4.46644D-01    |proj g|=  7.66654D-03
+
+At iterate  391    f=  4.46608D-01    |proj g|=  5.26374D-03
+
+At iterate  392    f=  4.46576D-01    |proj g|=  6.84301D-03
+
+At iterate  393    f=  4.46563D-01    |proj g|=  1.07575D-02
+
+At iterate  394    f=  4.46543D-01    |proj g|=  3.37440D-03
+
+At iterate  395    f=  4.46530D-01    |proj g|=  6.03592D-03
+
+At iterate  396    f=  4.46516D-01    |proj g|=  1.42597D-02
+
+At iterate  397    f=  4.46481D-01    |proj g|=  7.61939D-03
+
+At iterate  398    f=  4.46415D-01    |proj g|=  1.11101D-02
+
+At iterate  399    f=  4.46391D-01    |proj g|=  9.23727D-03
+
+At iterate  400    f=  4.46375D-01    |proj g|=  9.20726D-03
+
+At iterate  401    f=  4.46352D-01    |proj g|=  4.90281D-03
+
+At iterate  402    f=  4.46311D-01    |proj g|=  4.05031D-03
+
+At iterate  403    f=  4.46278D-01    |proj g|=  9.10962D-03
+
+At iterate  404    f=  4.46241D-01    |proj g|=  8.44134D-03
+
+At iterate  405    f=  4.46212D-01    |proj g|=  9.88836D-03
+
+At iterate  406    f=  4.46182D-01    |proj g|=  9.37101D-03
+
+At iterate  407    f=  4.46166D-01    |proj g|=  8.09171D-03
+
+At iterate  408    f=  4.46141D-01    |proj g|=  8.12928D-03
+
+At iterate  409    f=  4.46093D-01    |proj g|=  6.15249D-03
+
+At iterate  410    f=  4.46062D-01    |proj g|=  1.06475D-02
+
+At iterate  411    f=  4.46021D-01    |proj g|=  3.46065D-03
+
+At iterate  412    f=  4.46011D-01    |proj g|=  5.65054D-03
+
+At iterate  413    f=  4.45997D-01    |proj g|=  5.28654D-03
+
+At iterate  414    f=  4.45967D-01    |proj g|=  4.18210D-03
+
+At iterate  415    f=  4.45940D-01    |proj g|=  8.60551D-03
+
+At iterate  416    f=  4.45920D-01    |proj g|=  5.75585D-03
+
+At iterate  417    f=  4.45887D-01    |proj g|=  1.47615D-02
+
+At iterate  418    f=  4.45866D-01    |proj g|=  7.11779D-03
+
+At iterate  419    f=  4.45846D-01    |proj g|=  6.01762D-03
+
+At iterate  420    f=  4.45819D-01    |proj g|=  1.24689D-02
+
+At iterate  421    f=  4.45808D-01    |proj g|=  4.95698D-03
+
+At iterate  422    f=  4.45799D-01    |proj g|=  4.32271D-03
+
+At iterate  423    f=  4.45797D-01    |proj g|=  5.29048D-03
+
+At iterate  424    f=  4.45779D-01    |proj g|=  4.95059D-03
+
+At iterate  425    f=  4.45747D-01    |proj g|=  6.52268D-03
+
+At iterate  426    f=  4.45716D-01    |proj g|=  8.13754D-03
+
+At iterate  427    f=  4.45690D-01    |proj g|=  1.42187D-02
+
+At iterate  428    f=  4.45641D-01    |proj g|=  6.24405D-03
+
+At iterate  429    f=  4.45609D-01    |proj g|=  1.17661D-02
+
+At iterate  430    f=  4.45583D-01    |proj g|=  9.25323D-03
+
+At iterate  431    f=  4.45550D-01    |proj g|=  6.19340D-03
+
+At iterate  432    f=  4.45534D-01    |proj g|=  1.46504D-02
+
+At iterate  433    f=  4.45533D-01    |proj g|=  1.15456D-02
+
+At iterate  434    f=  4.45506D-01    |proj g|=  5.68294D-03
+
+At iterate  435    f=  4.45477D-01    |proj g|=  7.93337D-03
+
+At iterate  436    f=  4.45458D-01    |proj g|=  7.34396D-03
+
+At iterate  437    f=  4.45435D-01    |proj g|=  4.10029D-03
+
+At iterate  438    f=  4.45425D-01    |proj g|=  7.57642D-03
+
+At iterate  439    f=  4.45416D-01    |proj g|=  7.32077D-03
+
+At iterate  440    f=  4.45404D-01    |proj g|=  6.71778D-03
+
+At iterate  441    f=  4.45389D-01    |proj g|=  7.12761D-03
+
+At iterate  442    f=  4.45375D-01    |proj g|=  6.76497D-03
+
+At iterate  443    f=  4.45370D-01    |proj g|=  8.90493D-03
+
+At iterate  444    f=  4.45347D-01    |proj g|=  9.41416D-03
+
+At iterate  445    f=  4.45340D-01    |proj g|=  1.46448D-02
+
+At iterate  446    f=  4.45328D-01    |proj g|=  5.16349D-03
+
+At iterate  447    f=  4.45319D-01    |proj g|=  9.33121D-03
+
+At iterate  448    f=  4.45312D-01    |proj g|=  4.35662D-03
+
+At iterate  449    f=  4.45305D-01    |proj g|=  1.75217D-02
+
+At iterate  450    f=  4.45289D-01    |proj g|=  9.17627D-03
+
+At iterate  451    f=  4.45278D-01    |proj g|=  7.07558D-03
+
+At iterate  452    f=  4.45268D-01    |proj g|=  6.04228D-03
+
+At iterate  453    f=  4.45252D-01    |proj g|=  7.78203D-03
+
+At iterate  454    f=  4.45233D-01    |proj g|=  7.66713D-03
+
+At iterate  455    f=  4.45210D-01    |proj g|=  1.00790D-02
+
+At iterate  456    f=  4.45175D-01    |proj g|=  8.35568D-03
+
+At iterate  457    f=  4.45146D-01    |proj g|=  5.80389D-03
+
+At iterate  458    f=  4.45134D-01    |proj g|=  3.13892D-03
+
+At iterate  459    f=  4.45115D-01    |proj g|=  5.52595D-03
+
+At iterate  460    f=  4.45104D-01    |proj g|=  9.82625D-03
+
+At iterate  461    f=  4.45103D-01    |proj g|=  1.67882D-02
+
+At iterate  462    f=  4.45076D-01    |proj g|=  7.34304D-03
+
+At iterate  463    f=  4.45067D-01    |proj g|=  3.18728D-03
+
+At iterate  464    f=  4.45063D-01    |proj g|=  7.54816D-03
+
+At iterate  465    f=  4.45050D-01    |proj g|=  1.14851D-02
+
+At iterate  466    f=  4.45035D-01    |proj g|=  5.87166D-03
+
+At iterate  467    f=  4.45019D-01    |proj g|=  5.83152D-03
+
+At iterate  468    f=  4.44987D-01    |proj g|=  5.70070D-03
+
+At iterate  469    f=  4.44969D-01    |proj g|=  5.43401D-03
+
+At iterate  470    f=  4.44957D-01    |proj g|=  7.08338D-03
+
+At iterate  471    f=  4.44939D-01    |proj g|=  6.70097D-03
+
+At iterate  472    f=  4.44924D-01    |proj g|=  7.95364D-03
+
+At iterate  473    f=  4.44911D-01    |proj g|=  1.06921D-02
+
+At iterate  474    f=  4.44910D-01    |proj g|=  8.07672D-03
+
+At iterate  475    f=  4.44895D-01    |proj g|=  7.09077D-03
+
+At iterate  476    f=  4.44891D-01    |proj g|=  5.04915D-03
+
+At iterate  477    f=  4.44890D-01    |proj g|=  6.83978D-03
+
+At iterate  478    f=  4.44881D-01    |proj g|=  2.44651D-03
+
+At iterate  479    f=  4.44875D-01    |proj g|=  3.40337D-03
+
+At iterate  480    f=  4.44869D-01    |proj g|=  1.08264D-02
+
+At iterate  481    f=  4.44858D-01    |proj g|=  6.38005D-03
+
+At iterate  482    f=  4.44852D-01    |proj g|=  7.49477D-03
+
+At iterate  483    f=  4.44851D-01    |proj g|=  8.74709D-03
+
+At iterate  484    f=  4.44847D-01    |proj g|=  6.68127D-03
+
+At iterate  485    f=  4.44842D-01    |proj g|=  1.63897D-02
+
+At iterate  486    f=  4.44833D-01    |proj g|=  1.35181D-02
+
+At iterate  487    f=  4.44830D-01    |proj g|=  7.26722D-03
+
+At iterate  488    f=  4.44825D-01    |proj g|=  5.19358D-03
+
+At iterate  489    f=  4.44813D-01    |proj g|=  4.92855D-03
+
+At iterate  490    f=  4.44808D-01    |proj g|=  1.58882D-02
+
+At iterate  491    f=  4.44789D-01    |proj g|=  7.51839D-03
+
+At iterate  492    f=  4.44784D-01    |proj g|=  4.68976D-03
+
+At iterate  493    f=  4.44775D-01    |proj g|=  6.25073D-03
+
+At iterate  494    f=  4.44767D-01    |proj g|=  7.81490D-03
+
+At iterate  495    f=  4.44756D-01    |proj g|=  7.89387D-03
+
+At iterate  496    f=  4.44745D-01    |proj g|=  9.24190D-03
+
+At iterate  497    f=  4.44739D-01    |proj g|=  1.08015D-02
+
+At iterate  498    f=  4.44727D-01    |proj g|=  6.37094D-03
+
+At iterate  499    f=  4.44724D-01    |proj g|=  1.78831D-02
+
+At iterate  500    f=  4.44717D-01    |proj g|=  9.40113D-03
+
+At iterate  501    f=  4.44717D-01    |proj g|=  6.94828D-03
+
+At iterate  502    f=  4.44710D-01    |proj g|=  5.92102D-03
+
+At iterate  503    f=  4.44704D-01    |proj g|=  1.30961D-02
+
+At iterate  504    f=  4.44697D-01    |proj g|=  5.46992D-03
+
+At iterate  505    f=  4.44687D-01    |proj g|=  5.55189D-03
+
+At iterate  506    f=  4.44681D-01    |proj g|=  1.03279D-02
+
+At iterate  507    f=  4.44669D-01    |proj g|=  9.75412D-03
+
+At iterate  508    f=  4.44651D-01    |proj g|=  1.02994D-02
+
+At iterate  509    f=  4.44636D-01    |proj g|=  3.92150D-03
+
+At iterate  510    f=  4.44617D-01    |proj g|=  5.43457D-03
+
+At iterate  511    f=  4.44607D-01    |proj g|=  3.58221D-03
+
+At iterate  512    f=  4.44602D-01    |proj g|=  7.90390D-03
+
+At iterate  513    f=  4.44584D-01    |proj g|=  7.35017D-03
+
+At iterate  514    f=  4.44574D-01    |proj g|=  9.72912D-03
+
+At iterate  515    f=  4.44562D-01    |proj g|=  6.73779D-03
+
+At iterate  516    f=  4.44533D-01    |proj g|=  1.03077D-02
+
+At iterate  517    f=  4.44520D-01    |proj g|=  5.90309D-03
+
+At iterate  518    f=  4.44507D-01    |proj g|=  5.14824D-03
+
+At iterate  519    f=  4.44490D-01    |proj g|=  6.02281D-03
+
+At iterate  520    f=  4.44482D-01    |proj g|=  1.13674D-02
+
+At iterate  521    f=  4.44460D-01    |proj g|=  6.18622D-03
+
+At iterate  522    f=  4.44445D-01    |proj g|=  1.04132D-02
+
+At iterate  523    f=  4.44413D-01    |proj g|=  4.28237D-03
+
+At iterate  524    f=  4.44388D-01    |proj g|=  5.21988D-03
+
+At iterate  525    f=  4.44364D-01    |proj g|=  7.85078D-03
+
+At iterate  526    f=  4.44351D-01    |proj g|=  7.05006D-03
+
+At iterate  527    f=  4.44342D-01    |proj g|=  6.81955D-03
+
+At iterate  528    f=  4.44327D-01    |proj g|=  5.77649D-03
+
+At iterate  529    f=  4.44315D-01    |proj g|=  8.59929D-03
+
+At iterate  530    f=  4.44305D-01    |proj g|=  5.13115D-03
+
+At iterate  531    f=  4.44299D-01    |proj g|=  4.05566D-03
+
+At iterate  532    f=  4.44296D-01    |proj g|=  8.51368D-03
+
+At iterate  533    f=  4.44290D-01    |proj g|=  5.58436D-03
+
+At iterate  534    f=  4.44286D-01    |proj g|=  7.35550D-03
+
+At iterate  535    f=  4.44281D-01    |proj g|=  7.27917D-03
+
+At iterate  536    f=  4.44277D-01    |proj g|=  3.70646D-03
+
+At iterate  537    f=  4.44263D-01    |proj g|=  4.84423D-03
+
+At iterate  538    f=  4.44253D-01    |proj g|=  5.47219D-03
+
+At iterate  539    f=  4.44247D-01    |proj g|=  6.17053D-03
+
+At iterate  540    f=  4.44244D-01    |proj g|=  5.55007D-03
+
+At iterate  541    f=  4.44242D-01    |proj g|=  4.10446D-03
+
+At iterate  542    f=  4.44239D-01    |proj g|=  3.88913D-03
+
+At iterate  543    f=  4.44232D-01    |proj g|=  5.63324D-03
+
+At iterate  544    f=  4.44226D-01    |proj g|=  5.41661D-03
+
+At iterate  545    f=  4.44218D-01    |proj g|=  8.30624D-03
+
+At iterate  546    f=  4.44212D-01    |proj g|=  8.71704D-03
+
+At iterate  547    f=  4.44204D-01    |proj g|=  5.94852D-03
+
+At iterate  548    f=  4.44200D-01    |proj g|=  6.23334D-03
+
+At iterate  549    f=  4.44195D-01    |proj g|=  7.67291D-03
+
+At iterate  550    f=  4.44187D-01    |proj g|=  9.98757D-03
+
+At iterate  551    f=  4.44182D-01    |proj g|=  7.65392D-03
+
+At iterate  552    f=  4.44174D-01    |proj g|=  4.60045D-03
+
+At iterate  553    f=  4.44164D-01    |proj g|=  9.40511D-03
+
+At iterate  554    f=  4.44153D-01    |proj g|=  6.62442D-03
+
+At iterate  555    f=  4.44142D-01    |proj g|=  7.29722D-03
+
+At iterate  556    f=  4.44135D-01    |proj g|=  1.25210D-02
+
+At iterate  557    f=  4.44122D-01    |proj g|=  5.35016D-03
+
+At iterate  558    f=  4.44114D-01    |proj g|=  4.26113D-03
+
+At iterate  559    f=  4.44107D-01    |proj g|=  4.22833D-03
+
+At iterate  560    f=  4.44091D-01    |proj g|=  1.20473D-02
+
+At iterate  561    f=  4.44079D-01    |proj g|=  5.22552D-03
+
+At iterate  562    f=  4.44076D-01    |proj g|=  3.79194D-03
+
+At iterate  563    f=  4.44074D-01    |proj g|=  6.48965D-03
+
+At iterate  564    f=  4.44070D-01    |proj g|=  8.22360D-03
+
+At iterate  565    f=  4.44062D-01    |proj g|=  4.60663D-03
+
+At iterate  566    f=  4.44061D-01    |proj g|=  5.09439D-03
+
+At iterate  567    f=  4.44055D-01    |proj g|=  9.41894D-03
+
+At iterate  568    f=  4.44048D-01    |proj g|=  6.09986D-03
+
+At iterate  569    f=  4.44044D-01    |proj g|=  6.45902D-03
+
+At iterate  570    f=  4.44041D-01    |proj g|=  5.90490D-03
+
+At iterate  571    f=  4.44040D-01    |proj g|=  7.23631D-03
+
+At iterate  572    f=  4.44037D-01    |proj g|=  5.13940D-03
+
+At iterate  573    f=  4.44036D-01    |proj g|=  8.53889D-03
+
+At iterate  574    f=  4.44033D-01    |proj g|=  8.30636D-03
+
+At iterate  575    f=  4.44031D-01    |proj g|=  6.63180D-03
+
+At iterate  576    f=  4.44028D-01    |proj g|=  6.11710D-03
+
+At iterate  577    f=  4.44024D-01    |proj g|=  6.10650D-03
+
+At iterate  578    f=  4.44024D-01    |proj g|=  5.26379D-03
+
+At iterate  579    f=  4.44016D-01    |proj g|=  1.26599D-02
+
+At iterate  580    f=  4.44009D-01    |proj g|=  7.07593D-03
+
+At iterate  581    f=  4.44003D-01    |proj g|=  6.94108D-03
+
+At iterate  582    f=  4.43994D-01    |proj g|=  7.68450D-03
+
+At iterate  583    f=  4.43993D-01    |proj g|=  5.80323D-03
+
+At iterate  584    f=  4.43983D-01    |proj g|=  3.43888D-03
+
+At iterate  585    f=  4.43978D-01    |proj g|=  6.70974D-03
+
+At iterate  586    f=  4.43976D-01    |proj g|=  7.79389D-03
+
+At iterate  587    f=  4.43970D-01    |proj g|=  4.58490D-03
+
+At iterate  588    f=  4.43963D-01    |proj g|=  1.05753D-02
+
+At iterate  589    f=  4.43952D-01    |proj g|=  7.22650D-03
+
+At iterate  590    f=  4.43949D-01    |proj g|=  4.07183D-03
+
+At iterate  591    f=  4.43939D-01    |proj g|=  4.85012D-03
+
+At iterate  592    f=  4.43936D-01    |proj g|=  5.83788D-03
+
+At iterate  593    f=  4.43934D-01    |proj g|=  4.07023D-03
+
+At iterate  594    f=  4.43930D-01    |proj g|=  8.52778D-03
+
+At iterate  595    f=  4.43927D-01    |proj g|=  6.22703D-03
+
+At iterate  596    f=  4.43925D-01    |proj g|=  5.41716D-03
+
+At iterate  597    f=  4.43924D-01    |proj g|=  7.42837D-03
+
+At iterate  598    f=  4.43921D-01    |proj g|=  6.20191D-03
+
+At iterate  599    f=  4.43920D-01    |proj g|=  3.35449D-03
+
+At iterate  600    f=  4.43917D-01    |proj g|=  4.49436D-03
+
+At iterate  601    f=  4.43916D-01    |proj g|=  4.25553D-03
+
+At iterate  602    f=  4.43913D-01    |proj g|=  5.06831D-03
+
+At iterate  603    f=  4.43912D-01    |proj g|=  4.72012D-03
+
+At iterate  604    f=  4.43910D-01    |proj g|=  8.41383D-03
+
+At iterate  605    f=  4.43907D-01    |proj g|=  6.86406D-03
+
+At iterate  606    f=  4.43904D-01    |proj g|=  7.09098D-03
+
+At iterate  607    f=  4.43901D-01    |proj g|=  7.10254D-03
+
+At iterate  608    f=  4.43896D-01    |proj g|=  5.61244D-03
+
+At iterate  609    f=  4.43890D-01    |proj g|=  9.03788D-03
+
+At iterate  610    f=  4.43886D-01    |proj g|=  7.05733D-03
+
+At iterate  611    f=  4.43882D-01    |proj g|=  6.78332D-03
+
+At iterate  612    f=  4.43875D-01    |proj g|=  6.67090D-03
+
+At iterate  613    f=  4.43869D-01    |proj g|=  6.74110D-03
+
+At iterate  614    f=  4.43867D-01    |proj g|=  1.09162D-02
+
+At iterate  615    f=  4.43861D-01    |proj g|=  5.55299D-03
+
+At iterate  616    f=  4.43858D-01    |proj g|=  3.79174D-03
+
+At iterate  617    f=  4.43852D-01    |proj g|=  4.21643D-03
+
+At iterate  618    f=  4.43850D-01    |proj g|=  6.19705D-03
+
+At iterate  619    f=  4.43844D-01    |proj g|=  5.07499D-03
+
+At iterate  620    f=  4.43836D-01    |proj g|=  9.53993D-03
+
+At iterate  621    f=  4.43833D-01    |proj g|=  3.62882D-03
+
+At iterate  622    f=  4.43831D-01    |proj g|=  5.75419D-03
+
+At iterate  623    f=  4.43830D-01    |proj g|=  4.43979D-03
+
+At iterate  624    f=  4.43829D-01    |proj g|=  7.59905D-03
+
+At iterate  625    f=  4.43826D-01    |proj g|=  5.78260D-03
+
+At iterate  626    f=  4.43824D-01    |proj g|=  5.91747D-03
+
+At iterate  627    f=  4.43822D-01    |proj g|=  3.62479D-03
+
+At iterate  628    f=  4.43820D-01    |proj g|=  5.28444D-03
+
+At iterate  629    f=  4.43815D-01    |proj g|=  5.84312D-03
+
+At iterate  630    f=  4.43808D-01    |proj g|=  8.35816D-03
+
+At iterate  631    f=  4.43803D-01    |proj g|=  8.97490D-03
+
+At iterate  632    f=  4.43799D-01    |proj g|=  7.89887D-03
+
+At iterate  633    f=  4.43795D-01    |proj g|=  7.13429D-03
+
+At iterate  634    f=  4.43794D-01    |proj g|=  7.75406D-03
+
+At iterate  635    f=  4.43789D-01    |proj g|=  5.59307D-03
+
+At iterate  636    f=  4.43784D-01    |proj g|=  5.90503D-03
+
+At iterate  637    f=  4.43781D-01    |proj g|=  5.63941D-03
+
+At iterate  638    f=  4.43775D-01    |proj g|=  5.70890D-03
+
+At iterate  639    f=  4.43773D-01    |proj g|=  5.96824D-03
+
+At iterate  640    f=  4.43766D-01    |proj g|=  4.40169D-03
+
+At iterate  641    f=  4.43756D-01    |proj g|=  3.93193D-03
+
+At iterate  642    f=  4.43754D-01    |proj g|=  7.83566D-03
+
+At iterate  643    f=  4.43743D-01    |proj g|=  7.70850D-03
+
+At iterate  644    f=  4.43738D-01    |proj g|=  6.66142D-03
+
+At iterate  645    f=  4.43729D-01    |proj g|=  6.88933D-03
+
+At iterate  646    f=  4.43714D-01    |proj g|=  5.25003D-03
+
+At iterate  647    f=  4.43712D-01    |proj g|=  9.86741D-03
+
+At iterate  648    f=  4.43698D-01    |proj g|=  3.55428D-03
+
+At iterate  649    f=  4.43689D-01    |proj g|=  4.47976D-03
+
+At iterate  650    f=  4.43685D-01    |proj g|=  8.98683D-03
+
+At iterate  651    f=  4.43678D-01    |proj g|=  5.99322D-03
+
+At iterate  652    f=  4.43673D-01    |proj g|=  1.61426D-02
+
+At iterate  653    f=  4.43662D-01    |proj g|=  3.00128D-03
+
+At iterate  654    f=  4.43660D-01    |proj g|=  3.24003D-03
+
+At iterate  655    f=  4.43654D-01    |proj g|=  9.50823D-03
+
+At iterate  656    f=  4.43647D-01    |proj g|=  8.97222D-03
+
+At iterate  657    f=  4.43643D-01    |proj g|=  7.05631D-03
+
+At iterate  658    f=  4.43639D-01    |proj g|=  7.94117D-03
+
+At iterate  659    f=  4.43631D-01    |proj g|=  4.73610D-03
+
+At iterate  660    f=  4.43627D-01    |proj g|=  5.64527D-03
+
+At iterate  661    f=  4.43621D-01    |proj g|=  4.91882D-03
+
+At iterate  662    f=  4.43611D-01    |proj g|=  5.67945D-03
+
+At iterate  663    f=  4.43608D-01    |proj g|=  9.83197D-03
+
+At iterate  664    f=  4.43601D-01    |proj g|=  9.63674D-03
+
+At iterate  665    f=  4.43593D-01    |proj g|=  7.67329D-03
+
+At iterate  666    f=  4.43587D-01    |proj g|=  5.03118D-03
+
+At iterate  667    f=  4.43583D-01    |proj g|=  5.15283D-03
+
+At iterate  668    f=  4.43578D-01    |proj g|=  3.83091D-03
+
+At iterate  669    f=  4.43573D-01    |proj g|=  3.68519D-03
+
+At iterate  670    f=  4.43569D-01    |proj g|=  3.04594D-03
+
+At iterate  671    f=  4.43563D-01    |proj g|=  5.08166D-03
+
+At iterate  672    f=  4.43556D-01    |proj g|=  6.14164D-03
+
+At iterate  673    f=  4.43550D-01    |proj g|=  5.67365D-03
+
+At iterate  674    f=  4.43541D-01    |proj g|=  5.73162D-03
+
+At iterate  675    f=  4.43523D-01    |proj g|=  5.34825D-03
+
+At iterate  676    f=  4.43515D-01    |proj g|=  5.67086D-03
+
+At iterate  677    f=  4.43510D-01    |proj g|=  1.36324D-02
+
+At iterate  678    f=  4.43501D-01    |proj g|=  4.94622D-03
+
+At iterate  679    f=  4.43494D-01    |proj g|=  6.70103D-03
+
+At iterate  680    f=  4.43490D-01    |proj g|=  7.79199D-03
+
+At iterate  681    f=  4.43483D-01    |proj g|=  7.22435D-03
+
+At iterate  682    f=  4.43480D-01    |proj g|=  5.80789D-03
+
+At iterate  683    f=  4.43472D-01    |proj g|=  5.48541D-03
+
+At iterate  684    f=  4.43458D-01    |proj g|=  1.08888D-02
+
+At iterate  685    f=  4.43451D-01    |proj g|=  1.14939D-02
+
+At iterate  686    f=  4.43445D-01    |proj g|=  8.09389D-03
+
+At iterate  687    f=  4.43441D-01    |proj g|=  8.18285D-03
+
+At iterate  688    f=  4.43437D-01    |proj g|=  5.61440D-03
+
+At iterate  689    f=  4.43433D-01    |proj g|=  7.05878D-03
+
+At iterate  690    f=  4.43429D-01    |proj g|=  7.38799D-03
+
+At iterate  691    f=  4.43408D-01    |proj g|=  7.40770D-03
+
+At iterate  692    f=  4.43392D-01    |proj g|=  1.40999D-02
+
+At iterate  693    f=  4.43379D-01    |proj g|=  7.44309D-03
+
+At iterate  694    f=  4.43373D-01    |proj g|=  4.11248D-03
+
+At iterate  695    f=  4.43368D-01    |proj g|=  4.75550D-03
+
+At iterate  696    f=  4.43356D-01    |proj g|=  5.79788D-03
+
+At iterate  697    f=  4.43354D-01    |proj g|=  1.00430D-02
+
+At iterate  698    f=  4.43349D-01    |proj g|=  6.80498D-03
+
+At iterate  699    f=  4.43346D-01    |proj g|=  1.27018D-02
+
+At iterate  700    f=  4.43345D-01    |proj g|=  7.65881D-03
+
+At iterate  701    f=  4.43341D-01    |proj g|=  6.94735D-03
+
+At iterate  702    f=  4.43336D-01    |proj g|=  8.59778D-03
+
+At iterate  703    f=  4.43331D-01    |proj g|=  7.81501D-03
+
+At iterate  704    f=  4.43328D-01    |proj g|=  7.84325D-03
+
+At iterate  705    f=  4.43318D-01    |proj g|=  7.38366D-03
+
+At iterate  706    f=  4.43313D-01    |proj g|=  5.30278D-03
+
+At iterate  707    f=  4.43311D-01    |proj g|=  4.40644D-03
+
+At iterate  708    f=  4.43309D-01    |proj g|=  7.47208D-03
+
+At iterate  709    f=  4.43308D-01    |proj g|=  7.43239D-03
+
+At iterate  710    f=  4.43305D-01    |proj g|=  6.41585D-03
+
+At iterate  711    f=  4.43304D-01    |proj g|=  5.49265D-03
+
+At iterate  712    f=  4.43303D-01    |proj g|=  4.45255D-03
+
+At iterate  713    f=  4.43301D-01    |proj g|=  4.30136D-03
+
+At iterate  714    f=  4.43300D-01    |proj g|=  4.24402D-03
+
+At iterate  715    f=  4.43297D-01    |proj g|=  4.43900D-03
+
+At iterate  716    f=  4.43293D-01    |proj g|=  4.16739D-03
+
+At iterate  717    f=  4.43285D-01    |proj g|=  3.99276D-03
+
+At iterate  718    f=  4.43269D-01    |proj g|=  3.85667D-03
+
+At iterate  719    f=  4.43263D-01    |proj g|=  8.08050D-03
+
+At iterate  720    f=  4.43251D-01    |proj g|=  6.08406D-03
+
+At iterate  721    f=  4.43242D-01    |proj g|=  9.57847D-03
+
+At iterate  722    f=  4.43234D-01    |proj g|=  9.10411D-03
+
+At iterate  723    f=  4.43225D-01    |proj g|=  5.24516D-03
+
+At iterate  724    f=  4.43222D-01    |proj g|=  9.79746D-03
+
+At iterate  725    f=  4.43211D-01    |proj g|=  7.14327D-03
+
+At iterate  726    f=  4.43205D-01    |proj g|=  6.20072D-03
+
+At iterate  727    f=  4.43194D-01    |proj g|=  6.99186D-03
+
+At iterate  728    f=  4.43183D-01    |proj g|=  7.96256D-03
+
+At iterate  729    f=  4.43175D-01    |proj g|=  5.58719D-03
+
+At iterate  730    f=  4.43169D-01    |proj g|=  9.45107D-03
+
+At iterate  731    f=  4.43162D-01    |proj g|=  1.28287D-02
+
+At iterate  732    f=  4.43157D-01    |proj g|=  1.28438D-02
+
+At iterate  733    f=  4.43150D-01    |proj g|=  1.03938D-02
+
+At iterate  734    f=  4.43143D-01    |proj g|=  1.04644D-02
+
+At iterate  735    f=  4.43140D-01    |proj g|=  4.17991D-03
+
+At iterate  736    f=  4.43137D-01    |proj g|=  4.40686D-03
+
+At iterate  737    f=  4.43134D-01    |proj g|=  4.66988D-03
+
+At iterate  738    f=  4.43132D-01    |proj g|=  5.02427D-03
+
+At iterate  739    f=  4.43131D-01    |proj g|=  4.90874D-03
+
+At iterate  740    f=  4.43128D-01    |proj g|=  5.51798D-03
+
+At iterate  741    f=  4.43126D-01    |proj g|=  5.47312D-03
+
+At iterate  742    f=  4.43124D-01    |proj g|=  6.10151D-03
+
+At iterate  743    f=  4.43123D-01    |proj g|=  5.09042D-03
+
+At iterate  744    f=  4.43122D-01    |proj g|=  7.88080D-03
+
+At iterate  745    f=  4.43120D-01    |proj g|=  5.81898D-03
+
+At iterate  746    f=  4.43118D-01    |proj g|=  6.33691D-03
+
+At iterate  747    f=  4.43114D-01    |proj g|=  6.58977D-03
+
+At iterate  748    f=  4.43114D-01    |proj g|=  1.32448D-02
+
+At iterate  749    f=  4.43113D-01    |proj g|=  5.95449D-03
+
+At iterate  750    f=  4.43112D-01    |proj g|=  4.43883D-03
+
+At iterate  751    f=  4.43110D-01    |proj g|=  5.32109D-03
+
+At iterate  752    f=  4.43109D-01    |proj g|=  5.78376D-03
+
+At iterate  753    f=  4.43108D-01    |proj g|=  5.15105D-03
+
+At iterate  754    f=  4.43101D-01    |proj g|=  6.05590D-03
+
+At iterate  755    f=  4.43098D-01    |proj g|=  6.52940D-03
+
+At iterate  756    f=  4.43093D-01    |proj g|=  7.06112D-03
+
+At iterate  757    f=  4.43090D-01    |proj g|=  8.26714D-03
+
+At iterate  758    f=  4.43087D-01    |proj g|=  9.39705D-03
+
+At iterate  759    f=  4.43082D-01    |proj g|=  7.93011D-03
+
+At iterate  760    f=  4.43081D-01    |proj g|=  5.01671D-03
+
+At iterate  761    f=  4.43079D-01    |proj g|=  6.44172D-03
+
+At iterate  762    f=  4.43077D-01    |proj g|=  3.80280D-03
+
+At iterate  763    f=  4.43075D-01    |proj g|=  4.51858D-03
+
+At iterate  764    f=  4.43074D-01    |proj g|=  4.75546D-03
+
+At iterate  765    f=  4.43074D-01    |proj g|=  8.01609D-03
+
+At iterate  766    f=  4.43071D-01    |proj g|=  2.95324D-03
+
+At iterate  767    f=  4.43070D-01    |proj g|=  2.63357D-03
+
+At iterate  768    f=  4.43070D-01    |proj g|=  5.84145D-03
+
+At iterate  769    f=  4.43070D-01    |proj g|=  7.10506D-03
+
+At iterate  770    f=  4.43068D-01    |proj g|=  6.60776D-03
+
+At iterate  771    f=  4.43067D-01    |proj g|=  9.82201D-03
+
+At iterate  772    f=  4.43066D-01    |proj g|=  6.34308D-03
+
+At iterate  773    f=  4.43065D-01    |proj g|=  7.63928D-03
+
+At iterate  774    f=  4.43064D-01    |proj g|=  9.24557D-03
+
+At iterate  775    f=  4.43064D-01    |proj g|=  6.26049D-03
+
+At iterate  776    f=  4.43064D-01    |proj g|=  6.19810D-03
+
+At iterate  777    f=  4.43063D-01    |proj g|=  6.24153D-03
+
+At iterate  778    f=  4.43061D-01    |proj g|=  5.80983D-03
+
+At iterate  779    f=  4.43061D-01    |proj g|=  6.04461D-03
+
+At iterate  780    f=  4.43060D-01    |proj g|=  7.23484D-03
+
+At iterate  781    f=  4.43058D-01    |proj g|=  4.21076D-03
+
+At iterate  782    f=  4.43056D-01    |proj g|=  4.48747D-03
+
+At iterate  783    f=  4.43055D-01    |proj g|=  6.73510D-03
+
+At iterate  784    f=  4.43054D-01    |proj g|=  3.97276D-03
+
+At iterate  785    f=  4.43053D-01    |proj g|=  4.98558D-03
+
+At iterate  786    f=  4.43052D-01    |proj g|=  4.86988D-03
+
+At iterate  787    f=  4.43051D-01    |proj g|=  3.08484D-03
+
+At iterate  788    f=  4.43050D-01    |proj g|=  8.05409D-03
+
+At iterate  789    f=  4.43048D-01    |proj g|=  8.53693D-03
+
+At iterate  790    f=  4.43045D-01    |proj g|=  6.26854D-03
+
+At iterate  791    f=  4.43044D-01    |proj g|=  6.06178D-03
+
+At iterate  792    f=  4.43042D-01    |proj g|=  3.56356D-03
+
+At iterate  793    f=  4.43041D-01    |proj g|=  1.10895D-02
+
+At iterate  794    f=  4.43037D-01    |proj g|=  8.13628D-03
+
+At iterate  795    f=  4.43031D-01    |proj g|=  6.69125D-03
+
+At iterate  796    f=  4.43029D-01    |proj g|=  7.11485D-03
+
+At iterate  797    f=  4.43026D-01    |proj g|=  6.34111D-03
+
+At iterate  798    f=  4.43025D-01    |proj g|=  6.59361D-03
+
+At iterate  799    f=  4.43022D-01    |proj g|=  4.69663D-03
+
+At iterate  800    f=  4.43019D-01    |proj g|=  6.57109D-03
+
+At iterate  801    f=  4.43019D-01    |proj g|=  5.90596D-03
+
+At iterate  802    f=  4.43016D-01    |proj g|=  4.98368D-03
+
+At iterate  803    f=  4.43015D-01    |proj g|=  7.91942D-03
+
+At iterate  804    f=  4.43012D-01    |proj g|=  7.74530D-03
+
+At iterate  805    f=  4.43012D-01    |proj g|=  4.01112D-03
+
+At iterate  806    f=  4.43011D-01    |proj g|=  6.63627D-03
+
+At iterate  807    f=  4.43011D-01    |proj g|=  8.19187D-03
+
+At iterate  808    f=  4.43009D-01    |proj g|=  7.26119D-03
+
+At iterate  809    f=  4.43007D-01    |proj g|=  5.43668D-03
+
+At iterate  810    f=  4.43006D-01    |proj g|=  5.37355D-03
+
+At iterate  811    f=  4.43004D-01    |proj g|=  5.16141D-03
+
+At iterate  812    f=  4.43004D-01    |proj g|=  1.24465D-02
+
+At iterate  813    f=  4.43002D-01    |proj g|=  4.11549D-03
+
+At iterate  814    f=  4.43001D-01    |proj g|=  4.39119D-03
+
+At iterate  815    f=  4.42999D-01    |proj g|=  7.29866D-03
+
+At iterate  816    f=  4.42995D-01    |proj g|=  4.52705D-03
+
+At iterate  817    f=  4.42987D-01    |proj g|=  7.29403D-03
+
+At iterate  818    f=  4.42983D-01    |proj g|=  4.31501D-03
+
+At iterate  819    f=  4.42974D-01    |proj g|=  4.91682D-03
+
+At iterate  820    f=  4.42955D-01    |proj g|=  8.02796D-03
+
+At iterate  821    f=  4.42952D-01    |proj g|=  7.80679D-03
+
+At iterate  822    f=  4.42940D-01    |proj g|=  5.55452D-03
+
+At iterate  823    f=  4.42936D-01    |proj g|=  1.01080D-02
+
+At iterate  824    f=  4.42932D-01    |proj g|=  7.95891D-03
+
+At iterate  825    f=  4.42928D-01    |proj g|=  1.87526D-02
+
+At iterate  826    f=  4.42921D-01    |proj g|=  1.70438D-02
+
+At iterate  827    f=  4.42912D-01    |proj g|=  4.49900D-03
+
+At iterate  828    f=  4.42910D-01    |proj g|=  6.16551D-03
+
+At iterate  829    f=  4.42904D-01    |proj g|=  1.02712D-02
+
+At iterate  830    f=  4.42896D-01    |proj g|=  5.83863D-03
+
+At iterate  831    f=  4.42886D-01    |proj g|=  6.56799D-03
+
+At iterate  832    f=  4.42869D-01    |proj g|=  1.22424D-02
+
+At iterate  833    f=  4.42866D-01    |proj g|=  1.03608D-02
+
+At iterate  834    f=  4.42847D-01    |proj g|=  1.25393D-02
+
+At iterate  835    f=  4.42846D-01    |proj g|=  5.46251D-03
+
+At iterate  836    f=  4.42840D-01    |proj g|=  4.06476D-03
+
+At iterate  837    f=  4.42831D-01    |proj g|=  1.06744D-02
+
+At iterate  838    f=  4.42826D-01    |proj g|=  3.51625D-03
+
+At iterate  839    f=  4.42821D-01    |proj g|=  8.94404D-03
+
+At iterate  840    f=  4.42818D-01    |proj g|=  6.51835D-03
+
+At iterate  841    f=  4.42817D-01    |proj g|=  1.27651D-02
+
+At iterate  842    f=  4.42816D-01    |proj g|=  6.70564D-03
+
+At iterate  843    f=  4.42815D-01    |proj g|=  5.91094D-03
+
+At iterate  844    f=  4.42815D-01    |proj g|=  3.16773D-03
+
+At iterate  845    f=  4.42815D-01    |proj g|=  7.82439D-03
+
+At iterate  846    f=  4.42814D-01    |proj g|=  7.49495D-03
+
+At iterate  847    f=  4.42812D-01    |proj g|=  7.81110D-03
+
+At iterate  848    f=  4.42810D-01    |proj g|=  7.76112D-03
+
+At iterate  849    f=  4.42807D-01    |proj g|=  3.46959D-03
+
+At iterate  850    f=  4.42803D-01    |proj g|=  3.80662D-03
+
+At iterate  851    f=  4.42802D-01    |proj g|=  7.88251D-03
+
+At iterate  852    f=  4.42795D-01    |proj g|=  6.66037D-03
+
+At iterate  853    f=  4.42792D-01    |proj g|=  6.82681D-03
+
+At iterate  854    f=  4.42785D-01    |proj g|=  6.24844D-03
+
+At iterate  855    f=  4.42779D-01    |proj g|=  1.02117D-02
+
+At iterate  856    f=  4.42770D-01    |proj g|=  9.77001D-03
+
+At iterate  857    f=  4.42768D-01    |proj g|=  6.85747D-03
+
+At iterate  858    f=  4.42758D-01    |proj g|=  4.57253D-03
+
+At iterate  859    f=  4.42756D-01    |proj g|=  8.63956D-03
+
+At iterate  860    f=  4.42746D-01    |proj g|=  5.66519D-03
+
+At iterate  861    f=  4.42740D-01    |proj g|=  8.48264D-03
+
+At iterate  862    f=  4.42736D-01    |proj g|=  6.42332D-03
+
+At iterate  863    f=  4.42732D-01    |proj g|=  3.41908D-03
+
+At iterate  864    f=  4.42728D-01    |proj g|=  4.86061D-03
+
+At iterate  865    f=  4.42724D-01    |proj g|=  5.27475D-03
+
+At iterate  866    f=  4.42720D-01    |proj g|=  3.26856D-03
+
+At iterate  867    f=  4.42717D-01    |proj g|=  6.38774D-03
+
+At iterate  868    f=  4.42710D-01    |proj g|=  6.51448D-03
+
+At iterate  869    f=  4.42705D-01    |proj g|=  1.28837D-02
+
+At iterate  870    f=  4.42702D-01    |proj g|=  1.00377D-02
+
+At iterate  871    f=  4.42699D-01    |proj g|=  6.12090D-03
+
+At iterate  872    f=  4.42697D-01    |proj g|=  6.78635D-03
+
+At iterate  873    f=  4.42694D-01    |proj g|=  6.48007D-03
+
+At iterate  874    f=  4.42691D-01    |proj g|=  8.57861D-03
+
+At iterate  875    f=  4.42687D-01    |proj g|=  4.33157D-03
+
+At iterate  876    f=  4.42684D-01    |proj g|=  2.77431D-03
+
+At iterate  877    f=  4.42683D-01    |proj g|=  2.96082D-03
+
+At iterate  878    f=  4.42680D-01    |proj g|=  5.25408D-03
+
+At iterate  879    f=  4.42680D-01    |proj g|=  9.41552D-03
+
+At iterate  880    f=  4.42676D-01    |proj g|=  4.73503D-03
+
+At iterate  881    f=  4.42674D-01    |proj g|=  6.15377D-03
+
+At iterate  882    f=  4.42672D-01    |proj g|=  4.46855D-03
+
+At iterate  883    f=  4.42668D-01    |proj g|=  8.59657D-03
+
+At iterate  884    f=  4.42667D-01    |proj g|=  1.14813D-02
+
+At iterate  885    f=  4.42663D-01    |proj g|=  9.35997D-03
+
+At iterate  886    f=  4.42662D-01    |proj g|=  3.59589D-03
+
+At iterate  887    f=  4.42660D-01    |proj g|=  9.73180D-03
+
+At iterate  888    f=  4.42658D-01    |proj g|=  6.26430D-03
+
+At iterate  889    f=  4.42655D-01    |proj g|=  6.48253D-03
+
+At iterate  890    f=  4.42654D-01    |proj g|=  4.00307D-03
+
+At iterate  891    f=  4.42654D-01    |proj g|=  6.63044D-03
+
+At iterate  892    f=  4.42652D-01    |proj g|=  4.25275D-03
+
+At iterate  893    f=  4.42650D-01    |proj g|=  6.23557D-03
+
+At iterate  894    f=  4.42649D-01    |proj g|=  3.49927D-03
+
+At iterate  895    f=  4.42646D-01    |proj g|=  4.15005D-03
+
+At iterate  896    f=  4.42643D-01    |proj g|=  8.59387D-03
+
+At iterate  897    f=  4.42640D-01    |proj g|=  8.63149D-03
+
+At iterate  898    f=  4.42639D-01    |proj g|=  1.00606D-02
+
+At iterate  899    f=  4.42638D-01    |proj g|=  4.62485D-03
+
+At iterate  900    f=  4.42636D-01    |proj g|=  4.45838D-03
+
+At iterate  901    f=  4.42635D-01    |proj g|=  4.42093D-03
+
+At iterate  902    f=  4.42631D-01    |proj g|=  3.65954D-03
+
+At iterate  903    f=  4.42627D-01    |proj g|=  3.23365D-03
+
+At iterate  904    f=  4.42624D-01    |proj g|=  4.95112D-03
+
+At iterate  905    f=  4.42621D-01    |proj g|=  6.49020D-03
+
+At iterate  906    f=  4.42612D-01    |proj g|=  1.02399D-02
+
+At iterate  907    f=  4.42610D-01    |proj g|=  5.37762D-03
+
+At iterate  908    f=  4.42607D-01    |proj g|=  5.49382D-03
+
+At iterate  909    f=  4.42604D-01    |proj g|=  4.08116D-03
+
+At iterate  910    f=  4.42599D-01    |proj g|=  2.71818D-03
+
+At iterate  911    f=  4.42597D-01    |proj g|=  6.97424D-03
+
+At iterate  912    f=  4.42589D-01    |proj g|=  5.24187D-03
+
+At iterate  913    f=  4.42584D-01    |proj g|=  8.71048D-03
+
+At iterate  914    f=  4.42578D-01    |proj g|=  5.60976D-03
+
+At iterate  915    f=  4.42572D-01    |proj g|=  5.49533D-03
+
+At iterate  916    f=  4.42565D-01    |proj g|=  5.95427D-03
+
+At iterate  917    f=  4.42555D-01    |proj g|=  8.43224D-03
+
+At iterate  918    f=  4.42546D-01    |proj g|=  1.39863D-02
+
+At iterate  919    f=  4.42536D-01    |proj g|=  7.51864D-03
+
+At iterate  920    f=  4.42529D-01    |proj g|=  6.30768D-03
+
+At iterate  921    f=  4.42521D-01    |proj g|=  5.18129D-03
+
+At iterate  922    f=  4.42510D-01    |proj g|=  7.02945D-03
+
+At iterate  923    f=  4.42503D-01    |proj g|=  8.02309D-03
+
+At iterate  924    f=  4.42495D-01    |proj g|=  9.74779D-03
+
+At iterate  925    f=  4.42490D-01    |proj g|=  5.71807D-03
+
+At iterate  926    f=  4.42489D-01    |proj g|=  6.06385D-03
+
+At iterate  927    f=  4.42482D-01    |proj g|=  9.37084D-03
+
+At iterate  928    f=  4.42476D-01    |proj g|=  6.87250D-03
+
+At iterate  929    f=  4.42473D-01    |proj g|=  6.61627D-03
+
+At iterate  930    f=  4.42468D-01    |proj g|=  4.06904D-03
+
+At iterate  931    f=  4.42463D-01    |proj g|=  4.44739D-03
+
+At iterate  932    f=  4.42462D-01    |proj g|=  6.60261D-03
+
+At iterate  933    f=  4.42457D-01    |proj g|=  4.69930D-03
+
+At iterate  934    f=  4.42454D-01    |proj g|=  4.59503D-03
+
+At iterate  935    f=  4.42450D-01    |proj g|=  5.05252D-03
+
+At iterate  936    f=  4.42450D-01    |proj g|=  5.63390D-03
+
+At iterate  937    f=  4.42446D-01    |proj g|=  5.70916D-03
+
+At iterate  938    f=  4.42441D-01    |proj g|=  5.71457D-03
+
+At iterate  939    f=  4.42438D-01    |proj g|=  9.12389D-03
+
+At iterate  940    f=  4.42437D-01    |proj g|=  7.59469D-03
+
+At iterate  941    f=  4.42435D-01    |proj g|=  4.90365D-03
+
+At iterate  942    f=  4.42433D-01    |proj g|=  4.78325D-03
+
+At iterate  943    f=  4.42433D-01    |proj g|=  6.20752D-03
+
+At iterate  944    f=  4.42431D-01    |proj g|=  6.09028D-03
+
+At iterate  945    f=  4.42430D-01    |proj g|=  7.63905D-03
+
+At iterate  946    f=  4.42428D-01    |proj g|=  6.78553D-03
+
+At iterate  947    f=  4.42423D-01    |proj g|=  5.14398D-03
+
+At iterate  948    f=  4.42420D-01    |proj g|=  6.52970D-03
+
+At iterate  949    f=  4.42412D-01    |proj g|=  8.89418D-03
+
+At iterate  950    f=  4.42409D-01    |proj g|=  8.40026D-03
+
+At iterate  951    f=  4.42404D-01    |proj g|=  6.74205D-03
+
+At iterate  952    f=  4.42402D-01    |proj g|=  7.34418D-03
+
+At iterate  953    f=  4.42399D-01    |proj g|=  6.24869D-03
+
+At iterate  954    f=  4.42398D-01    |proj g|=  7.81794D-03
+
+At iterate  955    f=  4.42396D-01    |proj g|=  5.28172D-03
+
+At iterate  956    f=  4.42395D-01    |proj g|=  4.65163D-03
+
+At iterate  957    f=  4.42394D-01    |proj g|=  7.17855D-03
+
+At iterate  958    f=  4.42394D-01    |proj g|=  4.63055D-03
+
+At iterate  959    f=  4.42393D-01    |proj g|=  5.48346D-03
+
+At iterate  960    f=  4.42391D-01    |proj g|=  5.88114D-03
+
+At iterate  961    f=  4.42390D-01    |proj g|=  3.89237D-03
+
+At iterate  962    f=  4.42388D-01    |proj g|=  6.54678D-03
+
+At iterate  963    f=  4.42383D-01    |proj g|=  1.06832D-02
+
+At iterate  964    f=  4.42375D-01    |proj g|=  6.61395D-03
+
+At iterate  965    f=  4.42371D-01    |proj g|=  8.93824D-03
+
+At iterate  966    f=  4.42366D-01    |proj g|=  6.07627D-03
+
+At iterate  967    f=  4.42361D-01    |proj g|=  6.86691D-03
+
+At iterate  968    f=  4.42347D-01    |proj g|=  7.34583D-03
+
+At iterate  969    f=  4.42344D-01    |proj g|=  6.93762D-03
+
+At iterate  970    f=  4.42337D-01    |proj g|=  1.07298D-02
+
+At iterate  971    f=  4.42326D-01    |proj g|=  1.10155D-02
+
+At iterate  972    f=  4.42316D-01    |proj g|=  9.76971D-03
+
+At iterate  973    f=  4.42308D-01    |proj g|=  9.63342D-03
+
+At iterate  974    f=  4.42306D-01    |proj g|=  9.68645D-03
+
+At iterate  975    f=  4.42304D-01    |proj g|=  1.17021D-02
+
+At iterate  976    f=  4.42297D-01    |proj g|=  5.52732D-03
+
+At iterate  977    f=  4.42295D-01    |proj g|=  4.76666D-03
+
+At iterate  978    f=  4.42287D-01    |proj g|=  5.67773D-03
+
+At iterate  979    f=  4.42277D-01    |proj g|=  6.05132D-03
+
+At iterate  980    f=  4.42263D-01    |proj g|=  9.63734D-03
+
+At iterate  981    f=  4.42249D-01    |proj g|=  6.54945D-03
+
+At iterate  982    f=  4.42231D-01    |proj g|=  6.53546D-03
+
+At iterate  983    f=  4.42222D-01    |proj g|=  6.06750D-03
+
+At iterate  984    f=  4.42214D-01    |proj g|=  6.77716D-03
+
+At iterate  985    f=  4.42211D-01    |proj g|=  8.05171D-03
+
+At iterate  986    f=  4.42198D-01    |proj g|=  6.56130D-03
+
+At iterate  987    f=  4.42185D-01    |proj g|=  5.39418D-03
+
+At iterate  988    f=  4.42177D-01    |proj g|=  1.03905D-02
+
+At iterate  989    f=  4.42164D-01    |proj g|=  6.95379D-03
+
+At iterate  990    f=  4.42148D-01    |proj g|=  1.22897D-02
+
+At iterate  991    f=  4.42135D-01    |proj g|=  4.18750D-03
+
+At iterate  992    f=  4.42129D-01    |proj g|=  5.34592D-03
+
+At iterate  993    f=  4.42123D-01    |proj g|=  5.45530D-03
+
+At iterate  994    f=  4.42112D-01    |proj g|=  8.01510D-03
+
+At iterate  995    f=  4.42098D-01    |proj g|=  9.02370D-03
+
+At iterate  996    f=  4.42092D-01    |proj g|=  1.25653D-02
+
+At iterate  997    f=  4.42079D-01    |proj g|=  1.03147D-02
+
+At iterate  998    f=  4.42072D-01    |proj g|=  4.96266D-03
+
+At iterate  999    f=  4.42064D-01    |proj g|=  3.99616D-03
+
+At iterate 1000    f=  4.42052D-01    |proj g|=  8.88930D-03
+
+At iterate 1001    f=  4.42032D-01    |proj g|=  5.79474D-03
+
+At iterate 1002    f=  4.42012D-01    |proj g|=  7.56391D-03
+
+At iterate 1003    f=  4.41992D-01    |proj g|=  2.00220D-02
+
+At iterate 1004    f=  4.41973D-01    |proj g|=  8.78595D-03
+
+At iterate 1005    f=  4.41959D-01    |proj g|=  9.38932D-03
+
+At iterate 1006    f=  4.41951D-01    |proj g|=  1.27713D-02
+
+At iterate 1007    f=  4.41934D-01    |proj g|=  1.36708D-02
+
+At iterate 1008    f=  4.41923D-01    |proj g|=  5.38093D-03
+
+At iterate 1009    f=  4.41908D-01    |proj g|=  9.13271D-03
+
+At iterate 1010    f=  4.41901D-01    |proj g|=  1.74457D-02
+
+At iterate 1011    f=  4.41887D-01    |proj g|=  1.31116D-02
+
+At iterate 1012    f=  4.41867D-01    |proj g|=  5.73413D-03
+
+At iterate 1013    f=  4.41852D-01    |proj g|=  5.27501D-03
+
+At iterate 1014    f=  4.41836D-01    |proj g|=  6.16549D-03
+
+At iterate 1015    f=  4.41830D-01    |proj g|=  6.63804D-03
+
+At iterate 1016    f=  4.41818D-01    |proj g|=  8.18354D-03
+
+At iterate 1017    f=  4.41801D-01    |proj g|=  8.13676D-03
+
+At iterate 1018    f=  4.41786D-01    |proj g|=  8.85690D-03
+
+At iterate 1019    f=  4.41767D-01    |proj g|=  9.07765D-03
+
+At iterate 1020    f=  4.41752D-01    |proj g|=  1.44610D-02
+
+At iterate 1021    f=  4.41733D-01    |proj g|=  8.50946D-03
+
+At iterate 1022    f=  4.41720D-01    |proj g|=  1.62335D-02
+
+At iterate 1023    f=  4.41709D-01    |proj g|=  6.71369D-03
+
+At iterate 1024    f=  4.41703D-01    |proj g|=  9.32897D-03
+
+At iterate 1025    f=  4.41694D-01    |proj g|=  3.29654D-03
+
+At iterate 1026    f=  4.41690D-01    |proj g|=  1.56335D-02
+
+At iterate 1027    f=  4.41683D-01    |proj g|=  1.39313D-02
+
+At iterate 1028    f=  4.41675D-01    |proj g|=  7.00833D-03
+
+At iterate 1029    f=  4.41658D-01    |proj g|=  4.88698D-03
+
+At iterate 1030    f=  4.41631D-01    |proj g|=  8.09225D-03
+
+At iterate 1031    f=  4.41622D-01    |proj g|=  1.41697D-02
+
+At iterate 1032    f=  4.41596D-01    |proj g|=  6.24694D-03
+
+At iterate 1033    f=  4.41581D-01    |proj g|=  6.69299D-03
+
+At iterate 1034    f=  4.41561D-01    |proj g|=  8.72219D-03
+
+At iterate 1035    f=  4.41531D-01    |proj g|=  9.98520D-03
+
+At iterate 1036    f=  4.41524D-01    |proj g|=  1.25141D-02
+
+At iterate 1037    f=  4.41501D-01    |proj g|=  5.54066D-03
+
+At iterate 1038    f=  4.41493D-01    |proj g|=  1.01066D-02
+
+At iterate 1039    f=  4.41488D-01    |proj g|=  1.18327D-02
+
+At iterate 1040    f=  4.41479D-01    |proj g|=  6.22585D-03
+
+At iterate 1041    f=  4.41469D-01    |proj g|=  8.74976D-03
+
+At iterate 1042    f=  4.41458D-01    |proj g|=  7.25755D-03
+
+At iterate 1043    f=  4.41446D-01    |proj g|=  1.45625D-02
+
+At iterate 1044    f=  4.41418D-01    |proj g|=  8.32443D-03
+
+At iterate 1045    f=  4.41414D-01    |proj g|=  8.60329D-03
+
+At iterate 1046    f=  4.41407D-01    |proj g|=  5.77313D-03
+
+At iterate 1047    f=  4.41392D-01    |proj g|=  1.09394D-02
+
+At iterate 1048    f=  4.41377D-01    |proj g|=  8.49512D-03
+
+At iterate 1049    f=  4.41370D-01    |proj g|=  1.14455D-02
+
+At iterate 1050    f=  4.41356D-01    |proj g|=  8.31859D-03
+
+At iterate 1051    f=  4.41354D-01    |proj g|=  6.89951D-03
+
+At iterate 1052    f=  4.41349D-01    |proj g|=  4.69950D-03
+
+At iterate 1053    f=  4.41345D-01    |proj g|=  9.15642D-03
+
+At iterate 1054    f=  4.41340D-01    |proj g|=  8.06188D-03
+
+At iterate 1055    f=  4.41335D-01    |proj g|=  7.39058D-03
+
+At iterate 1056    f=  4.41328D-01    |proj g|=  3.27397D-03
+
+At iterate 1057    f=  4.41320D-01    |proj g|=  5.85155D-03
+
+At iterate 1058    f=  4.41299D-01    |proj g|=  8.78685D-03
+
+At iterate 1059    f=  4.41279D-01    |proj g|=  8.14674D-03
+
+At iterate 1060    f=  4.41261D-01    |proj g|=  1.18032D-02
+
+At iterate 1061    f=  4.41250D-01    |proj g|=  9.79370D-03
+
+At iterate 1062    f=  4.41243D-01    |proj g|=  7.84862D-03
+
+At iterate 1063    f=  4.41230D-01    |proj g|=  8.38066D-03
+
+At iterate 1064    f=  4.41225D-01    |proj g|=  8.16333D-03
+
+At iterate 1065    f=  4.41210D-01    |proj g|=  7.43479D-03
+
+At iterate 1066    f=  4.41203D-01    |proj g|=  6.45025D-03
+
+At iterate 1067    f=  4.41196D-01    |proj g|=  6.60576D-03
+
+At iterate 1068    f=  4.41188D-01    |proj g|=  5.41242D-03
+
+At iterate 1069    f=  4.41177D-01    |proj g|=  8.96888D-03
+
+At iterate 1070    f=  4.41161D-01    |proj g|=  1.02997D-02
+
+At iterate 1071    f=  4.41150D-01    |proj g|=  1.14541D-02
+
+At iterate 1072    f=  4.41138D-01    |proj g|=  1.36807D-02
+
+At iterate 1073    f=  4.41125D-01    |proj g|=  1.01442D-02
+
+At iterate 1074    f=  4.41095D-01    |proj g|=  1.11184D-02
+
+At iterate 1075    f=  4.41076D-01    |proj g|=  9.35805D-03
+
+At iterate 1076    f=  4.41059D-01    |proj g|=  9.77200D-03
+
+At iterate 1077    f=  4.41050D-01    |proj g|=  4.94490D-03
+
+At iterate 1078    f=  4.41042D-01    |proj g|=  4.31912D-03
+
+At iterate 1079    f=  4.41039D-01    |proj g|=  8.31631D-03
+
+At iterate 1080    f=  4.41020D-01    |proj g|=  5.65306D-03
+
+At iterate 1081    f=  4.40994D-01    |proj g|=  6.78038D-03
+
+At iterate 1082    f=  4.40990D-01    |proj g|=  9.23772D-03
+
+At iterate 1083    f=  4.40959D-01    |proj g|=  8.76697D-03
+
+At iterate 1084    f=  4.40951D-01    |proj g|=  4.75102D-03
+
+At iterate 1085    f=  4.40941D-01    |proj g|=  6.89375D-03
+
+At iterate 1086    f=  4.40928D-01    |proj g|=  7.32620D-03
+
+At iterate 1087    f=  4.40915D-01    |proj g|=  6.49717D-03
+
+At iterate 1088    f=  4.40907D-01    |proj g|=  8.87252D-03
+
+At iterate 1089    f=  4.40900D-01    |proj g|=  1.39850D-02
+
+At iterate 1090    f=  4.40889D-01    |proj g|=  4.26818D-03
+
+At iterate 1091    f=  4.40882D-01    |proj g|=  4.38677D-03
+
+At iterate 1092    f=  4.40878D-01    |proj g|=  6.80533D-03
+
+At iterate 1093    f=  4.40868D-01    |proj g|=  4.16262D-03
+
+At iterate 1094    f=  4.40855D-01    |proj g|=  3.22491D-03
+
+At iterate 1095    f=  4.40844D-01    |proj g|=  7.47704D-03
+
+At iterate 1096    f=  4.40832D-01    |proj g|=  3.88052D-03
+
+At iterate 1097    f=  4.40819D-01    |proj g|=  6.07719D-03
+
+At iterate 1098    f=  4.40814D-01    |proj g|=  2.79187D-03
+
+At iterate 1099    f=  4.40808D-01    |proj g|=  7.26146D-03
+
+At iterate 1100    f=  4.40797D-01    |proj g|=  4.42623D-03
+
+At iterate 1101    f=  4.40791D-01    |proj g|=  1.28852D-02
+
+At iterate 1102    f=  4.40784D-01    |proj g|=  1.01855D-02
+
+At iterate 1103    f=  4.40776D-01    |proj g|=  7.35025D-03
+
+At iterate 1104    f=  4.40768D-01    |proj g|=  1.49536D-02
+
+At iterate 1105    f=  4.40759D-01    |proj g|=  9.63903D-03
+
+At iterate 1106    f=  4.40756D-01    |proj g|=  6.54907D-03
+
+At iterate 1107    f=  4.40755D-01    |proj g|=  7.01988D-03
+
+At iterate 1108    f=  4.40752D-01    |proj g|=  6.58740D-03
+
+At iterate 1109    f=  4.40751D-01    |proj g|=  7.08671D-03
+
+At iterate 1110    f=  4.40749D-01    |proj g|=  6.92993D-03
+
+At iterate 1111    f=  4.40747D-01    |proj g|=  8.07690D-03
+
+At iterate 1112    f=  4.40746D-01    |proj g|=  7.12894D-03
+
+At iterate 1113    f=  4.40745D-01    |proj g|=  7.15933D-03
+
+At iterate 1114    f=  4.40744D-01    |proj g|=  6.44151D-03
+
+At iterate 1115    f=  4.40741D-01    |proj g|=  6.04920D-03
+
+At iterate 1116    f=  4.40737D-01    |proj g|=  5.54173D-03
+
+At iterate 1117    f=  4.40723D-01    |proj g|=  7.13810D-03
+
+At iterate 1118    f=  4.40719D-01    |proj g|=  6.15842D-03
+
+At iterate 1119    f=  4.40713D-01    |proj g|=  5.04561D-03
+
+At iterate 1120    f=  4.40710D-01    |proj g|=  1.09386D-02
+
+At iterate 1121    f=  4.40705D-01    |proj g|=  5.29810D-03
+
+At iterate 1122    f=  4.40698D-01    |proj g|=  5.74471D-03
+
+At iterate 1123    f=  4.40694D-01    |proj g|=  5.78630D-03
+
+At iterate 1124    f=  4.40679D-01    |proj g|=  6.22111D-03
+
+At iterate 1125    f=  4.40675D-01    |proj g|=  5.24084D-03
+
+At iterate 1126    f=  4.40666D-01    |proj g|=  1.22866D-02
+
+At iterate 1127    f=  4.40657D-01    |proj g|=  7.73778D-03
+
+At iterate 1128    f=  4.40649D-01    |proj g|=  5.89089D-03
+
+At iterate 1129    f=  4.40637D-01    |proj g|=  1.25373D-02
+
+At iterate 1130    f=  4.40626D-01    |proj g|=  9.10231D-03
+
+At iterate 1131    f=  4.40608D-01    |proj g|=  1.06300D-02
+
+At iterate 1132    f=  4.40596D-01    |proj g|=  1.16564D-02
+
+At iterate 1133    f=  4.40583D-01    |proj g|=  1.12646D-02
+
+At iterate 1134    f=  4.40576D-01    |proj g|=  7.40272D-03
+
+At iterate 1135    f=  4.40566D-01    |proj g|=  4.58117D-03
+
+At iterate 1136    f=  4.40565D-01    |proj g|=  5.86496D-03
+
+At iterate 1137    f=  4.40553D-01    |proj g|=  6.52109D-03
+
+At iterate 1138    f=  4.40548D-01    |proj g|=  1.08305D-02
+
+At iterate 1139    f=  4.40537D-01    |proj g|=  6.91993D-03
+
+At iterate 1140    f=  4.40526D-01    |proj g|=  4.46885D-03
+
+At iterate 1141    f=  4.40516D-01    |proj g|=  6.18334D-03
+
+At iterate 1142    f=  4.40509D-01    |proj g|=  6.96099D-03
+
+At iterate 1143    f=  4.40502D-01    |proj g|=  1.19729D-02
+
+At iterate 1144    f=  4.40491D-01    |proj g|=  1.63046D-02
+
+At iterate 1145    f=  4.40474D-01    |proj g|=  1.23204D-02
+
+At iterate 1146    f=  4.40472D-01    |proj g|=  9.66550D-03
+
+At iterate 1147    f=  4.40459D-01    |proj g|=  8.52025D-03
+
+At iterate 1148    f=  4.40444D-01    |proj g|=  2.76141D-03
+
+At iterate 1149    f=  4.40431D-01    |proj g|=  6.67366D-03
+
+At iterate 1150    f=  4.40422D-01    |proj g|=  1.13397D-02
+
+At iterate 1151    f=  4.40400D-01    |proj g|=  5.26959D-03
+
+At iterate 1152    f=  4.40391D-01    |proj g|=  6.20889D-03
+
+At iterate 1153    f=  4.40382D-01    |proj g|=  5.55731D-03
+
+At iterate 1154    f=  4.40371D-01    |proj g|=  4.41342D-03
+
+At iterate 1155    f=  4.40370D-01    |proj g|=  6.34722D-03
+
+At iterate 1156    f=  4.40363D-01    |proj g|=  5.34503D-03
+
+At iterate 1157    f=  4.40355D-01    |proj g|=  5.08553D-03
+
+At iterate 1158    f=  4.40347D-01    |proj g|=  4.29705D-03
+
+At iterate 1159    f=  4.40337D-01    |proj g|=  6.13167D-03
+
+At iterate 1160    f=  4.40330D-01    |proj g|=  3.66019D-03
+
+At iterate 1161    f=  4.40326D-01    |proj g|=  6.76612D-03
+
+At iterate 1162    f=  4.40319D-01    |proj g|=  7.30480D-03
+
+At iterate 1163    f=  4.40312D-01    |proj g|=  6.76522D-03
+
+At iterate 1164    f=  4.40310D-01    |proj g|=  8.20808D-03
+
+At iterate 1165    f=  4.40305D-01    |proj g|=  9.29323D-03
+
+At iterate 1166    f=  4.40299D-01    |proj g|=  4.08099D-03
+
+At iterate 1167    f=  4.40294D-01    |proj g|=  1.22875D-02
+
+At iterate 1168    f=  4.40290D-01    |proj g|=  8.55066D-03
+
+At iterate 1169    f=  4.40284D-01    |proj g|=  8.51811D-03
+
+At iterate 1170    f=  4.40278D-01    |proj g|=  4.86714D-03
+
+At iterate 1171    f=  4.40272D-01    |proj g|=  6.92206D-03
+
+At iterate 1172    f=  4.40266D-01    |proj g|=  7.24159D-03
+
+At iterate 1173    f=  4.40252D-01    |proj g|=  6.66563D-03
+
+At iterate 1174    f=  4.40239D-01    |proj g|=  7.15426D-03
+
+At iterate 1175    f=  4.40234D-01    |proj g|=  4.96635D-03
+
+At iterate 1176    f=  4.40230D-01    |proj g|=  8.65639D-03
+
+At iterate 1177    f=  4.40220D-01    |proj g|=  8.09361D-03
+
+At iterate 1178    f=  4.40205D-01    |proj g|=  7.73246D-03
+
+At iterate 1179    f=  4.40198D-01    |proj g|=  5.25926D-03
+
+At iterate 1180    f=  4.40190D-01    |proj g|=  4.08996D-03
+
+At iterate 1181    f=  4.40184D-01    |proj g|=  8.42315D-03
+
+At iterate 1182    f=  4.40183D-01    |proj g|=  7.25786D-03
+
+At iterate 1183    f=  4.40172D-01    |proj g|=  7.00750D-03
+
+At iterate 1184    f=  4.40163D-01    |proj g|=  3.52088D-03
+
+At iterate 1185    f=  4.40158D-01    |proj g|=  4.72880D-03
+
+At iterate 1186    f=  4.40156D-01    |proj g|=  1.02540D-02
+
+At iterate 1187    f=  4.40148D-01    |proj g|=  5.48225D-03
+
+At iterate 1188    f=  4.40143D-01    |proj g|=  6.68264D-03
+
+At iterate 1189    f=  4.40141D-01    |proj g|=  1.05550D-02
+
+At iterate 1190    f=  4.40136D-01    |proj g|=  8.15986D-03
+
+At iterate 1191    f=  4.40130D-01    |proj g|=  7.19046D-03
+
+At iterate 1192    f=  4.40126D-01    |proj g|=  3.32234D-03
+
+At iterate 1193    f=  4.40121D-01    |proj g|=  4.05681D-03
+
+At iterate 1194    f=  4.40111D-01    |proj g|=  1.25087D-02
+
+At iterate 1195    f=  4.40106D-01    |proj g|=  5.30105D-03
+
+At iterate 1196    f=  4.40101D-01    |proj g|=  7.46920D-03
+
+At iterate 1197    f=  4.40095D-01    |proj g|=  6.16517D-03
+
+At iterate 1198    f=  4.40092D-01    |proj g|=  1.08036D-02
+
+At iterate 1199    f=  4.40090D-01    |proj g|=  7.95023D-03
+
+At iterate 1200    f=  4.40086D-01    |proj g|=  9.49934D-03
+
+At iterate 1201    f=  4.40084D-01    |proj g|=  5.84484D-03
+
+At iterate 1202    f=  4.40078D-01    |proj g|=  6.41394D-03
+
+At iterate 1203    f=  4.40073D-01    |proj g|=  8.56915D-03
+
+At iterate 1204    f=  4.40067D-01    |proj g|=  5.38710D-03
+
+At iterate 1205    f=  4.40061D-01    |proj g|=  6.56002D-03
+
+At iterate 1206    f=  4.40057D-01    |proj g|=  8.67075D-03
+
+At iterate 1207    f=  4.40045D-01    |proj g|=  1.34344D-02
+
+At iterate 1208    f=  4.40038D-01    |proj g|=  1.02394D-02
+
+At iterate 1209    f=  4.40027D-01    |proj g|=  5.26069D-03
+
+At iterate 1210    f=  4.40011D-01    |proj g|=  7.80004D-03
+
+At iterate 1211    f=  4.40005D-01    |proj g|=  6.09413D-03
+
+At iterate 1212    f=  4.39989D-01    |proj g|=  6.66651D-03
+
+At iterate 1213    f=  4.39975D-01    |proj g|=  4.80703D-03
+
+At iterate 1214    f=  4.39960D-01    |proj g|=  7.09190D-03
+
+At iterate 1215    f=  4.39951D-01    |proj g|=  4.95647D-03
+
+At iterate 1216    f=  4.39939D-01    |proj g|=  4.35224D-03
+
+At iterate 1217    f=  4.39932D-01    |proj g|=  2.94374D-03
+
+At iterate 1218    f=  4.39924D-01    |proj g|=  4.23468D-03
+
+At iterate 1219    f=  4.39918D-01    |proj g|=  7.56644D-03
+
+At iterate 1220    f=  4.39910D-01    |proj g|=  4.28155D-03
+
+At iterate 1221    f=  4.39906D-01    |proj g|=  2.97328D-03
+
+At iterate 1222    f=  4.39900D-01    |proj g|=  3.64798D-03
+
+At iterate 1223    f=  4.39897D-01    |proj g|=  6.28660D-03
+
+At iterate 1224    f=  4.39894D-01    |proj g|=  3.42370D-03
+
+At iterate 1225    f=  4.39891D-01    |proj g|=  4.84200D-03
+
+At iterate 1226    f=  4.39889D-01    |proj g|=  3.11290D-03
+
+At iterate 1227    f=  4.39885D-01    |proj g|=  5.95336D-03
+
+At iterate 1228    f=  4.39881D-01    |proj g|=  2.33472D-03
+
+At iterate 1229    f=  4.39877D-01    |proj g|=  2.26469D-03
+
+At iterate 1230    f=  4.39876D-01    |proj g|=  8.32982D-03
+
+At iterate 1231    f=  4.39867D-01    |proj g|=  2.87222D-03
+
+At iterate 1232    f=  4.39859D-01    |proj g|=  4.98706D-03
+
+At iterate 1233    f=  4.39854D-01    |proj g|=  6.98284D-03
+
+At iterate 1234    f=  4.39849D-01    |proj g|=  5.90138D-03
+
+At iterate 1235    f=  4.39843D-01    |proj g|=  7.01242D-03
+
+At iterate 1236    f=  4.39837D-01    |proj g|=  4.03885D-03
+
+At iterate 1237    f=  4.39832D-01    |proj g|=  4.70719D-03
+
+At iterate 1238    f=  4.39829D-01    |proj g|=  8.09107D-03
+
+At iterate 1239    f=  4.39825D-01    |proj g|=  2.83946D-03
+
+At iterate 1240    f=  4.39823D-01    |proj g|=  3.76738D-03
+
+At iterate 1241    f=  4.39821D-01    |proj g|=  9.40093D-03
+
+At iterate 1242    f=  4.39815D-01    |proj g|=  4.20042D-03
+
+At iterate 1243    f=  4.39814D-01    |proj g|=  4.40303D-03
+
+At iterate 1244    f=  4.39810D-01    |proj g|=  2.64260D-03
+
+At iterate 1245    f=  4.39807D-01    |proj g|=  6.16256D-03
+
+At iterate 1246    f=  4.39804D-01    |proj g|=  3.90507D-03
+
+At iterate 1247    f=  4.39804D-01    |proj g|=  9.43913D-03
+
+At iterate 1248    f=  4.39800D-01    |proj g|=  6.54802D-03
+
+At iterate 1249    f=  4.39797D-01    |proj g|=  2.76833D-03
+
+At iterate 1250    f=  4.39793D-01    |proj g|=  2.60571D-03
+
+At iterate 1251    f=  4.39788D-01    |proj g|=  4.33756D-03
+
+At iterate 1252    f=  4.39780D-01    |proj g|=  4.91477D-03
+
+At iterate 1253    f=  4.39774D-01    |proj g|=  3.65194D-03
+
+At iterate 1254    f=  4.39771D-01    |proj g|=  6.73209D-03
+
+At iterate 1255    f=  4.39764D-01    |proj g|=  6.03696D-03
+
+At iterate 1256    f=  4.39760D-01    |proj g|=  2.95280D-03
+
+At iterate 1257    f=  4.39754D-01    |proj g|=  2.79851D-03
+
+At iterate 1258    f=  4.39746D-01    |proj g|=  3.60011D-03
+
+At iterate 1259    f=  4.39735D-01    |proj g|=  4.19440D-03
+
+At iterate 1260    f=  4.39729D-01    |proj g|=  7.31973D-03
+
+At iterate 1261    f=  4.39723D-01    |proj g|=  4.05896D-03
+
+At iterate 1262    f=  4.39720D-01    |proj g|=  5.68129D-03
+
+At iterate 1263    f=  4.39716D-01    |proj g|=  4.92776D-03
+
+At iterate 1264    f=  4.39709D-01    |proj g|=  4.12915D-03
+
+At iterate 1265    f=  4.39705D-01    |proj g|=  7.82749D-03
+
+At iterate 1266    f=  4.39701D-01    |proj g|=  1.07012D-02
+
+At iterate 1267    f=  4.39697D-01    |proj g|=  6.76488D-03
+
+At iterate 1268    f=  4.39689D-01    |proj g|=  3.61797D-03
+
+At iterate 1269    f=  4.39680D-01    |proj g|=  3.26177D-03
+
+At iterate 1270    f=  4.39669D-01    |proj g|=  3.41714D-03
+
+At iterate 1271    f=  4.39659D-01    |proj g|=  5.85150D-03
+
+At iterate 1272    f=  4.39654D-01    |proj g|=  2.98313D-03
+
+At iterate 1273    f=  4.39649D-01    |proj g|=  3.96682D-03
+
+At iterate 1274    f=  4.39642D-01    |proj g|=  3.29134D-03
+
+At iterate 1275    f=  4.39633D-01    |proj g|=  4.21229D-03
+
+At iterate 1276    f=  4.39626D-01    |proj g|=  4.41291D-03
+
+At iterate 1277    f=  4.39620D-01    |proj g|=  9.10862D-03
+
+At iterate 1278    f=  4.39613D-01    |proj g|=  5.88512D-03
+
+At iterate 1279    f=  4.39609D-01    |proj g|=  3.15553D-03
+
+At iterate 1280    f=  4.39608D-01    |proj g|=  6.32129D-03
+
+At iterate 1281    f=  4.39602D-01    |proj g|=  7.36941D-03
+
+At iterate 1282    f=  4.39595D-01    |proj g|=  4.77142D-03
+
+At iterate 1283    f=  4.39589D-01    |proj g|=  8.62572D-03
+
+At iterate 1284    f=  4.39584D-01    |proj g|=  3.75045D-03
+
+At iterate 1285    f=  4.39579D-01    |proj g|=  6.37123D-03
+
+At iterate 1286    f=  4.39573D-01    |proj g|=  6.05857D-03
+
+At iterate 1287    f=  4.39564D-01    |proj g|=  4.98220D-03
+
+At iterate 1288    f=  4.39561D-01    |proj g|=  8.59139D-03
+
+At iterate 1289    f=  4.39556D-01    |proj g|=  4.31258D-03
+
+At iterate 1290    f=  4.39554D-01    |proj g|=  2.49676D-03
+
+At iterate 1291    f=  4.39551D-01    |proj g|=  4.81953D-03
+
+At iterate 1292    f=  4.39547D-01    |proj g|=  4.82618D-03
+
+At iterate 1293    f=  4.39544D-01    |proj g|=  3.74623D-03
+
+At iterate 1294    f=  4.39537D-01    |proj g|=  2.51867D-03
+
+At iterate 1295    f=  4.39531D-01    |proj g|=  7.15345D-03
+
+At iterate 1296    f=  4.39523D-01    |proj g|=  5.98839D-03
+
+At iterate 1297    f=  4.39516D-01    |proj g|=  3.65376D-03
+
+At iterate 1298    f=  4.39510D-01    |proj g|=  4.20812D-03
+
+At iterate 1299    f=  4.39506D-01    |proj g|=  7.63396D-03
+
+At iterate 1300    f=  4.39498D-01    |proj g|=  4.03869D-03
+
+At iterate 1301    f=  4.39492D-01    |proj g|=  5.73682D-03
+
+At iterate 1302    f=  4.39488D-01    |proj g|=  3.89944D-03
+
+At iterate 1303    f=  4.39486D-01    |proj g|=  7.54646D-03
+
+At iterate 1304    f=  4.39479D-01    |proj g|=  4.99173D-03
+
+At iterate 1305    f=  4.39475D-01    |proj g|=  3.72952D-03
+
+At iterate 1306    f=  4.39470D-01    |proj g|=  2.63376D-03
+
+At iterate 1307    f=  4.39463D-01    |proj g|=  4.30464D-03
+
+At iterate 1308    f=  4.39458D-01    |proj g|=  6.50083D-03
+
+At iterate 1309    f=  4.39449D-01    |proj g|=  6.00516D-03
+
+At iterate 1310    f=  4.39449D-01    |proj g|=  6.43636D-03
+
+At iterate 1311    f=  4.39437D-01    |proj g|=  4.50858D-03
+
+At iterate 1312    f=  4.39433D-01    |proj g|=  4.36906D-03
+
+At iterate 1313    f=  4.39425D-01    |proj g|=  5.99219D-03
+
+At iterate 1314    f=  4.39418D-01    |proj g|=  5.62162D-03
+
+At iterate 1315    f=  4.39411D-01    |proj g|=  4.98330D-03
+
+At iterate 1316    f=  4.39406D-01    |proj g|=  4.81937D-03
+
+At iterate 1317    f=  4.39401D-01    |proj g|=  2.64117D-03
+
+At iterate 1318    f=  4.39397D-01    |proj g|=  3.79168D-03
+
+At iterate 1319    f=  4.39390D-01    |proj g|=  4.49289D-03
+
+At iterate 1320    f=  4.39388D-01    |proj g|=  3.33513D-03
+
+At iterate 1321    f=  4.39382D-01    |proj g|=  2.63817D-03
+
+At iterate 1322    f=  4.39374D-01    |proj g|=  3.79567D-03
+
+At iterate 1323    f=  4.39367D-01    |proj g|=  3.63440D-03
+
+At iterate 1324    f=  4.39354D-01    |proj g|=  8.00879D-03
+
+At iterate 1325    f=  4.39343D-01    |proj g|=  3.90339D-03
+
+At iterate 1326    f=  4.39337D-01    |proj g|=  6.95577D-03
+
+At iterate 1327    f=  4.39334D-01    |proj g|=  5.40023D-03
+
+At iterate 1328    f=  4.39330D-01    |proj g|=  5.09026D-03
+
+At iterate 1329    f=  4.39324D-01    |proj g|=  4.62638D-03
+
+At iterate 1330    f=  4.39318D-01    |proj g|=  5.51839D-03
+
+At iterate 1331    f=  4.39313D-01    |proj g|=  2.69783D-03
+
+At iterate 1332    f=  4.39308D-01    |proj g|=  3.44055D-03
+
+At iterate 1333    f=  4.39305D-01    |proj g|=  4.59033D-03
+
+At iterate 1334    f=  4.39302D-01    |proj g|=  4.66551D-03
+
+At iterate 1335    f=  4.39301D-01    |proj g|=  3.50393D-03
+
+At iterate 1336    f=  4.39299D-01    |proj g|=  3.16226D-03
+
+At iterate 1337    f=  4.39296D-01    |proj g|=  3.88896D-03
+
+At iterate 1338    f=  4.39292D-01    |proj g|=  5.22973D-03
+
+At iterate 1339    f=  4.39286D-01    |proj g|=  4.12987D-03
+
+At iterate 1340    f=  4.39280D-01    |proj g|=  4.65398D-03
+
+At iterate 1341    f=  4.39275D-01    |proj g|=  5.13660D-03
+
+At iterate 1342    f=  4.39269D-01    |proj g|=  4.95094D-03
+
+At iterate 1343    f=  4.39264D-01    |proj g|=  5.14488D-03
+
+At iterate 1344    f=  4.39257D-01    |proj g|=  2.78874D-03
+
+At iterate 1345    f=  4.39253D-01    |proj g|=  4.76515D-03
+
+At iterate 1346    f=  4.39249D-01    |proj g|=  4.81816D-03
+
+At iterate 1347    f=  4.39243D-01    |proj g|=  4.16450D-03
+
+At iterate 1348    f=  4.39241D-01    |proj g|=  4.83734D-03
+
+At iterate 1349    f=  4.39239D-01    |proj g|=  1.93514D-03
+
+At iterate 1350    f=  4.39236D-01    |proj g|=  3.52992D-03
+
+At iterate 1351    f=  4.39233D-01    |proj g|=  3.74745D-03
+
+At iterate 1352    f=  4.39230D-01    |proj g|=  7.21907D-03
+
+At iterate 1353    f=  4.39226D-01    |proj g|=  2.46018D-03
+
+At iterate 1354    f=  4.39224D-01    |proj g|=  2.25649D-03
+
+At iterate 1355    f=  4.39216D-01    |proj g|=  4.96554D-03
+
+At iterate 1356    f=  4.39211D-01    |proj g|=  7.12380D-03
+
+At iterate 1357    f=  4.39207D-01    |proj g|=  3.51072D-03
+
+At iterate 1358    f=  4.39202D-01    |proj g|=  4.39028D-03
+
+At iterate 1359    f=  4.39200D-01    |proj g|=  6.14488D-03
+
+At iterate 1360    f=  4.39193D-01    |proj g|=  3.94108D-03
+
+At iterate 1361    f=  4.39188D-01    |proj g|=  5.87193D-03
+
+At iterate 1362    f=  4.39178D-01    |proj g|=  7.03558D-03
+
+At iterate 1363    f=  4.39173D-01    |proj g|=  5.30243D-03
+
+At iterate 1364    f=  4.39166D-01    |proj g|=  2.96575D-03
+
+At iterate 1365    f=  4.39161D-01    |proj g|=  6.42719D-03
+
+At iterate 1366    f=  4.39151D-01    |proj g|=  8.32120D-03
+
+At iterate 1367    f=  4.39146D-01    |proj g|=  1.03464D-02
+
+At iterate 1368    f=  4.39135D-01    |proj g|=  2.85356D-03
+
+At iterate 1369    f=  4.39132D-01    |proj g|=  8.74850D-03
+
+At iterate 1370    f=  4.39126D-01    |proj g|=  4.43419D-03
+
+At iterate 1371    f=  4.39121D-01    |proj g|=  8.12322D-03
+
+At iterate 1372    f=  4.39117D-01    |proj g|=  5.52171D-03
+
+At iterate 1373    f=  4.39114D-01    |proj g|=  4.49855D-03
+
+At iterate 1374    f=  4.39112D-01    |proj g|=  2.47960D-03
+
+At iterate 1375    f=  4.39110D-01    |proj g|=  6.09097D-03
+
+At iterate 1376    f=  4.39105D-01    |proj g|=  4.88997D-03
+
+At iterate 1377    f=  4.39101D-01    |proj g|=  3.46715D-03
+
+At iterate 1378    f=  4.39095D-01    |proj g|=  7.81985D-03
+
+At iterate 1379    f=  4.39087D-01    |proj g|=  3.54476D-03
+
+At iterate 1380    f=  4.39082D-01    |proj g|=  2.95972D-03
+
+At iterate 1381    f=  4.39079D-01    |proj g|=  4.30551D-03
+
+At iterate 1382    f=  4.39077D-01    |proj g|=  5.36861D-03
+
+At iterate 1383    f=  4.39072D-01    |proj g|=  4.78359D-03
+
+At iterate 1384    f=  4.39070D-01    |proj g|=  4.83218D-03
+
+At iterate 1385    f=  4.39065D-01    |proj g|=  2.86184D-03
+
+At iterate 1386    f=  4.39063D-01    |proj g|=  5.45015D-03
+
+At iterate 1387    f=  4.39059D-01    |proj g|=  4.90361D-03
+
+At iterate 1388    f=  4.39054D-01    |proj g|=  2.70210D-03
+
+At iterate 1389    f=  4.39052D-01    |proj g|=  1.03032D-02
+
+At iterate 1390    f=  4.39048D-01    |proj g|=  4.35722D-03
+
+At iterate 1391    f=  4.39048D-01    |proj g|=  7.03646D-03
+
+At iterate 1392    f=  4.39043D-01    |proj g|=  4.49492D-03
+
+At iterate 1393    f=  4.39040D-01    |proj g|=  1.18680D-02
+
+At iterate 1394    f=  4.39034D-01    |proj g|=  6.51329D-03
+
+At iterate 1395    f=  4.39031D-01    |proj g|=  6.08790D-03
+
+At iterate 1396    f=  4.39028D-01    |proj g|=  5.51334D-03
+
+At iterate 1397    f=  4.39026D-01    |proj g|=  6.94540D-03
+
+At iterate 1398    f=  4.39022D-01    |proj g|=  3.93054D-03
+
+At iterate 1399    f=  4.39020D-01    |proj g|=  2.52860D-03
+
+At iterate 1400    f=  4.39016D-01    |proj g|=  6.94055D-03
+
+At iterate 1401    f=  4.39011D-01    |proj g|=  7.62303D-03
+
+At iterate 1402    f=  4.39006D-01    |proj g|=  4.66218D-03
+
+At iterate 1403    f=  4.39002D-01    |proj g|=  5.35842D-03
+
+At iterate 1404    f=  4.39000D-01    |proj g|=  9.95151D-03
+
+At iterate 1405    f=  4.39000D-01    |proj g|=  4.88045D-03
+
+At iterate 1406    f=  4.38997D-01    |proj g|=  3.36746D-03
+
+At iterate 1407    f=  4.38994D-01    |proj g|=  4.08419D-03
+
+At iterate 1408    f=  4.38992D-01    |proj g|=  1.29565D-02
+
+At iterate 1409    f=  4.38990D-01    |proj g|=  3.24560D-03
+
+At iterate 1410    f=  4.38988D-01    |proj g|=  4.14642D-03
+
+At iterate 1411    f=  4.38987D-01    |proj g|=  4.87497D-03
+
+At iterate 1412    f=  4.38987D-01    |proj g|=  5.37250D-03
+
+At iterate 1413    f=  4.38986D-01    |proj g|=  6.21976D-03
+
+At iterate 1414    f=  4.38985D-01    |proj g|=  5.50256D-03
+
+At iterate 1415    f=  4.38984D-01    |proj g|=  4.82784D-03
+
+At iterate 1416    f=  4.38984D-01    |proj g|=  3.00167D-03
+
+At iterate 1417    f=  4.38982D-01    |proj g|=  3.49941D-03
+
+At iterate 1418    f=  4.38981D-01    |proj g|=  5.41591D-03
+
+At iterate 1419    f=  4.38981D-01    |proj g|=  8.84302D-03
+
+At iterate 1420    f=  4.38979D-01    |proj g|=  6.03415D-03
+
+At iterate 1421    f=  4.38977D-01    |proj g|=  7.68771D-03
+
+At iterate 1422    f=  4.38976D-01    |proj g|=  4.19501D-03
+
+At iterate 1423    f=  4.38976D-01    |proj g|=  3.74452D-03
+
+At iterate 1424    f=  4.38974D-01    |proj g|=  6.31108D-03
+
+At iterate 1425    f=  4.38973D-01    |proj g|=  5.12747D-03
+
+At iterate 1426    f=  4.38970D-01    |proj g|=  4.29174D-03
+
+At iterate 1427    f=  4.38970D-01    |proj g|=  5.43226D-03
+
+At iterate 1428    f=  4.38967D-01    |proj g|=  5.13338D-03
+
+At iterate 1429    f=  4.38964D-01    |proj g|=  5.87141D-03
+
+At iterate 1430    f=  4.38963D-01    |proj g|=  5.71499D-03
+
+At iterate 1431    f=  4.38960D-01    |proj g|=  3.79989D-03
+
+At iterate 1432    f=  4.38958D-01    |proj g|=  4.65472D-03
+
+At iterate 1433    f=  4.38955D-01    |proj g|=  5.94520D-03
+
+At iterate 1434    f=  4.38952D-01    |proj g|=  6.30919D-03
+
+At iterate 1435    f=  4.38949D-01    |proj g|=  3.50587D-03
+
+At iterate 1436    f=  4.38948D-01    |proj g|=  4.65643D-03
+
+At iterate 1437    f=  4.38948D-01    |proj g|=  4.91473D-03
+
+At iterate 1438    f=  4.38947D-01    |proj g|=  4.97749D-03
+
+At iterate 1439    f=  4.38946D-01    |proj g|=  5.11524D-03
+
+At iterate 1440    f=  4.38945D-01    |proj g|=  4.66668D-03
+
+At iterate 1441    f=  4.38943D-01    |proj g|=  3.46936D-03
+
+At iterate 1442    f=  4.38942D-01    |proj g|=  4.23395D-03
+
+At iterate 1443    f=  4.38939D-01    |proj g|=  3.30412D-03
+
+At iterate 1444    f=  4.38936D-01    |proj g|=  4.45375D-03
+
+At iterate 1445    f=  4.38934D-01    |proj g|=  6.37025D-03
+
+At iterate 1446    f=  4.38932D-01    |proj g|=  7.95196D-03
+
+At iterate 1447    f=  4.38929D-01    |proj g|=  4.96565D-03
+
+At iterate 1448    f=  4.38927D-01    |proj g|=  3.50268D-03
+
+At iterate 1449    f=  4.38926D-01    |proj g|=  5.33481D-03
+
+At iterate 1450    f=  4.38924D-01    |proj g|=  4.65863D-03
+
+At iterate 1451    f=  4.38924D-01    |proj g|=  7.73336D-03
+
+At iterate 1452    f=  4.38921D-01    |proj g|=  6.43289D-03
+
+At iterate 1453    f=  4.38920D-01    |proj g|=  5.71691D-03
+
+At iterate 1454    f=  4.38918D-01    |proj g|=  4.54533D-03
+
+At iterate 1455    f=  4.38918D-01    |proj g|=  5.91113D-03
+
+At iterate 1456    f=  4.38917D-01    |proj g|=  4.47961D-03
+
+At iterate 1457    f=  4.38916D-01    |proj g|=  4.78677D-03
+
+At iterate 1458    f=  4.38915D-01    |proj g|=  6.15430D-03
+
+At iterate 1459    f=  4.38915D-01    |proj g|=  5.22492D-03
+
+At iterate 1460    f=  4.38914D-01    |proj g|=  5.21311D-03
+
+At iterate 1461    f=  4.38913D-01    |proj g|=  5.26836D-03
+
+At iterate 1462    f=  4.38913D-01    |proj g|=  4.27454D-03
+
+At iterate 1463    f=  4.38913D-01    |proj g|=  6.00300D-03
+
+At iterate 1464    f=  4.38912D-01    |proj g|=  3.80877D-03
+
+At iterate 1465    f=  4.38910D-01    |proj g|=  8.14294D-03
+
+At iterate 1466    f=  4.38910D-01    |proj g|=  5.63959D-03
+
+At iterate 1467    f=  4.38908D-01    |proj g|=  5.62842D-03
+
+At iterate 1468    f=  4.38908D-01    |proj g|=  5.82277D-03
+
+At iterate 1469    f=  4.38907D-01    |proj g|=  5.26505D-03
+
+At iterate 1470    f=  4.38906D-01    |proj g|=  7.92416D-03
+
+At iterate 1471    f=  4.38905D-01    |proj g|=  4.85397D-03
+
+At iterate 1472    f=  4.38904D-01    |proj g|=  5.70551D-03
+
+At iterate 1473    f=  4.38902D-01    |proj g|=  6.62816D-03
+
+At iterate 1474    f=  4.38900D-01    |proj g|=  7.18590D-03
+
+At iterate 1475    f=  4.38899D-01    |proj g|=  4.90057D-03
+
+At iterate 1476    f=  4.38898D-01    |proj g|=  3.68359D-03
+
+At iterate 1477    f=  4.38897D-01    |proj g|=  4.46841D-03
+
+At iterate 1478    f=  4.38896D-01    |proj g|=  3.38426D-03
+
+At iterate 1479    f=  4.38895D-01    |proj g|=  7.15483D-03
+
+At iterate 1480    f=  4.38893D-01    |proj g|=  8.09222D-03
+
+At iterate 1481    f=  4.38891D-01    |proj g|=  3.93968D-03
+
+At iterate 1482    f=  4.38888D-01    |proj g|=  7.17548D-03
+
+At iterate 1483    f=  4.38885D-01    |proj g|=  1.02086D-02
+
+At iterate 1484    f=  4.38883D-01    |proj g|=  5.22430D-03
+
+At iterate 1485    f=  4.38880D-01    |proj g|=  3.52779D-03
+
+At iterate 1486    f=  4.38876D-01    |proj g|=  5.47011D-03
+
+At iterate 1487    f=  4.38874D-01    |proj g|=  4.60963D-03
+
+At iterate 1488    f=  4.38870D-01    |proj g|=  4.66577D-03
+
+At iterate 1489    f=  4.38869D-01    |proj g|=  1.10311D-02
+
+At iterate 1490    f=  4.38863D-01    |proj g|=  3.51825D-03
+
+At iterate 1491    f=  4.38862D-01    |proj g|=  4.59448D-03
+
+At iterate 1492    f=  4.38860D-01    |proj g|=  4.91454D-03
+
+At iterate 1493    f=  4.38859D-01    |proj g|=  8.14099D-03
+
+At iterate 1494    f=  4.38858D-01    |proj g|=  4.19570D-03
+
+At iterate 1495    f=  4.38856D-01    |proj g|=  6.38140D-03
+
+At iterate 1496    f=  4.38854D-01    |proj g|=  3.73154D-03
+
+At iterate 1497    f=  4.38852D-01    |proj g|=  5.88274D-03
+
+At iterate 1498    f=  4.38851D-01    |proj g|=  5.67281D-03
+
+At iterate 1499    f=  4.38850D-01    |proj g|=  4.96302D-03
+
+At iterate 1500    f=  4.38846D-01    |proj g|=  7.43588D-03
+
+At iterate 1501    f=  4.38844D-01    |proj g|=  7.86605D-03
+
+At iterate 1502    f=  4.38841D-01    |proj g|=  1.12139D-02
+
+At iterate 1503    f=  4.38841D-01    |proj g|=  5.95843D-03
+
+At iterate 1504    f=  4.38840D-01    |proj g|=  5.02817D-03
+
+At iterate 1505    f=  4.38839D-01    |proj g|=  3.92892D-03
+
+At iterate 1506    f=  4.38838D-01    |proj g|=  8.31915D-03
+
+At iterate 1507    f=  4.38837D-01    |proj g|=  9.52534D-03
+
+At iterate 1508    f=  4.38835D-01    |proj g|=  4.17909D-03
+
+At iterate 1509    f=  4.38835D-01    |proj g|=  6.29272D-03
+
+At iterate 1510    f=  4.38833D-01    |proj g|=  5.94398D-03
+
+At iterate 1511    f=  4.38832D-01    |proj g|=  8.28123D-03
+
+At iterate 1512    f=  4.38828D-01    |proj g|=  3.63754D-03
+
+At iterate 1513    f=  4.38826D-01    |proj g|=  5.59493D-03
+
+At iterate 1514    f=  4.38823D-01    |proj g|=  5.67486D-03
+
+At iterate 1515    f=  4.38822D-01    |proj g|=  5.79379D-03
+
+At iterate 1516    f=  4.38821D-01    |proj g|=  6.52866D-03
+
+At iterate 1517    f=  4.38818D-01    |proj g|=  5.70171D-03
+
+At iterate 1518    f=  4.38817D-01    |proj g|=  5.66219D-03
+
+At iterate 1519    f=  4.38814D-01    |proj g|=  2.84691D-03
+
+At iterate 1520    f=  4.38812D-01    |proj g|=  7.46067D-03
+
+At iterate 1521    f=  4.38811D-01    |proj g|=  5.64741D-03
+
+At iterate 1522    f=  4.38808D-01    |proj g|=  5.27606D-03
+
+At iterate 1523    f=  4.38808D-01    |proj g|=  4.00609D-03
+
+At iterate 1524    f=  4.38807D-01    |proj g|=  6.62468D-03
+
+At iterate 1525    f=  4.38806D-01    |proj g|=  6.41591D-03
+
+At iterate 1526    f=  4.38804D-01    |proj g|=  5.12614D-03
+
+At iterate 1527    f=  4.38803D-01    |proj g|=  6.20451D-03
+
+At iterate 1528    f=  4.38801D-01    |proj g|=  3.00392D-03
+
+At iterate 1529    f=  4.38800D-01    |proj g|=  6.36150D-03
+
+At iterate 1530    f=  4.38799D-01    |proj g|=  5.62909D-03
+
+At iterate 1531    f=  4.38797D-01    |proj g|=  7.07473D-03
+
+At iterate 1532    f=  4.38794D-01    |proj g|=  4.99227D-03
+
+At iterate 1533    f=  4.38793D-01    |proj g|=  4.34604D-03
+
+At iterate 1534    f=  4.38791D-01    |proj g|=  3.36682D-03
+
+At iterate 1535    f=  4.38790D-01    |proj g|=  5.05913D-03
+
+At iterate 1536    f=  4.38788D-01    |proj g|=  5.11748D-03
+
+At iterate 1537    f=  4.38784D-01    |proj g|=  3.94240D-03
+
+At iterate 1538    f=  4.38783D-01    |proj g|=  6.65302D-03
+
+At iterate 1539    f=  4.38781D-01    |proj g|=  2.78957D-03
+
+At iterate 1540    f=  4.38780D-01    |proj g|=  6.25129D-03
+
+At iterate 1541    f=  4.38778D-01    |proj g|=  6.19631D-03
+
+At iterate 1542    f=  4.38776D-01    |proj g|=  6.18711D-03
+
+At iterate 1543    f=  4.38773D-01    |proj g|=  5.53726D-03
+
+At iterate 1544    f=  4.38770D-01    |proj g|=  8.01548D-03
+
+At iterate 1545    f=  4.38768D-01    |proj g|=  3.31949D-03
+
+At iterate 1546    f=  4.38766D-01    |proj g|=  4.30602D-03
+
+At iterate 1547    f=  4.38764D-01    |proj g|=  4.94856D-03
+
+At iterate 1548    f=  4.38762D-01    |proj g|=  3.50773D-03
+
+At iterate 1549    f=  4.38761D-01    |proj g|=  6.38788D-03
+
+At iterate 1550    f=  4.38760D-01    |proj g|=  5.18424D-03
+
+At iterate 1551    f=  4.38758D-01    |proj g|=  5.31733D-03
+
+At iterate 1552    f=  4.38757D-01    |proj g|=  4.25116D-03
+
+At iterate 1553    f=  4.38757D-01    |proj g|=  2.77505D-03
+
+At iterate 1554    f=  4.38756D-01    |proj g|=  4.73145D-03
+
+At iterate 1555    f=  4.38755D-01    |proj g|=  5.06207D-03
+
+At iterate 1556    f=  4.38753D-01    |proj g|=  4.66877D-03
+
+At iterate 1557    f=  4.38752D-01    |proj g|=  2.91945D-03
+
+At iterate 1558    f=  4.38751D-01    |proj g|=  5.11052D-03
+
+At iterate 1559    f=  4.38751D-01    |proj g|=  6.64312D-03
+
+At iterate 1560    f=  4.38749D-01    |proj g|=  5.55062D-03
+
+At iterate 1561    f=  4.38748D-01    |proj g|=  6.02774D-03
+
+At iterate 1562    f=  4.38747D-01    |proj g|=  5.44688D-03
+
+At iterate 1563    f=  4.38747D-01    |proj g|=  4.07373D-03
+
+At iterate 1564    f=  4.38747D-01    |proj g|=  4.02783D-03
+
+At iterate 1565    f=  4.38746D-01    |proj g|=  5.74590D-03
+
+At iterate 1566    f=  4.38745D-01    |proj g|=  4.00500D-03
+
+At iterate 1567    f=  4.38745D-01    |proj g|=  3.59778D-03
+
+At iterate 1568    f=  4.38745D-01    |proj g|=  5.59429D-03
+
+At iterate 1569    f=  4.38744D-01    |proj g|=  3.62408D-03
+
+At iterate 1570    f=  4.38744D-01    |proj g|=  3.68634D-03
+
+At iterate 1571    f=  4.38743D-01    |proj g|=  6.07309D-03
+
+At iterate 1572    f=  4.38742D-01    |proj g|=  4.78656D-03
+
+At iterate 1573    f=  4.38741D-01    |proj g|=  5.83886D-03
+
+At iterate 1574    f=  4.38740D-01    |proj g|=  5.77275D-03
+
+At iterate 1575    f=  4.38739D-01    |proj g|=  6.61976D-03
+
+At iterate 1576    f=  4.38738D-01    |proj g|=  3.98245D-03
+
+At iterate 1577    f=  4.38738D-01    |proj g|=  5.33080D-03
+
+At iterate 1578    f=  4.38738D-01    |proj g|=  4.35680D-03
+
+At iterate 1579    f=  4.38737D-01    |proj g|=  5.15878D-03
+
+At iterate 1580    f=  4.38736D-01    |proj g|=  4.04524D-03
+
+At iterate 1581    f=  4.38735D-01    |proj g|=  5.91825D-03
+
+At iterate 1582    f=  4.38733D-01    |proj g|=  3.99246D-03
+
+At iterate 1583    f=  4.38732D-01    |proj g|=  4.41090D-03
+
+At iterate 1584    f=  4.38731D-01    |proj g|=  5.98942D-03
+
+At iterate 1585    f=  4.38729D-01    |proj g|=  6.05465D-03
+
+At iterate 1586    f=  4.38727D-01    |proj g|=  7.94473D-03
+
+At iterate 1587    f=  4.38724D-01    |proj g|=  7.87981D-03
+
+At iterate 1588    f=  4.38722D-01    |proj g|=  4.23179D-03
+
+At iterate 1589    f=  4.38720D-01    |proj g|=  6.02343D-03
+
+At iterate 1590    f=  4.38718D-01    |proj g|=  6.82465D-03
+
+At iterate 1591    f=  4.38715D-01    |proj g|=  4.41550D-03
+
+At iterate 1592    f=  4.38714D-01    |proj g|=  5.83459D-03
+
+At iterate 1593    f=  4.38710D-01    |proj g|=  4.82825D-03
+
+At iterate 1594    f=  4.38709D-01    |proj g|=  3.18785D-03
+
+At iterate 1595    f=  4.38706D-01    |proj g|=  3.67290D-03
+
+At iterate 1596    f=  4.38704D-01    |proj g|=  5.43077D-03
+
+At iterate 1597    f=  4.38701D-01    |proj g|=  4.35666D-03
+
+At iterate 1598    f=  4.38697D-01    |proj g|=  5.25514D-03
+
+At iterate 1599    f=  4.38696D-01    |proj g|=  5.03850D-03
+
+At iterate 1600    f=  4.38694D-01    |proj g|=  5.57244D-03
+
+At iterate 1601    f=  4.38693D-01    |proj g|=  4.98698D-03
+
+At iterate 1602    f=  4.38692D-01    |proj g|=  4.97609D-03
+
+At iterate 1603    f=  4.38691D-01    |proj g|=  1.08486D-02
+
+At iterate 1604    f=  4.38690D-01    |proj g|=  3.78765D-03
+
+At iterate 1605    f=  4.38688D-01    |proj g|=  3.00769D-03
+
+At iterate 1606    f=  4.38687D-01    |proj g|=  7.04826D-03
+
+At iterate 1607    f=  4.38685D-01    |proj g|=  5.92203D-03
+
+At iterate 1608    f=  4.38683D-01    |proj g|=  9.65483D-03
+
+At iterate 1609    f=  4.38681D-01    |proj g|=  7.37238D-03
+
+At iterate 1610    f=  4.38680D-01    |proj g|=  8.11245D-03
+
+At iterate 1611    f=  4.38677D-01    |proj g|=  5.43114D-03
+
+At iterate 1612    f=  4.38674D-01    |proj g|=  1.01791D-02
+
+At iterate 1613    f=  4.38673D-01    |proj g|=  8.60003D-03
+
+At iterate 1614    f=  4.38670D-01    |proj g|=  5.05856D-03
+
+At iterate 1615    f=  4.38669D-01    |proj g|=  6.03185D-03
+
+At iterate 1616    f=  4.38668D-01    |proj g|=  4.19411D-03
+
+At iterate 1617    f=  4.38666D-01    |proj g|=  8.12178D-03
+
+At iterate 1618    f=  4.38665D-01    |proj g|=  4.09360D-03
+
+At iterate 1619    f=  4.38663D-01    |proj g|=  4.34778D-03
+
+At iterate 1620    f=  4.38662D-01    |proj g|=  3.74534D-03
+
+At iterate 1621    f=  4.38662D-01    |proj g|=  6.41209D-03
+
+At iterate 1622    f=  4.38661D-01    |proj g|=  6.39132D-03
+
+At iterate 1623    f=  4.38661D-01    |proj g|=  5.54212D-03
+
+At iterate 1624    f=  4.38658D-01    |proj g|=  5.48830D-03
+
+At iterate 1625    f=  4.38655D-01    |proj g|=  6.30774D-03
+
+At iterate 1626    f=  4.38652D-01    |proj g|=  6.10393D-03
+
+At iterate 1627    f=  4.38649D-01    |proj g|=  5.89400D-03
+
+At iterate 1628    f=  4.38647D-01    |proj g|=  3.51880D-03
+
+At iterate 1629    f=  4.38646D-01    |proj g|=  4.06633D-03
+
+At iterate 1630    f=  4.38645D-01    |proj g|=  6.10609D-03
+
+At iterate 1631    f=  4.38643D-01    |proj g|=  5.85376D-03
+
+At iterate 1632    f=  4.38642D-01    |proj g|=  4.27069D-03
+
+At iterate 1633    f=  4.38640D-01    |proj g|=  5.02452D-03
+
+At iterate 1634    f=  4.38639D-01    |proj g|=  5.16979D-03
+
+At iterate 1635    f=  4.38637D-01    |proj g|=  7.28178D-03
+
+At iterate 1636    f=  4.38636D-01    |proj g|=  5.22790D-03
+
+At iterate 1637    f=  4.38634D-01    |proj g|=  5.50173D-03
+
+At iterate 1638    f=  4.38633D-01    |proj g|=  4.25630D-03
+
+At iterate 1639    f=  4.38632D-01    |proj g|=  6.35505D-03
+
+At iterate 1640    f=  4.38630D-01    |proj g|=  7.01262D-03
+
+At iterate 1641    f=  4.38628D-01    |proj g|=  5.45202D-03
+
+At iterate 1642    f=  4.38627D-01    |proj g|=  7.89403D-03
+
+At iterate 1643    f=  4.38625D-01    |proj g|=  7.58583D-03
+
+At iterate 1644    f=  4.38623D-01    |proj g|=  5.12245D-03
+
+At iterate 1645    f=  4.38620D-01    |proj g|=  4.58858D-03
+
+At iterate 1646    f=  4.38617D-01    |proj g|=  9.15337D-03
+
+At iterate 1647    f=  4.38614D-01    |proj g|=  6.08845D-03
+
+At iterate 1648    f=  4.38612D-01    |proj g|=  6.41400D-03
+
+At iterate 1649    f=  4.38610D-01    |proj g|=  5.03900D-03
+
+At iterate 1650    f=  4.38609D-01    |proj g|=  3.98732D-03
+
+At iterate 1651    f=  4.38607D-01    |proj g|=  4.17353D-03
+
+At iterate 1652    f=  4.38607D-01    |proj g|=  8.08938D-03
+
+At iterate 1653    f=  4.38601D-01    |proj g|=  5.49575D-03
+
+At iterate 1654    f=  4.38599D-01    |proj g|=  4.65492D-03
+
+At iterate 1655    f=  4.38594D-01    |proj g|=  4.78480D-03
+
+At iterate 1656    f=  4.38589D-01    |proj g|=  6.24343D-03
+
+At iterate 1657    f=  4.38587D-01    |proj g|=  5.94771D-03
+
+At iterate 1658    f=  4.38586D-01    |proj g|=  6.18676D-03
+
+At iterate 1659    f=  4.38584D-01    |proj g|=  3.73917D-03
+
+At iterate 1660    f=  4.38582D-01    |proj g|=  3.28377D-03
+
+At iterate 1661    f=  4.38579D-01    |proj g|=  4.47514D-03
+
+At iterate 1662    f=  4.38577D-01    |proj g|=  7.89311D-03
+
+At iterate 1663    f=  4.38574D-01    |proj g|=  6.67181D-03
+
+At iterate 1664    f=  4.38571D-01    |proj g|=  7.57560D-03
+
+At iterate 1665    f=  4.38570D-01    |proj g|=  3.86397D-03
+
+At iterate 1666    f=  4.38569D-01    |proj g|=  4.69965D-03
+
+At iterate 1667    f=  4.38568D-01    |proj g|=  3.94837D-03
+
+At iterate 1668    f=  4.38566D-01    |proj g|=  6.52758D-03
+
+At iterate 1669    f=  4.38565D-01    |proj g|=  6.61725D-03
+
+At iterate 1670    f=  4.38563D-01    |proj g|=  3.34067D-03
+
+At iterate 1671    f=  4.38560D-01    |proj g|=  4.83530D-03
+
+At iterate 1672    f=  4.38557D-01    |proj g|=  3.83850D-03
+
+At iterate 1673    f=  4.38554D-01    |proj g|=  4.53158D-03
+
+At iterate 1674    f=  4.38549D-01    |proj g|=  5.41768D-03
+
+At iterate 1675    f=  4.38549D-01    |proj g|=  7.35616D-03
+
+At iterate 1676    f=  4.38545D-01    |proj g|=  4.97307D-03
+
+At iterate 1677    f=  4.38543D-01    |proj g|=  9.39095D-03
+
+At iterate 1678    f=  4.38539D-01    |proj g|=  5.18041D-03
+
+At iterate 1679    f=  4.38537D-01    |proj g|=  6.32666D-03
+
+At iterate 1680    f=  4.38535D-01    |proj g|=  4.23657D-03
+
+At iterate 1681    f=  4.38534D-01    |proj g|=  6.65409D-03
+
+At iterate 1682    f=  4.38528D-01    |proj g|=  7.53518D-03
+
+At iterate 1683    f=  4.38525D-01    |proj g|=  4.11885D-03
+
+At iterate 1684    f=  4.38521D-01    |proj g|=  3.47913D-03
+
+At iterate 1685    f=  4.38517D-01    |proj g|=  3.71501D-03
+
+At iterate 1686    f=  4.38516D-01    |proj g|=  6.09887D-03
+
+At iterate 1687    f=  4.38513D-01    |proj g|=  5.48680D-03
+
+At iterate 1688    f=  4.38512D-01    |proj g|=  4.13388D-03
+
+At iterate 1689    f=  4.38511D-01    |proj g|=  3.75106D-03
+
+At iterate 1690    f=  4.38511D-01    |proj g|=  1.00572D-02
+
+At iterate 1691    f=  4.38510D-01    |proj g|=  1.02416D-02
+
+At iterate 1692    f=  4.38509D-01    |proj g|=  9.83688D-03
+
+At iterate 1693    f=  4.38508D-01    |proj g|=  5.59091D-03
+
+At iterate 1694    f=  4.38506D-01    |proj g|=  6.41357D-03
+
+At iterate 1695    f=  4.38505D-01    |proj g|=  3.26493D-03
+
+At iterate 1696    f=  4.38503D-01    |proj g|=  5.23338D-03
+
+At iterate 1697    f=  4.38501D-01    |proj g|=  3.42597D-03
+
+At iterate 1698    f=  4.38498D-01    |proj g|=  4.05588D-03
+
+At iterate 1699    f=  4.38483D-01    |proj g|=  9.52137D-03
+
+At iterate 1700    f=  4.38477D-01    |proj g|=  7.38256D-03
+
+At iterate 1701    f=  4.38475D-01    |proj g|=  6.30754D-03
+
+At iterate 1702    f=  4.38470D-01    |proj g|=  4.46901D-03
+
+At iterate 1703    f=  4.38467D-01    |proj g|=  3.47799D-03
+
+At iterate 1704    f=  4.38465D-01    |proj g|=  6.57751D-03
+
+At iterate 1705    f=  4.38461D-01    |proj g|=  5.89812D-03
+
+At iterate 1706    f=  4.38456D-01    |proj g|=  4.64075D-03
+
+At iterate 1707    f=  4.38449D-01    |proj g|=  7.14518D-03
+
+At iterate 1708    f=  4.38449D-01    |proj g|=  8.63761D-03
+
+At iterate 1709    f=  4.38447D-01    |proj g|=  8.54935D-03
+
+At iterate 1710    f=  4.38446D-01    |proj g|=  9.21488D-03
+
+At iterate 1711    f=  4.38443D-01    |proj g|=  4.82170D-03
+
+At iterate 1712    f=  4.38440D-01    |proj g|=  3.79910D-03
+
+At iterate 1713    f=  4.38440D-01    |proj g|=  5.44959D-03
+
+At iterate 1714    f=  4.38437D-01    |proj g|=  2.54834D-03
+
+At iterate 1715    f=  4.38436D-01    |proj g|=  3.02620D-03
+
+At iterate 1716    f=  4.38434D-01    |proj g|=  7.26120D-03
+
+At iterate 1717    f=  4.38432D-01    |proj g|=  6.42208D-03
+
+At iterate 1718    f=  4.38429D-01    |proj g|=  5.57088D-03
+
+At iterate 1719    f=  4.38426D-01    |proj g|=  5.04952D-03
+
+At iterate 1720    f=  4.38423D-01    |proj g|=  4.58188D-03
+
+At iterate 1721    f=  4.38419D-01    |proj g|=  4.20199D-03
+
+At iterate 1722    f=  4.38417D-01    |proj g|=  7.18904D-03
+
+At iterate 1723    f=  4.38414D-01    |proj g|=  5.59256D-03
+
+At iterate 1724    f=  4.38411D-01    |proj g|=  4.61882D-03
+
+At iterate 1725    f=  4.38408D-01    |proj g|=  4.36597D-03
+
+At iterate 1726    f=  4.38403D-01    |proj g|=  3.73562D-03
+
+At iterate 1727    f=  4.38396D-01    |proj g|=  5.71870D-03
+
+At iterate 1728    f=  4.38390D-01    |proj g|=  5.01646D-03
+
+At iterate 1729    f=  4.38385D-01    |proj g|=  6.93331D-03
+
+At iterate 1730    f=  4.38378D-01    |proj g|=  5.80627D-03
+
+At iterate 1731    f=  4.38374D-01    |proj g|=  9.21324D-03
+
+At iterate 1732    f=  4.38366D-01    |proj g|=  6.70589D-03
+
+At iterate 1733    f=  4.38358D-01    |proj g|=  6.18954D-03
+
+At iterate 1734    f=  4.38350D-01    |proj g|=  8.55879D-03
+
+At iterate 1735    f=  4.38350D-01    |proj g|=  9.03566D-03
+
+At iterate 1736    f=  4.38345D-01    |proj g|=  7.93876D-03
+
+At iterate 1737    f=  4.38337D-01    |proj g|=  4.43193D-03
+
+At iterate 1738    f=  4.38332D-01    |proj g|=  5.69911D-03
+
+At iterate 1739    f=  4.38327D-01    |proj g|=  4.46438D-03
+
+At iterate 1740    f=  4.38316D-01    |proj g|=  7.07400D-03
+
+At iterate 1741    f=  4.38311D-01    |proj g|=  9.10339D-03
+
+At iterate 1742    f=  4.38303D-01    |proj g|=  6.47558D-03
+
+At iterate 1743    f=  4.38298D-01    |proj g|=  4.69110D-03
+
+At iterate 1744    f=  4.38293D-01    |proj g|=  1.02888D-02
+
+At iterate 1745    f=  4.38292D-01    |proj g|=  6.53628D-03
+
+At iterate 1746    f=  4.38285D-01    |proj g|=  4.77235D-03
+
+At iterate 1747    f=  4.38277D-01    |proj g|=  9.15537D-03
+
+At iterate 1748    f=  4.38272D-01    |proj g|=  6.55380D-03
+
+At iterate 1749    f=  4.38267D-01    |proj g|=  4.52340D-03
+
+At iterate 1750    f=  4.38262D-01    |proj g|=  4.41168D-03
+
+At iterate 1751    f=  4.38256D-01    |proj g|=  6.87515D-03
+
+At iterate 1752    f=  4.38253D-01    |proj g|=  7.68395D-03
+
+At iterate 1753    f=  4.38248D-01    |proj g|=  4.23363D-03
+
+At iterate 1754    f=  4.38245D-01    |proj g|=  5.56344D-03
+
+At iterate 1755    f=  4.38242D-01    |proj g|=  5.19127D-03
+
+At iterate 1756    f=  4.38240D-01    |proj g|=  4.10143D-03
+
+At iterate 1757    f=  4.38234D-01    |proj g|=  5.60483D-03
+
+At iterate 1758    f=  4.38232D-01    |proj g|=  6.32808D-03
+
+At iterate 1759    f=  4.38229D-01    |proj g|=  4.99169D-03
+
+At iterate 1760    f=  4.38227D-01    |proj g|=  7.10093D-03
+
+At iterate 1761    f=  4.38225D-01    |proj g|=  4.41665D-03
+
+At iterate 1762    f=  4.38224D-01    |proj g|=  4.86916D-03
+
+At iterate 1763    f=  4.38221D-01    |proj g|=  6.38203D-03
+
+At iterate 1764    f=  4.38220D-01    |proj g|=  4.03534D-03
+
+At iterate 1765    f=  4.38216D-01    |proj g|=  3.76384D-03
+
+At iterate 1766    f=  4.38211D-01    |proj g|=  8.35997D-03
+
+At iterate 1767    f=  4.38208D-01    |proj g|=  5.53668D-03
+
+At iterate 1768    f=  4.38205D-01    |proj g|=  5.20705D-03
+
+At iterate 1769    f=  4.38202D-01    |proj g|=  5.24657D-03
+
+At iterate 1770    f=  4.38201D-01    |proj g|=  6.40209D-03
+
+At iterate 1771    f=  4.38198D-01    |proj g|=  6.14734D-03
+
+At iterate 1772    f=  4.38196D-01    |proj g|=  3.84346D-03
+
+At iterate 1773    f=  4.38193D-01    |proj g|=  3.41256D-03
+
+At iterate 1774    f=  4.38192D-01    |proj g|=  1.03556D-02
+
+At iterate 1775    f=  4.38189D-01    |proj g|=  4.03348D-03
+
+At iterate 1776    f=  4.38187D-01    |proj g|=  4.32028D-03
+
+At iterate 1777    f=  4.38186D-01    |proj g|=  4.74734D-03
+
+At iterate 1778    f=  4.38185D-01    |proj g|=  4.94564D-03
+
+At iterate 1779    f=  4.38184D-01    |proj g|=  4.64325D-03
+
+At iterate 1780    f=  4.38182D-01    |proj g|=  3.66615D-03
+
+At iterate 1781    f=  4.38181D-01    |proj g|=  7.70907D-03
+
+At iterate 1782    f=  4.38178D-01    |proj g|=  3.43562D-03
+
+At iterate 1783    f=  4.38175D-01    |proj g|=  7.24497D-03
+
+At iterate 1784    f=  4.38172D-01    |proj g|=  4.04573D-03
+
+At iterate 1785    f=  4.38169D-01    |proj g|=  5.12493D-03
+
+At iterate 1786    f=  4.38167D-01    |proj g|=  7.35929D-03
+
+At iterate 1787    f=  4.38164D-01    |proj g|=  7.83937D-03
+
+At iterate 1788    f=  4.38163D-01    |proj g|=  1.08666D-02
+
+At iterate 1789    f=  4.38160D-01    |proj g|=  9.58510D-03
+
+At iterate 1790    f=  4.38154D-01    |proj g|=  5.45796D-03
+
+At iterate 1791    f=  4.38151D-01    |proj g|=  3.94783D-03
+
+At iterate 1792    f=  4.38150D-01    |proj g|=  1.08422D-02
+
+At iterate 1793    f=  4.38147D-01    |proj g|=  5.07810D-03
+
+At iterate 1794    f=  4.38146D-01    |proj g|=  7.91266D-03
+
+At iterate 1795    f=  4.38143D-01    |proj g|=  4.88758D-03
+
+At iterate 1796    f=  4.38142D-01    |proj g|=  5.82355D-03
+
+At iterate 1797    f=  4.38141D-01    |proj g|=  4.90145D-03
+
+At iterate 1798    f=  4.38140D-01    |proj g|=  3.93529D-03
+
+At iterate 1799    f=  4.38139D-01    |proj g|=  6.20310D-03
+
+At iterate 1800    f=  4.38138D-01    |proj g|=  4.75856D-03
+
+At iterate 1801    f=  4.38136D-01    |proj g|=  6.88459D-03
+
+At iterate 1802    f=  4.38134D-01    |proj g|=  7.15080D-03
+
+At iterate 1803    f=  4.38133D-01    |proj g|=  6.06874D-03
+
+At iterate 1804    f=  4.38132D-01    |proj g|=  5.37345D-03
+
+At iterate 1805    f=  4.38128D-01    |proj g|=  4.39248D-03
+
+At iterate 1806    f=  4.38126D-01    |proj g|=  8.36795D-03
+
+At iterate 1807    f=  4.38123D-01    |proj g|=  5.97947D-03
+
+At iterate 1808    f=  4.38122D-01    |proj g|=  6.04207D-03
+
+At iterate 1809    f=  4.38120D-01    |proj g|=  6.04530D-03
+
+At iterate 1810    f=  4.38118D-01    |proj g|=  4.67770D-03
+
+At iterate 1811    f=  4.38117D-01    |proj g|=  7.51681D-03
+
+At iterate 1812    f=  4.38113D-01    |proj g|=  4.92288D-03
+
+At iterate 1813    f=  4.38110D-01    |proj g|=  4.71529D-03
+
+At iterate 1814    f=  4.38108D-01    |proj g|=  4.02849D-03
+
+At iterate 1815    f=  4.38106D-01    |proj g|=  3.90287D-03
+
+At iterate 1816    f=  4.38100D-01    |proj g|=  5.37496D-03
+
+At iterate 1817    f=  4.38097D-01    |proj g|=  8.51246D-03
+
+At iterate 1818    f=  4.38092D-01    |proj g|=  4.96665D-03
+
+At iterate 1819    f=  4.38091D-01    |proj g|=  6.61377D-03
+
+At iterate 1820    f=  4.38089D-01    |proj g|=  7.05904D-03
+
+At iterate 1821    f=  4.38087D-01    |proj g|=  7.55462D-03
+
+At iterate 1822    f=  4.38085D-01    |proj g|=  5.55913D-03
+
+At iterate 1823    f=  4.38082D-01    |proj g|=  5.46790D-03
+
+At iterate 1824    f=  4.38079D-01    |proj g|=  7.47492D-03
+
+At iterate 1825    f=  4.38076D-01    |proj g|=  3.75640D-03
+
+At iterate 1826    f=  4.38075D-01    |proj g|=  4.36897D-03
+
+At iterate 1827    f=  4.38072D-01    |proj g|=  6.09938D-03
+
+At iterate 1828    f=  4.38070D-01    |proj g|=  8.22399D-03
+
+At iterate 1829    f=  4.38070D-01    |proj g|=  8.71429D-03
+
+At iterate 1830    f=  4.38067D-01    |proj g|=  3.97844D-03
+
+At iterate 1831    f=  4.38065D-01    |proj g|=  5.86530D-03
+
+At iterate 1832    f=  4.38063D-01    |proj g|=  4.96061D-03
+
+At iterate 1833    f=  4.38060D-01    |proj g|=  7.79994D-03
+
+At iterate 1834    f=  4.38058D-01    |proj g|=  5.42705D-03
+
+At iterate 1835    f=  4.38056D-01    |proj g|=  4.17184D-03
+
+At iterate 1836    f=  4.38055D-01    |proj g|=  7.37636D-03
+
+At iterate 1837    f=  4.38054D-01    |proj g|=  5.54847D-03
+
+At iterate 1838    f=  4.38053D-01    |proj g|=  7.43930D-03
+
+At iterate 1839    f=  4.38052D-01    |proj g|=  6.08601D-03
+
+At iterate 1840    f=  4.38050D-01    |proj g|=  5.92338D-03
+
+At iterate 1841    f=  4.38048D-01    |proj g|=  7.29475D-03
+
+At iterate 1842    f=  4.38045D-01    |proj g|=  6.25093D-03
+
+At iterate 1843    f=  4.38043D-01    |proj g|=  7.78633D-03
+
+At iterate 1844    f=  4.38040D-01    |proj g|=  4.93266D-03
+
+At iterate 1845    f=  4.38040D-01    |proj g|=  3.43298D-03
+
+At iterate 1846    f=  4.38039D-01    |proj g|=  4.62114D-03
+
+At iterate 1847    f=  4.38038D-01    |proj g|=  4.23865D-03
+
+At iterate 1848    f=  4.38036D-01    |proj g|=  7.83648D-03
+
+At iterate 1849    f=  4.38033D-01    |proj g|=  5.29144D-03
+
+At iterate 1850    f=  4.38028D-01    |proj g|=  9.15913D-03
+
+At iterate 1851    f=  4.38022D-01    |proj g|=  8.64966D-03
+
+At iterate 1852    f=  4.38020D-01    |proj g|=  4.51925D-03
+
+At iterate 1853    f=  4.38019D-01    |proj g|=  3.45818D-03
+
+At iterate 1854    f=  4.38016D-01    |proj g|=  3.83500D-03
+
+At iterate 1855    f=  4.38014D-01    |proj g|=  7.07493D-03
+
+At iterate 1856    f=  4.38011D-01    |proj g|=  3.68645D-03
+
+At iterate 1857    f=  4.38010D-01    |proj g|=  1.00115D-02
+
+At iterate 1858    f=  4.38008D-01    |proj g|=  5.64355D-03
+
+At iterate 1859    f=  4.38007D-01    |proj g|=  6.83712D-03
+
+At iterate 1860    f=  4.38004D-01    |proj g|=  6.33435D-03
+
+At iterate 1861    f=  4.38004D-01    |proj g|=  5.15691D-03
+
+At iterate 1862    f=  4.38003D-01    |proj g|=  5.63434D-03
+
+At iterate 1863    f=  4.38002D-01    |proj g|=  5.35199D-03
+
+At iterate 1864    f=  4.38000D-01    |proj g|=  6.42504D-03
+
+At iterate 1865    f=  4.38000D-01    |proj g|=  4.35151D-03
+
+At iterate 1866    f=  4.37999D-01    |proj g|=  3.58699D-03
+
+At iterate 1867    f=  4.37998D-01    |proj g|=  7.41573D-03
+
+At iterate 1868    f=  4.37997D-01    |proj g|=  4.71693D-03
+
+At iterate 1869    f=  4.37996D-01    |proj g|=  3.56705D-03
+
+At iterate 1870    f=  4.37995D-01    |proj g|=  4.30950D-03
+
+At iterate 1871    f=  4.37994D-01    |proj g|=  3.80571D-03
+
+At iterate 1872    f=  4.37994D-01    |proj g|=  4.41634D-03
+
+At iterate 1873    f=  4.37993D-01    |proj g|=  2.79554D-03
+
+At iterate 1874    f=  4.37992D-01    |proj g|=  5.06414D-03
+
+At iterate 1875    f=  4.37992D-01    |proj g|=  4.94443D-03
+
+At iterate 1876    f=  4.37992D-01    |proj g|=  5.33072D-03
+
+At iterate 1877    f=  4.37991D-01    |proj g|=  6.20435D-03
+
+At iterate 1878    f=  4.37990D-01    |proj g|=  7.39538D-03
+
+At iterate 1879    f=  4.37990D-01    |proj g|=  5.63983D-03
+
+At iterate 1880    f=  4.37989D-01    |proj g|=  7.67527D-03
+
+At iterate 1881    f=  4.37988D-01    |proj g|=  4.64214D-03
+
+At iterate 1882    f=  4.37988D-01    |proj g|=  5.63477D-03
+
+At iterate 1883    f=  4.37987D-01    |proj g|=  5.42545D-03
+
+At iterate 1884    f=  4.37986D-01    |proj g|=  4.98169D-03
+
+At iterate 1885    f=  4.37985D-01    |proj g|=  6.56248D-03
+
+At iterate 1886    f=  4.37984D-01    |proj g|=  4.87166D-03
+
+At iterate 1887    f=  4.37984D-01    |proj g|=  1.10572D-02
+
+At iterate 1888    f=  4.37983D-01    |proj g|=  6.59301D-03
+
+At iterate 1889    f=  4.37982D-01    |proj g|=  4.03914D-03
+
+At iterate 1890    f=  4.37981D-01    |proj g|=  4.69324D-03
+
+At iterate 1891    f=  4.37980D-01    |proj g|=  5.07398D-03
+
+At iterate 1892    f=  4.37979D-01    |proj g|=  3.32253D-03
+
+At iterate 1893    f=  4.37979D-01    |proj g|=  4.74029D-03
+
+At iterate 1894    f=  4.37978D-01    |proj g|=  3.97469D-03
+
+At iterate 1895    f=  4.37976D-01    |proj g|=  6.23883D-03
+
+At iterate 1896    f=  4.37975D-01    |proj g|=  6.40428D-03
+
+At iterate 1897    f=  4.37973D-01    |proj g|=  3.78774D-03
+
+At iterate 1898    f=  4.37972D-01    |proj g|=  3.85723D-03
+
+At iterate 1899    f=  4.37971D-01    |proj g|=  3.79276D-03
+
+At iterate 1900    f=  4.37971D-01    |proj g|=  4.78132D-03
+
+At iterate 1901    f=  4.37970D-01    |proj g|=  7.20191D-03
+
+At iterate 1902    f=  4.37970D-01    |proj g|=  3.24179D-03
+
+At iterate 1903    f=  4.37970D-01    |proj g|=  4.29350D-03
+
+At iterate 1904    f=  4.37970D-01    |proj g|=  3.77725D-03
+
+At iterate 1905    f=  4.37969D-01    |proj g|=  6.25530D-03
+
+At iterate 1906    f=  4.37969D-01    |proj g|=  8.40112D-03
+
+At iterate 1907    f=  4.37969D-01    |proj g|=  3.81459D-03
+
+At iterate 1908    f=  4.37968D-01    |proj g|=  3.26311D-03
+
+At iterate 1909    f=  4.37968D-01    |proj g|=  4.58630D-03
+
+At iterate 1910    f=  4.37967D-01    |proj g|=  4.94450D-03
+
+At iterate 1911    f=  4.37966D-01    |proj g|=  5.10699D-03
+
+At iterate 1912    f=  4.37965D-01    |proj g|=  6.82600D-03
+
+At iterate 1913    f=  4.37964D-01    |proj g|=  5.71828D-03
+
+At iterate 1914    f=  4.37963D-01    |proj g|=  6.38275D-03
+
+At iterate 1915    f=  4.37963D-01    |proj g|=  4.93697D-03
+
+At iterate 1916    f=  4.37962D-01    |proj g|=  1.02109D-02
+
+At iterate 1917    f=  4.37961D-01    |proj g|=  6.88127D-03
+
+At iterate 1918    f=  4.37960D-01    |proj g|=  4.08055D-03
+
+At iterate 1919    f=  4.37959D-01    |proj g|=  7.12324D-03
+
+At iterate 1920    f=  4.37959D-01    |proj g|=  4.61061D-03
+
+At iterate 1921    f=  4.37958D-01    |proj g|=  5.61223D-03
+
+At iterate 1922    f=  4.37957D-01    |proj g|=  5.24179D-03
+
+At iterate 1923    f=  4.37955D-01    |proj g|=  4.25105D-03
+
+At iterate 1924    f=  4.37953D-01    |proj g|=  5.11199D-03
+
+At iterate 1925    f=  4.37950D-01    |proj g|=  6.07061D-03
+
+At iterate 1926    f=  4.37948D-01    |proj g|=  4.63462D-03
+
+At iterate 1927    f=  4.37946D-01    |proj g|=  6.92731D-03
+
+At iterate 1928    f=  4.37943D-01    |proj g|=  5.45028D-03
+
+At iterate 1929    f=  4.37941D-01    |proj g|=  6.05519D-03
+
+At iterate 1930    f=  4.37939D-01    |proj g|=  5.34229D-03
+
+At iterate 1931    f=  4.37937D-01    |proj g|=  5.04326D-03
+
+At iterate 1932    f=  4.37937D-01    |proj g|=  8.69795D-03
+
+At iterate 1933    f=  4.37934D-01    |proj g|=  4.93357D-03
+
+At iterate 1934    f=  4.37934D-01    |proj g|=  4.83205D-03
+
+At iterate 1935    f=  4.37932D-01    |proj g|=  8.75162D-03
+
+At iterate 1936    f=  4.37930D-01    |proj g|=  6.91950D-03
+
+At iterate 1937    f=  4.37930D-01    |proj g|=  1.37589D-02
+
+At iterate 1938    f=  4.37928D-01    |proj g|=  6.01291D-03
+
+At iterate 1939    f=  4.37928D-01    |proj g|=  3.19366D-03
+
+At iterate 1940    f=  4.37928D-01    |proj g|=  6.20847D-03
+
+At iterate 1941    f=  4.37927D-01    |proj g|=  6.41241D-03
+
+At iterate 1942    f=  4.37927D-01    |proj g|=  6.50397D-03
+
+At iterate 1943    f=  4.37927D-01    |proj g|=  5.26814D-03
+
+At iterate 1944    f=  4.37926D-01    |proj g|=  6.44495D-03
+
+At iterate 1945    f=  4.37925D-01    |proj g|=  6.21117D-03
+
+At iterate 1946    f=  4.37925D-01    |proj g|=  5.22038D-03
+
+At iterate 1947    f=  4.37924D-01    |proj g|=  5.47830D-03
+
+At iterate 1948    f=  4.37923D-01    |proj g|=  4.18008D-03
+
+At iterate 1949    f=  4.37922D-01    |proj g|=  3.68964D-03
+
+At iterate 1950    f=  4.37921D-01    |proj g|=  5.54838D-03
+
+At iterate 1951    f=  4.37920D-01    |proj g|=  5.36976D-03
+
+At iterate 1952    f=  4.37919D-01    |proj g|=  7.30537D-03
+
+At iterate 1953    f=  4.37918D-01    |proj g|=  4.99511D-03
+
+At iterate 1954    f=  4.37917D-01    |proj g|=  7.91402D-03
+
+At iterate 1955    f=  4.37916D-01    |proj g|=  5.02208D-03
+
+At iterate 1956    f=  4.37915D-01    |proj g|=  5.25638D-03
+
+At iterate 1957    f=  4.37914D-01    |proj g|=  6.91412D-03
+
+At iterate 1958    f=  4.37911D-01    |proj g|=  5.65753D-03
+
+At iterate 1959    f=  4.37910D-01    |proj g|=  6.55412D-03
+
+At iterate 1960    f=  4.37908D-01    |proj g|=  3.52821D-03
+
+At iterate 1961    f=  4.37907D-01    |proj g|=  3.38690D-03
+
+At iterate 1962    f=  4.37905D-01    |proj g|=  7.61680D-03
+
+At iterate 1963    f=  4.37893D-01    |proj g|=  7.47986D-03
+
+At iterate 1964    f=  4.37893D-01    |proj g|=  7.23510D-03
+
+At iterate 1965    f=  4.37890D-01    |proj g|=  5.32638D-03
+
+At iterate 1966    f=  4.37888D-01    |proj g|=  6.36422D-03
+
+At iterate 1967    f=  4.37884D-01    |proj g|=  7.06759D-03
+
+At iterate 1968    f=  4.37878D-01    |proj g|=  1.11545D-02
+
+At iterate 1969    f=  4.37874D-01    |proj g|=  6.56138D-03
+
+At iterate 1970    f=  4.37872D-01    |proj g|=  5.65902D-03
+
+At iterate 1971    f=  4.37872D-01    |proj g|=  1.06456D-02
+
+At iterate 1972    f=  4.37868D-01    |proj g|=  6.94844D-03
+
+At iterate 1973    f=  4.37865D-01    |proj g|=  7.11454D-03
+
+At iterate 1974    f=  4.37861D-01    |proj g|=  6.85713D-03
+
+At iterate 1975    f=  4.37861D-01    |proj g|=  1.07759D-02
+
+At iterate 1976    f=  4.37854D-01    |proj g|=  4.95890D-03
+
+At iterate 1977    f=  4.37853D-01    |proj g|=  6.04079D-03
+
+At iterate 1978    f=  4.37851D-01    |proj g|=  6.02684D-03
+
+At iterate 1979    f=  4.37849D-01    |proj g|=  1.13997D-02
+
+At iterate 1980    f=  4.37848D-01    |proj g|=  7.77152D-03
+
+At iterate 1981    f=  4.37846D-01    |proj g|=  4.38459D-03
+
+At iterate 1982    f=  4.37844D-01    |proj g|=  7.35730D-03
+
+At iterate 1983    f=  4.37843D-01    |proj g|=  1.25288D-02
+
+At iterate 1984    f=  4.37842D-01    |proj g|=  6.68932D-03
+
+At iterate 1985    f=  4.37839D-01    |proj g|=  8.34910D-03
+
+At iterate 1986    f=  4.37837D-01    |proj g|=  5.60356D-03
+
+At iterate 1987    f=  4.37835D-01    |proj g|=  8.17900D-03
+
+At iterate 1988    f=  4.37830D-01    |proj g|=  8.35519D-03
+
+At iterate 1989    f=  4.37824D-01    |proj g|=  6.54733D-03
+
+At iterate 1990    f=  4.37815D-01    |proj g|=  9.80588D-03
+
+At iterate 1991    f=  4.37813D-01    |proj g|=  9.93999D-03
+
+At iterate 1992    f=  4.37804D-01    |proj g|=  9.70956D-03
+
+At iterate 1993    f=  4.37799D-01    |proj g|=  1.18943D-02
+
+At iterate 1994    f=  4.37796D-01    |proj g|=  6.63856D-03
+
+At iterate 1995    f=  4.37793D-01    |proj g|=  4.58752D-03
+
+At iterate 1996    f=  4.37792D-01    |proj g|=  9.26733D-03
+
+At iterate 1997    f=  4.37787D-01    |proj g|=  8.41573D-03
+
+At iterate 1998    f=  4.37783D-01    |proj g|=  6.24627D-03
+
+At iterate 1999    f=  4.37776D-01    |proj g|=  5.31768D-03
+
+At iterate 2000    f=  4.37768D-01    |proj g|=  9.89735D-03
+
+At iterate 2001    f=  4.37760D-01    |proj g|=  1.02696D-02
+
+At iterate 2002    f=  4.37752D-01    |proj g|=  9.18707D-03
+
+At iterate 2003    f=  4.37745D-01    |proj g|=  7.08415D-03
+
+At iterate 2004    f=  4.37739D-01    |proj g|=  9.16186D-03
+
+At iterate 2005    f=  4.37735D-01    |proj g|=  7.22979D-03
+
+At iterate 2006    f=  4.37730D-01    |proj g|=  6.26424D-03
+
+At iterate 2007    f=  4.37727D-01    |proj g|=  9.65694D-03
+
+At iterate 2008    f=  4.37724D-01    |proj g|=  6.98700D-03
+
+At iterate 2009    f=  4.37723D-01    |proj g|=  7.73154D-03
+
+At iterate 2010    f=  4.37723D-01    |proj g|=  6.93670D-03
+
+At iterate 2011    f=  4.37722D-01    |proj g|=  5.63742D-03
+
+At iterate 2012    f=  4.37721D-01    |proj g|=  8.02678D-03
+
+At iterate 2013    f=  4.37719D-01    |proj g|=  5.37587D-03
+
+At iterate 2014    f=  4.37718D-01    |proj g|=  4.42877D-03
+
+At iterate 2015    f=  4.37716D-01    |proj g|=  7.09638D-03
+
+At iterate 2016    f=  4.37713D-01    |proj g|=  6.92838D-03
+
+At iterate 2017    f=  4.37711D-01    |proj g|=  5.29158D-03
+
+At iterate 2018    f=  4.37709D-01    |proj g|=  6.34583D-03
+
+At iterate 2019    f=  4.37707D-01    |proj g|=  4.36404D-03
+
+At iterate 2020    f=  4.37705D-01    |proj g|=  7.26572D-03
+
+At iterate 2021    f=  4.37702D-01    |proj g|=  7.19441D-03
+
+At iterate 2022    f=  4.37698D-01    |proj g|=  6.31880D-03
+
+At iterate 2023    f=  4.37693D-01    |proj g|=  5.42781D-03
+
+At iterate 2024    f=  4.37692D-01    |proj g|=  1.15559D-02
+
+At iterate 2025    f=  4.37690D-01    |proj g|=  4.85872D-03
+
+At iterate 2026    f=  4.37687D-01    |proj g|=  6.92607D-03
+
+At iterate 2027    f=  4.37684D-01    |proj g|=  1.59133D-02
+
+At iterate 2028    f=  4.37681D-01    |proj g|=  5.44738D-03
+
+At iterate 2029    f=  4.37678D-01    |proj g|=  6.29586D-03
+
+At iterate 2030    f=  4.37674D-01    |proj g|=  8.03472D-03
+
+At iterate 2031    f=  4.37669D-01    |proj g|=  8.79135D-03
+
+At iterate 2032    f=  4.37666D-01    |proj g|=  7.35652D-03
+
+At iterate 2033    f=  4.37661D-01    |proj g|=  6.67484D-03
+
+At iterate 2034    f=  4.37657D-01    |proj g|=  6.59148D-03
+
+At iterate 2035    f=  4.37653D-01    |proj g|=  1.22825D-02
+
+At iterate 2036    f=  4.37648D-01    |proj g|=  6.26956D-03
+
+At iterate 2037    f=  4.37645D-01    |proj g|=  7.64283D-03
+
+At iterate 2038    f=  4.37641D-01    |proj g|=  6.36814D-03
+
+At iterate 2039    f=  4.37639D-01    |proj g|=  7.13044D-03
+
+At iterate 2040    f=  4.37637D-01    |proj g|=  6.44705D-03
+
+At iterate 2041    f=  4.37637D-01    |proj g|=  6.47001D-03
+
+At iterate 2042    f=  4.37635D-01    |proj g|=  4.86728D-03
+
+At iterate 2043    f=  4.37634D-01    |proj g|=  4.93513D-03
+
+At iterate 2044    f=  4.37632D-01    |proj g|=  5.49264D-03
+
+At iterate 2045    f=  4.37629D-01    |proj g|=  7.40158D-03
+
+At iterate 2046    f=  4.37628D-01    |proj g|=  5.54089D-03
+
+At iterate 2047    f=  4.37626D-01    |proj g|=  3.88419D-03
+
+At iterate 2048    f=  4.37625D-01    |proj g|=  4.69844D-03
+
+At iterate 2049    f=  4.37623D-01    |proj g|=  5.89290D-03
+
+At iterate 2050    f=  4.37621D-01    |proj g|=  4.02966D-03
+
+At iterate 2051    f=  4.37619D-01    |proj g|=  3.82160D-03
+
+At iterate 2052    f=  4.37618D-01    |proj g|=  9.55591D-03
+
+At iterate 2053    f=  4.37614D-01    |proj g|=  3.98697D-03
+
+At iterate 2054    f=  4.37612D-01    |proj g|=  5.47431D-03
+
+At iterate 2055    f=  4.37612D-01    |proj g|=  3.61320D-03
+
+At iterate 2056    f=  4.37610D-01    |proj g|=  3.35691D-03
+
+At iterate 2057    f=  4.37609D-01    |proj g|=  4.59894D-03
+
+At iterate 2058    f=  4.37608D-01    |proj g|=  6.93356D-03
+
+At iterate 2059    f=  4.37607D-01    |proj g|=  8.37949D-03
+
+At iterate 2060    f=  4.37607D-01    |proj g|=  3.55353D-03
+
+At iterate 2061    f=  4.37607D-01    |proj g|=  5.97772D-03
+
+At iterate 2062    f=  4.37606D-01    |proj g|=  5.67357D-03
+
+At iterate 2063    f=  4.37606D-01    |proj g|=  6.70154D-03
+
+At iterate 2064    f=  4.37606D-01    |proj g|=  5.46953D-03
+
+At iterate 2065    f=  4.37604D-01    |proj g|=  5.15929D-03
+
+At iterate 2066    f=  4.37604D-01    |proj g|=  7.46961D-03
+
+At iterate 2067    f=  4.37603D-01    |proj g|=  5.95555D-03
+
+At iterate 2068    f=  4.37602D-01    |proj g|=  5.76256D-03
+
+At iterate 2069    f=  4.37601D-01    |proj g|=  5.07608D-03
+
+At iterate 2070    f=  4.37600D-01    |proj g|=  3.48675D-03
+
+At iterate 2071    f=  4.37600D-01    |proj g|=  5.38553D-03
+
+At iterate 2072    f=  4.37598D-01    |proj g|=  4.60950D-03
+
+At iterate 2073    f=  4.37598D-01    |proj g|=  5.27389D-03
+
+At iterate 2074    f=  4.37597D-01    |proj g|=  4.57546D-03
+
+At iterate 2075    f=  4.37596D-01    |proj g|=  6.11657D-03
+
+At iterate 2076    f=  4.37595D-01    |proj g|=  5.61242D-03
+
+At iterate 2077    f=  4.37594D-01    |proj g|=  6.35647D-03
+
+At iterate 2078    f=  4.37593D-01    |proj g|=  6.16484D-03
+
+At iterate 2079    f=  4.37590D-01    |proj g|=  5.78137D-03
+
+At iterate 2080    f=  4.37588D-01    |proj g|=  6.29351D-03
+
+At iterate 2081    f=  4.37586D-01    |proj g|=  6.39548D-03
+
+At iterate 2082    f=  4.37584D-01    |proj g|=  6.36995D-03
+
+At iterate 2083    f=  4.37582D-01    |proj g|=  5.33639D-03
+
+At iterate 2084    f=  4.37581D-01    |proj g|=  7.26377D-03
+
+At iterate 2085    f=  4.37581D-01    |proj g|=  6.51409D-03
+
+At iterate 2086    f=  4.37580D-01    |proj g|=  4.90479D-03
+
+At iterate 2087    f=  4.37580D-01    |proj g|=  4.77386D-03
+
+At iterate 2088    f=  4.37579D-01    |proj g|=  5.13752D-03
+
+At iterate 2089    f=  4.37578D-01    |proj g|=  4.72728D-03
+
+At iterate 2090    f=  4.37578D-01    |proj g|=  5.77447D-03
+
+At iterate 2091    f=  4.37577D-01    |proj g|=  3.34190D-03
+
+At iterate 2092    f=  4.37576D-01    |proj g|=  1.02512D-02
+
+At iterate 2093    f=  4.37576D-01    |proj g|=  6.22227D-03
+
+At iterate 2094    f=  4.37575D-01    |proj g|=  5.51879D-03
+
+At iterate 2095    f=  4.37574D-01    |proj g|=  5.75442D-03
+
+At iterate 2096    f=  4.37574D-01    |proj g|=  5.39963D-03
+
+At iterate 2097    f=  4.37573D-01    |proj g|=  4.83815D-03
+
+At iterate 2098    f=  4.37571D-01    |proj g|=  5.37211D-03
+
+At iterate 2099    f=  4.37570D-01    |proj g|=  5.34893D-03
+
+At iterate 2100    f=  4.37569D-01    |proj g|=  2.91645D-03
+
+At iterate 2101    f=  4.37568D-01    |proj g|=  6.28235D-03
+
+At iterate 2102    f=  4.37568D-01    |proj g|=  7.16365D-03
+
+At iterate 2103    f=  4.37567D-01    |proj g|=  4.65092D-03
+
+At iterate 2104    f=  4.37566D-01    |proj g|=  4.90287D-03
+
+At iterate 2105    f=  4.37564D-01    |proj g|=  4.54855D-03
+
+At iterate 2106    f=  4.37564D-01    |proj g|=  7.04582D-03
+
+At iterate 2107    f=  4.37563D-01    |proj g|=  6.44477D-03
+
+At iterate 2108    f=  4.37562D-01    |proj g|=  6.57481D-03
+
+At iterate 2109    f=  4.37561D-01    |proj g|=  5.32719D-03
+
+At iterate 2110    f=  4.37561D-01    |proj g|=  4.59834D-03
+
+At iterate 2111    f=  4.37560D-01    |proj g|=  4.53398D-03
+
+At iterate 2112    f=  4.37559D-01    |proj g|=  6.00580D-03
+
+At iterate 2113    f=  4.37559D-01    |proj g|=  5.35534D-03
+
+At iterate 2114    f=  4.37558D-01    |proj g|=  6.80380D-03
+
+At iterate 2115    f=  4.37557D-01    |proj g|=  7.51253D-03
+
+At iterate 2116    f=  4.37556D-01    |proj g|=  4.37254D-03
+
+At iterate 2117    f=  4.37555D-01    |proj g|=  5.83632D-03
+
+At iterate 2118    f=  4.37553D-01    |proj g|=  5.39686D-03
+
+At iterate 2119    f=  4.37552D-01    |proj g|=  6.34457D-03
+
+At iterate 2120    f=  4.37550D-01    |proj g|=  6.16843D-03
+
+At iterate 2121    f=  4.37549D-01    |proj g|=  5.96505D-03
+
+At iterate 2122    f=  4.37547D-01    |proj g|=  5.54748D-03
+
+At iterate 2123    f=  4.37545D-01    |proj g|=  3.09355D-03
+
+At iterate 2124    f=  4.37544D-01    |proj g|=  3.43166D-03
+
+At iterate 2125    f=  4.37544D-01    |proj g|=  8.37277D-03
+
+At iterate 2126    f=  4.37540D-01    |proj g|=  6.55881D-03
+
+At iterate 2127    f=  4.37539D-01    |proj g|=  4.21500D-03
+
+At iterate 2128    f=  4.37538D-01    |proj g|=  3.94689D-03
+
+At iterate 2129    f=  4.37537D-01    |proj g|=  3.62272D-03
+
+At iterate 2130    f=  4.37537D-01    |proj g|=  6.28109D-03
+
+At iterate 2131    f=  4.37536D-01    |proj g|=  5.02628D-03
+
+At iterate 2132    f=  4.37535D-01    |proj g|=  4.90192D-03
+
+At iterate 2133    f=  4.37534D-01    |proj g|=  4.05913D-03
+
+At iterate 2134    f=  4.37534D-01    |proj g|=  8.85274D-03
+
+At iterate 2135    f=  4.37534D-01    |proj g|=  7.49304D-03
+
+At iterate 2136    f=  4.37533D-01    |proj g|=  5.29566D-03
+
+At iterate 2137    f=  4.37533D-01    |proj g|=  4.88469D-03
+
+At iterate 2138    f=  4.37532D-01    |proj g|=  6.70579D-03
+
+At iterate 2139    f=  4.37532D-01    |proj g|=  4.08555D-03
+
+At iterate 2140    f=  4.37531D-01    |proj g|=  5.95022D-03
+
+At iterate 2141    f=  4.37530D-01    |proj g|=  4.74300D-03
+
+At iterate 2142    f=  4.37529D-01    |proj g|=  4.98846D-03
+
+At iterate 2143    f=  4.37528D-01    |proj g|=  4.43096D-03
+
+At iterate 2144    f=  4.37528D-01    |proj g|=  5.27542D-03
+
+At iterate 2145    f=  4.37526D-01    |proj g|=  5.37914D-03
+
+At iterate 2146    f=  4.37525D-01    |proj g|=  9.79093D-03
+
+At iterate 2147    f=  4.37525D-01    |proj g|=  6.91872D-03
+
+At iterate 2148    f=  4.37524D-01    |proj g|=  6.24933D-03
+
+At iterate 2149    f=  4.37523D-01    |proj g|=  8.14485D-03
+
+At iterate 2150    f=  4.37523D-01    |proj g|=  5.57705D-03
+
+At iterate 2151    f=  4.37523D-01    |proj g|=  5.11288D-03
+
+At iterate 2152    f=  4.37522D-01    |proj g|=  5.86542D-03
+
+At iterate 2153    f=  4.37522D-01    |proj g|=  5.32468D-03
+
+At iterate 2154    f=  4.37521D-01    |proj g|=  5.05154D-03
+
+At iterate 2155    f=  4.37521D-01    |proj g|=  5.86601D-03
+
+At iterate 2156    f=  4.37520D-01    |proj g|=  5.89350D-03
+
+At iterate 2157    f=  4.37519D-01    |proj g|=  5.60445D-03
+
+At iterate 2158    f=  4.37519D-01    |proj g|=  5.61720D-03
+
+At iterate 2159    f=  4.37518D-01    |proj g|=  3.70875D-03
+
+At iterate 2160    f=  4.37517D-01    |proj g|=  6.11775D-03
+
+At iterate 2161    f=  4.37516D-01    |proj g|=  5.94485D-03
+
+At iterate 2162    f=  4.37516D-01    |proj g|=  7.77273D-03
+
+At iterate 2163    f=  4.37514D-01    |proj g|=  4.18894D-03
+
+At iterate 2164    f=  4.37514D-01    |proj g|=  7.96392D-03
+
+At iterate 2165    f=  4.37513D-01    |proj g|=  6.69417D-03
+
+At iterate 2166    f=  4.37513D-01    |proj g|=  8.91580D-03
+
+At iterate 2167    f=  4.37511D-01    |proj g|=  5.81782D-03
+
+At iterate 2168    f=  4.37511D-01    |proj g|=  6.38755D-03
+
+At iterate 2169    f=  4.37509D-01    |proj g|=  5.81220D-03
+
+At iterate 2170    f=  4.37508D-01    |proj g|=  4.54284D-03
+
+At iterate 2171    f=  4.37506D-01    |proj g|=  4.62586D-03
+
+At iterate 2172    f=  4.37506D-01    |proj g|=  8.07616D-03
+
+At iterate 2173    f=  4.37505D-01    |proj g|=  5.47648D-03
+
+At iterate 2174    f=  4.37504D-01    |proj g|=  4.30577D-03
+
+At iterate 2175    f=  4.37503D-01    |proj g|=  5.00403D-03
+
+At iterate 2176    f=  4.37503D-01    |proj g|=  8.53020D-03
+
+At iterate 2177    f=  4.37501D-01    |proj g|=  4.98939D-03
+
+At iterate 2178    f=  4.37500D-01    |proj g|=  3.97793D-03
+
+At iterate 2179    f=  4.37498D-01    |proj g|=  4.32002D-03
+
+At iterate 2180    f=  4.37497D-01    |proj g|=  4.37224D-03
+
+At iterate 2181    f=  4.37496D-01    |proj g|=  5.25175D-03
+
+At iterate 2182    f=  4.37494D-01    |proj g|=  3.89049D-03
+
+At iterate 2183    f=  4.37493D-01    |proj g|=  5.98282D-03
+
+At iterate 2184    f=  4.37491D-01    |proj g|=  7.14987D-03
+
+At iterate 2185    f=  4.37490D-01    |proj g|=  6.84935D-03
+
+At iterate 2186    f=  4.37488D-01    |proj g|=  6.82150D-03
+
+At iterate 2187    f=  4.37487D-01    |proj g|=  4.21654D-03
+
+At iterate 2188    f=  4.37486D-01    |proj g|=  3.65382D-03
+
+At iterate 2189    f=  4.37486D-01    |proj g|=  8.79676D-03
+
+At iterate 2190    f=  4.37483D-01    |proj g|=  6.56774D-03
+
+At iterate 2191    f=  4.37481D-01    |proj g|=  4.94416D-03
+
+At iterate 2192    f=  4.37479D-01    |proj g|=  1.29077D-02
+
+At iterate 2193    f=  4.37477D-01    |proj g|=  4.28475D-03
+
+At iterate 2194    f=  4.37475D-01    |proj g|=  5.57614D-03
+
+At iterate 2195    f=  4.37474D-01    |proj g|=  7.48946D-03
+
+At iterate 2196    f=  4.37473D-01    |proj g|=  5.17800D-03
+
+At iterate 2197    f=  4.37472D-01    |proj g|=  4.88887D-03
+
+At iterate 2198    f=  4.37471D-01    |proj g|=  3.70545D-03
+
+At iterate 2199    f=  4.37471D-01    |proj g|=  9.02114D-03
+
+At iterate 2200    f=  4.37470D-01    |proj g|=  6.52921D-03
+
+At iterate 2201    f=  4.37470D-01    |proj g|=  8.51312D-03
+
+At iterate 2202    f=  4.37470D-01    |proj g|=  1.00510D-02
+
+At iterate 2203    f=  4.37469D-01    |proj g|=  8.62020D-03
+
+At iterate 2204    f=  4.37469D-01    |proj g|=  8.23024D-03
+
+At iterate 2205    f=  4.37468D-01    |proj g|=  6.88587D-03
+
+At iterate 2206    f=  4.37467D-01    |proj g|=  9.51346D-03
+
+At iterate 2207    f=  4.37466D-01    |proj g|=  3.80823D-03
+
+At iterate 2208    f=  4.37465D-01    |proj g|=  4.12531D-03
+
+At iterate 2209    f=  4.37464D-01    |proj g|=  5.20657D-03
+
+At iterate 2210    f=  4.37463D-01    |proj g|=  6.08844D-03
+
+At iterate 2211    f=  4.37463D-01    |proj g|=  7.43416D-03
+
+At iterate 2212    f=  4.37460D-01    |proj g|=  6.24317D-03
+
+At iterate 2213    f=  4.37458D-01    |proj g|=  5.60098D-03
+
+At iterate 2214    f=  4.37458D-01    |proj g|=  7.19318D-03
+
+At iterate 2215    f=  4.37457D-01    |proj g|=  6.31829D-03
+
+At iterate 2216    f=  4.37455D-01    |proj g|=  7.72355D-03
+
+At iterate 2217    f=  4.37454D-01    |proj g|=  5.30048D-03
+
+At iterate 2218    f=  4.37453D-01    |proj g|=  3.75432D-03
+
+At iterate 2219    f=  4.37452D-01    |proj g|=  5.70499D-03
+
+At iterate 2220    f=  4.37452D-01    |proj g|=  8.96433D-03
+
+At iterate 2221    f=  4.37450D-01    |proj g|=  7.84448D-03
+
+At iterate 2222    f=  4.37450D-01    |proj g|=  7.27352D-03
+
+At iterate 2223    f=  4.37449D-01    |proj g|=  3.65368D-03
+
+At iterate 2224    f=  4.37448D-01    |proj g|=  4.99019D-03
+
+At iterate 2225    f=  4.37448D-01    |proj g|=  5.13227D-03
+
+At iterate 2226    f=  4.37447D-01    |proj g|=  5.10005D-03
+
+At iterate 2227    f=  4.37446D-01    |proj g|=  7.35943D-03
+
+At iterate 2228    f=  4.37446D-01    |proj g|=  5.98547D-03
+
+At iterate 2229    f=  4.37445D-01    |proj g|=  4.90602D-03
+
+At iterate 2230    f=  4.37443D-01    |proj g|=  4.62824D-03
+
+At iterate 2231    f=  4.37441D-01    |proj g|=  5.82958D-03
+
+At iterate 2232    f=  4.37439D-01    |proj g|=  5.00892D-03
+
+At iterate 2233    f=  4.37438D-01    |proj g|=  7.70543D-03
+
+At iterate 2234    f=  4.37437D-01    |proj g|=  6.58367D-03
+
+At iterate 2235    f=  4.37436D-01    |proj g|=  8.38935D-03
+
+At iterate 2236    f=  4.37434D-01    |proj g|=  5.89268D-03
+
+At iterate 2237    f=  4.37432D-01    |proj g|=  6.14547D-03
+
+At iterate 2238    f=  4.37430D-01    |proj g|=  5.22485D-03
+
+At iterate 2239    f=  4.37429D-01    |proj g|=  3.42738D-03
+
+At iterate 2240    f=  4.37428D-01    |proj g|=  3.24737D-03
+
+At iterate 2241    f=  4.37427D-01    |proj g|=  7.90851D-03
+
+At iterate 2242    f=  4.37423D-01    |proj g|=  6.30927D-03
+
+At iterate 2243    f=  4.37423D-01    |proj g|=  5.44365D-03
+
+At iterate 2244    f=  4.37419D-01    |proj g|=  6.26541D-03
+
+At iterate 2245    f=  4.37419D-01    |proj g|=  8.79476D-03
+
+At iterate 2246    f=  4.37415D-01    |proj g|=  7.60067D-03
+
+At iterate 2247    f=  4.37414D-01    |proj g|=  6.18616D-03
+
+At iterate 2248    f=  4.37413D-01    |proj g|=  4.72129D-03
+
+At iterate 2249    f=  4.37411D-01    |proj g|=  6.26397D-03
+
+At iterate 2250    f=  4.37409D-01    |proj g|=  7.08210D-03
+
+At iterate 2251    f=  4.37408D-01    |proj g|=  4.50845D-03
+
+At iterate 2252    f=  4.37408D-01    |proj g|=  5.40736D-03
+
+At iterate 2253    f=  4.37408D-01    |proj g|=  5.87666D-03
+
+At iterate 2254    f=  4.37407D-01    |proj g|=  6.39615D-03
+
+At iterate 2255    f=  4.37407D-01    |proj g|=  4.39199D-03
+
+At iterate 2256    f=  4.37407D-01    |proj g|=  5.85775D-03
+
+At iterate 2257    f=  4.37407D-01    |proj g|=  3.02737D-03
+
+At iterate 2258    f=  4.37406D-01    |proj g|=  4.35737D-03
+
+At iterate 2259    f=  4.37406D-01    |proj g|=  4.64997D-03
+
+At iterate 2260    f=  4.37406D-01    |proj g|=  6.21772D-03
+
+At iterate 2261    f=  4.37406D-01    |proj g|=  6.18665D-03
+
+At iterate 2262    f=  4.37406D-01    |proj g|=  4.55239D-03
+
+At iterate 2263    f=  4.37406D-01    |proj g|=  5.05178D-03
+
+At iterate 2264    f=  4.37406D-01    |proj g|=  4.90779D-03
+
+At iterate 2265    f=  4.37406D-01    |proj g|=  4.76266D-03
+
+At iterate 2266    f=  4.37406D-01    |proj g|=  7.22453D-03
+
+At iterate 2267    f=  4.37405D-01    |proj g|=  4.59122D-03
+
+At iterate 2268    f=  4.37405D-01    |proj g|=  5.09251D-03
+
+At iterate 2269    f=  4.37405D-01    |proj g|=  5.57137D-03
+
+At iterate 2270    f=  4.37404D-01    |proj g|=  4.67784D-03
+
+At iterate 2271    f=  4.37404D-01    |proj g|=  5.11032D-03
+
+At iterate 2272    f=  4.37403D-01    |proj g|=  5.71734D-03
+
+At iterate 2273    f=  4.37403D-01    |proj g|=  5.70600D-03
+
+At iterate 2274    f=  4.37403D-01    |proj g|=  5.43522D-03
+
+At iterate 2275    f=  4.37402D-01    |proj g|=  5.81843D-03
+
+At iterate 2276    f=  4.37402D-01    |proj g|=  6.44244D-03
+
+At iterate 2277    f=  4.37401D-01    |proj g|=  7.11925D-03
+
+At iterate 2278    f=  4.37400D-01    |proj g|=  4.36170D-03
+
+At iterate 2279    f=  4.37399D-01    |proj g|=  3.27136D-03
+
+At iterate 2280    f=  4.37398D-01    |proj g|=  6.26246D-03
+
+At iterate 2281    f=  4.37396D-01    |proj g|=  5.05055D-03
+
+At iterate 2282    f=  4.37395D-01    |proj g|=  4.26274D-03
+
+At iterate 2283    f=  4.37394D-01    |proj g|=  3.99673D-03
+
+At iterate 2284    f=  4.37393D-01    |proj g|=  5.56514D-03
+
+At iterate 2285    f=  4.37391D-01    |proj g|=  9.68103D-03
+
+At iterate 2286    f=  4.37390D-01    |proj g|=  6.33738D-03
+
+At iterate 2287    f=  4.37388D-01    |proj g|=  5.46816D-03
+
+At iterate 2288    f=  4.37387D-01    |proj g|=  5.74652D-03
+
+At iterate 2289    f=  4.37386D-01    |proj g|=  4.27729D-03
+
+At iterate 2290    f=  4.37385D-01    |proj g|=  6.11913D-03
+
+At iterate 2291    f=  4.37384D-01    |proj g|=  4.88280D-03
+
+At iterate 2292    f=  4.37384D-01    |proj g|=  6.54313D-03
+
+At iterate 2293    f=  4.37383D-01    |proj g|=  6.50483D-03
+
+At iterate 2294    f=  4.37383D-01    |proj g|=  4.28178D-03
+
+At iterate 2295    f=  4.37383D-01    |proj g|=  4.22895D-03
+
+At iterate 2296    f=  4.37382D-01    |proj g|=  5.17530D-03
+
+At iterate 2297    f=  4.37381D-01    |proj g|=  5.03454D-03
+
+At iterate 2298    f=  4.37379D-01    |proj g|=  4.01803D-03
+
+At iterate 2299    f=  4.37379D-01    |proj g|=  8.56394D-03
+
+At iterate 2300    f=  4.37378D-01    |proj g|=  6.41651D-03
+
+At iterate 2301    f=  4.37377D-01    |proj g|=  5.70487D-03
+
+At iterate 2302    f=  4.37377D-01    |proj g|=  6.91940D-03
+
+At iterate 2303    f=  4.37376D-01    |proj g|=  7.56877D-03
+
+At iterate 2304    f=  4.37375D-01    |proj g|=  5.63647D-03
+
+At iterate 2305    f=  4.37375D-01    |proj g|=  5.23900D-03
+
+At iterate 2306    f=  4.37374D-01    |proj g|=  4.45594D-03
+
+At iterate 2307    f=  4.37372D-01    |proj g|=  6.80831D-03
+
+At iterate 2308    f=  4.37371D-01    |proj g|=  5.35328D-03
+
+At iterate 2309    f=  4.37371D-01    |proj g|=  5.17964D-03
+
+At iterate 2310    f=  4.37370D-01    |proj g|=  5.49591D-03
+
+At iterate 2311    f=  4.37369D-01    |proj g|=  4.39402D-03
+
+At iterate 2312    f=  4.37369D-01    |proj g|=  7.13375D-03
+
+At iterate 2313    f=  4.37368D-01    |proj g|=  4.89511D-03
+
+At iterate 2314    f=  4.37367D-01    |proj g|=  3.94866D-03
+
+At iterate 2315    f=  4.37367D-01    |proj g|=  3.02305D-03
+
+At iterate 2316    f=  4.37367D-01    |proj g|=  3.30832D-03
+
+At iterate 2317    f=  4.37366D-01    |proj g|=  4.71991D-03
+
+At iterate 2318    f=  4.37365D-01    |proj g|=  6.19105D-03
+
+At iterate 2319    f=  4.37363D-01    |proj g|=  5.16363D-03
+
+At iterate 2320    f=  4.37362D-01    |proj g|=  5.27733D-03
+
+At iterate 2321    f=  4.37360D-01    |proj g|=  2.91226D-03
+
+At iterate 2322    f=  4.37359D-01    |proj g|=  6.15608D-03
+
+At iterate 2323    f=  4.37359D-01    |proj g|=  7.08142D-03
+
+At iterate 2324    f=  4.37357D-01    |proj g|=  4.25361D-03
+
+At iterate 2325    f=  4.37356D-01    |proj g|=  7.66395D-03
+
+At iterate 2326    f=  4.37355D-01    |proj g|=  6.24489D-03
+
+At iterate 2327    f=  4.37354D-01    |proj g|=  7.69927D-03
+
+At iterate 2328    f=  4.37354D-01    |proj g|=  3.46219D-03
+
+At iterate 2329    f=  4.37353D-01    |proj g|=  6.50129D-03
+
+At iterate 2330    f=  4.37352D-01    |proj g|=  8.00294D-03
+
+At iterate 2331    f=  4.37351D-01    |proj g|=  9.15971D-03
+
+At iterate 2332    f=  4.37351D-01    |proj g|=  5.98857D-03
+
+At iterate 2333    f=  4.37350D-01    |proj g|=  5.35073D-03
+
+At iterate 2334    f=  4.37348D-01    |proj g|=  5.24512D-03
+
+At iterate 2335    f=  4.37347D-01    |proj g|=  6.80607D-03
+
+At iterate 2336    f=  4.37346D-01    |proj g|=  9.01369D-03
+
+At iterate 2337    f=  4.37343D-01    |proj g|=  3.54432D-03
+
+At iterate 2338    f=  4.37342D-01    |proj g|=  4.06552D-03
+
+At iterate 2339    f=  4.37341D-01    |proj g|=  4.14573D-03
+
+At iterate 2340    f=  4.37340D-01    |proj g|=  3.83891D-03
+
+At iterate 2341    f=  4.37340D-01    |proj g|=  4.79076D-03
+
+At iterate 2342    f=  4.37338D-01    |proj g|=  3.99637D-03
+
+At iterate 2343    f=  4.37337D-01    |proj g|=  6.34499D-03
+
+At iterate 2344    f=  4.37336D-01    |proj g|=  4.80544D-03
+
+At iterate 2345    f=  4.37335D-01    |proj g|=  5.36297D-03
+
+At iterate 2346    f=  4.37334D-01    |proj g|=  8.20989D-03
+
+At iterate 2347    f=  4.37333D-01    |proj g|=  4.92376D-03
+
+At iterate 2348    f=  4.37332D-01    |proj g|=  7.81103D-03
+
+At iterate 2349    f=  4.37331D-01    |proj g|=  6.64854D-03
+
+At iterate 2350    f=  4.37330D-01    |proj g|=  4.69562D-03
+
+At iterate 2351    f=  4.37329D-01    |proj g|=  6.46904D-03
+
+At iterate 2352    f=  4.37329D-01    |proj g|=  6.09991D-03
+
+At iterate 2353    f=  4.37328D-01    |proj g|=  6.11986D-03
+
+At iterate 2354    f=  4.37326D-01    |proj g|=  2.69086D-03
+
+At iterate 2355    f=  4.37326D-01    |proj g|=  6.95114D-03
+
+At iterate 2356    f=  4.37325D-01    |proj g|=  6.65111D-03
+
+At iterate 2357    f=  4.37324D-01    |proj g|=  5.45170D-03
+
+At iterate 2358    f=  4.37324D-01    |proj g|=  5.59979D-03
+
+At iterate 2359    f=  4.37324D-01    |proj g|=  3.80576D-03
+
+At iterate 2360    f=  4.37322D-01    |proj g|=  3.15173D-03
+
+At iterate 2361    f=  4.37322D-01    |proj g|=  8.01129D-03
+
+At iterate 2362    f=  4.37319D-01    |proj g|=  7.25210D-03
+
+At iterate 2363    f=  4.37319D-01    |proj g|=  6.33060D-03
+
+At iterate 2364    f=  4.37317D-01    |proj g|=  4.40910D-03
+
+At iterate 2365    f=  4.37316D-01    |proj g|=  5.50053D-03
+
+At iterate 2366    f=  4.37315D-01    |proj g|=  3.86199D-03
+
+At iterate 2367    f=  4.37314D-01    |proj g|=  8.02205D-03
+
+At iterate 2368    f=  4.37313D-01    |proj g|=  3.53477D-03
+
+At iterate 2369    f=  4.37313D-01    |proj g|=  6.06382D-03
+
+At iterate 2370    f=  4.37313D-01    |proj g|=  5.04338D-03
+
+At iterate 2371    f=  4.37313D-01    |proj g|=  5.15313D-03
+
+At iterate 2372    f=  4.37312D-01    |proj g|=  4.16745D-03
+
+5514
+5514
+5522
+[0, 0, 1, 1000, 0, 0.0, 1.0, 0.5416666666666666]
+MLP accuracy 0.8002073075926406
+MLP accuracy 0.8084592145015106
+0.8002073075926406
+TN, FN, TP, FP 646 186 692 131
+neg score 0.7764423076923077
+pos score 0.8408262454434994
+accuracy 0.8084592145015106
+At iterate 2373    f=  4.37312D-01    |proj g|=  7.34527D-03
+
+At iterate 2374    f=  4.37312D-01    |proj g|=  5.29469D-03
+
+At iterate 2375    f=  4.37311D-01    |proj g|=  3.07233D-03
+
+At iterate 2376    f=  4.37311D-01    |proj g|=  4.03736D-03
+
+At iterate 2377    f=  4.37310D-01    |proj g|=  4.91304D-03
+
+At iterate 2378    f=  4.37310D-01    |proj g|=  6.92784D-03
+
+At iterate 2379    f=  4.37309D-01    |proj g|=  3.59440D-03
+
+At iterate 2380    f=  4.37309D-01    |proj g|=  3.58762D-03
+
+At iterate 2381    f=  4.37308D-01    |proj g|=  5.61005D-03
+
+At iterate 2382    f=  4.37308D-01    |proj g|=  4.19292D-03
+
+At iterate 2383    f=  4.37307D-01    |proj g|=  4.99911D-03
+
+At iterate 2384    f=  4.37307D-01    |proj g|=  4.01591D-03
+
+At iterate 2385    f=  4.37307D-01    |proj g|=  8.01659D-03
+
+At iterate 2386    f=  4.37307D-01    |proj g|=  8.33749D-03
+
+At iterate 2387    f=  4.37307D-01    |proj g|=  5.11753D-03
+
+At iterate 2388    f=  4.37306D-01    |proj g|=  4.61633D-03
+
+At iterate 2389    f=  4.37306D-01    |proj g|=  2.90544D-03
+
+At iterate 2390    f=  4.37305D-01    |proj g|=  5.68307D-03
+
+At iterate 2391    f=  4.37305D-01    |proj g|=  4.91477D-03
+
+At iterate 2392    f=  4.37304D-01    |proj g|=  5.17734D-03
+
+At iterate 2393    f=  4.37304D-01    |proj g|=  4.76635D-03
+
+At iterate 2394    f=  4.37304D-01    |proj g|=  3.80242D-03
+
+At iterate 2395    f=  4.37304D-01    |proj g|=  5.72689D-03
+
+At iterate 2396    f=  4.37303D-01    |proj g|=  8.40616D-03
+
+At iterate 2397    f=  4.37303D-01    |proj g|=  5.32215D-03
+
+At iterate 2398    f=  4.37303D-01    |proj g|=  5.87943D-03
+
+At iterate 2399    f=  4.37302D-01    |proj g|=  5.15998D-03
+
+At iterate 2400    f=  4.37302D-01    |proj g|=  5.93686D-03
+
+At iterate 2401    f=  4.37302D-01    |proj g|=  5.12686D-03
+
+At iterate 2402    f=  4.37302D-01    |proj g|=  3.98981D-03
+
+At iterate 2403    f=  4.37301D-01    |proj g|=  5.52494D-03
+
+At iterate 2404    f=  4.37301D-01    |proj g|=  6.57350D-03
+
+At iterate 2405    f=  4.37301D-01    |proj g|=  3.56637D-03
+
+At iterate 2406    f=  4.37301D-01    |proj g|=  4.88254D-03
+
+At iterate 2407    f=  4.37301D-01    |proj g|=  4.58102D-03
+
+At iterate 2408    f=  4.37301D-01    |proj g|=  5.59258D-03
+
+At iterate 2409    f=  4.37301D-01    |proj g|=  8.21663D-03
+
+At iterate 2410    f=  4.37300D-01    |proj g|=  3.49065D-03
+
+At iterate 2411    f=  4.37300D-01    |proj g|=  3.62864D-03
+
+At iterate 2412    f=  4.37300D-01    |proj g|=  3.53877D-03
+
+At iterate 2413    f=  4.37300D-01    |proj g|=  3.60459D-03
+
+At iterate 2414    f=  4.37300D-01    |proj g|=  3.93020D-03
+
+At iterate 2415    f=  4.37300D-01    |proj g|=  6.82341D-03
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+  225   2415   2698      1     0     0   6.823D-03   4.373D-01
+  F =  0.43729990595642682     
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Cauchy                time 0.000E+00 seconds.
+ Subspace minimization time 0.000E+00 seconds.
+ Line search           time 0.000E+00 seconds.
+
+ Total User time 0.000E+00 seconds.
+

@@ -1,0 +1,81 @@
+Train on 7570 samples, validate on 842 samples
+Epoch 1/100
+2019-01-02 20:53:47.479819: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-01-02 20:53:47.775372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:03:00.0
+totalMemory: 10.92GiB freeMemory: 7.68GiB
+2019-01-02 20:53:47.775416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+7552/7570 [============================>.] - ETA: 0s - loss: 1.0801 - acc: 0.3976 — val_f1: 0.275862 — val_precision: 0.539792 — val_recall 0.185273
+7570/7570 [==============================] - 51s 7ms/step - loss: 1.0798 - acc: 0.3980 - val_loss: 1.0535 - val_acc: 0.4394
+Epoch 2/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.9979 - acc: 0.4881 — val_f1: 0.332180 — val_precision: 0.611465 — val_recall 0.228029
+7570/7570 [==============================] - 44s 6ms/step - loss: 0.9977 - acc: 0.4880 - val_loss: 0.9968 - val_acc: 0.4513
+Epoch 3/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.9476 - acc: 0.5372 — val_f1: 0.432050 — val_precision: 0.638051 — val_recall 0.326603
+7570/7570 [==============================] - 44s 6ms/step - loss: 0.9476 - acc: 0.5371 - val_loss: 0.9656 - val_acc: 0.5071
+Epoch 4/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.9057 - acc: 0.5632 — val_f1: 0.418856 — val_precision: 0.599558 — val_recall 0.321853
+7570/7570 [==============================] - 45s 6ms/step - loss: 0.9061 - acc: 0.5627 - val_loss: 0.9741 - val_acc: 0.4846
+Epoch 5/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.8630 - acc: 0.5899 — val_f1: 0.472568 — val_precision: 0.615238 — val_recall 0.383610
+7570/7570 [==============================] - 45s 6ms/step - loss: 0.8628 - acc: 0.5902 - val_loss: 0.9392 - val_acc: 0.5309
+Epoch 6/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.8165 - acc: 0.6221 — val_f1: 0.511064 — val_precision: 0.640429 — val_recall 0.425178
+7570/7570 [==============================] - 47s 6ms/step - loss: 0.8164 - acc: 0.6222 - val_loss: 0.8943 - val_acc: 0.5689
+Epoch 7/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.7621 - acc: 0.6570 — val_f1: 0.552540 — val_precision: 0.667227 — val_recall 0.471496
+7570/7570 [==============================] - 46s 6ms/step - loss: 0.7616 - acc: 0.6575 - val_loss: 0.8472 - val_acc: 0.6021
+Epoch 8/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.7002 - acc: 0.6921 — val_f1: 0.595913 — val_precision: 0.669630 — val_recall 0.536817
+7570/7570 [==============================] - 46s 6ms/step - loss: 0.7001 - acc: 0.6922 - val_loss: 0.8503 - val_acc: 0.6093
+Epoch 9/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.6448 - acc: 0.7311 — val_f1: 0.596104 — val_precision: 0.657593 — val_recall 0.545131
+7570/7570 [==============================] - 44s 6ms/step - loss: 0.6455 - acc: 0.7308 - val_loss: 0.8477 - val_acc: 0.6093
+Epoch 10/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.5931 - acc: 0.7548 — val_f1: 0.613723 — val_precision: 0.659836 — val_recall 0.573634
+7570/7570 [==============================] - 43s 6ms/step - loss: 0.5935 - acc: 0.7547 - val_loss: 0.8286 - val_acc: 0.6283
+Epoch 11/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.5423 - acc: 0.7781 — val_f1: 0.615965 — val_precision: 0.654206 — val_recall 0.581948
+7570/7570 [==============================] - 48s 6ms/step - loss: 0.5418 - acc: 0.7783 - val_loss: 0.8371 - val_acc: 0.6200
+Epoch 12/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.4970 - acc: 0.8007 — val_f1: 0.620690 — val_precision: 0.644501 — val_recall 0.598575
+7570/7570 [==============================] - 39s 5ms/step - loss: 0.4971 - acc: 0.8007 - val_loss: 0.9022 - val_acc: 0.6247
+Epoch 13/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.4709 - acc: 0.8187 — val_f1: 0.623762 — val_precision: 0.651163 — val_recall 0.598575
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.4708 - acc: 0.8189 - val_loss: 0.9046 - val_acc: 0.6200
+Epoch 14/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.4269 - acc: 0.8349 — val_f1: 0.622607 — val_precision: 0.648649 — val_recall 0.598575
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.4271 - acc: 0.8349 - val_loss: 0.9346 - val_acc: 0.6259
+Epoch 15/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.3874 - acc: 0.8532 — val_f1: 0.629131 — val_precision: 0.648990 — val_recall 0.610451
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.3874 - acc: 0.8532 - val_loss: 0.9443 - val_acc: 0.6271
+Epoch 16/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.3507 - acc: 0.8680 — val_f1: 0.641555 — val_precision: 0.656716 — val_recall 0.627078
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.3513 - acc: 0.8676 - val_loss: 0.9911 - val_acc: 0.6366
+Epoch 17/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.3310 - acc: 0.8769 — val_f1: 0.642080 — val_precision: 0.653941 — val_recall 0.630641
+7570/7570 [==============================] - 33s 4ms/step - loss: 0.3306 - acc: 0.8770 - val_loss: 1.0293 - val_acc: 0.6390
+Epoch 18/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.3060 - acc: 0.8825 — val_f1: 0.631197 — val_precision: 0.642857 — val_recall 0.619952
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.3060 - acc: 0.8826 - val_loss: 1.0963 - val_acc: 0.6354
+Epoch 19/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.2809 - acc: 0.8955 — val_f1: 0.631197 — val_precision: 0.642857 — val_recall 0.619952
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.2812 - acc: 0.8952 - val_loss: 1.0994 - val_acc: 0.6330
+Epoch 20/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.2496 - acc: 0.9085 — val_f1: 0.629607 — val_precision: 0.640836 — val_recall 0.618765
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.2495 - acc: 0.9086 - val_loss: 1.1566 - val_acc: 0.6283
+Epoch 21/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.2322 - acc: 0.9157 — val_f1: 0.633794 — val_precision: 0.641900 — val_recall 0.625891
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.2320 - acc: 0.9159 - val_loss: 1.1940 - val_acc: 0.6354
+Epoch 22/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.2179 - acc: 0.9209 — val_f1: 0.641441 — val_precision: 0.648846 — val_recall 0.634204
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.2175 - acc: 0.9211 - val_loss: 1.1789 - val_acc: 0.6449
+Epoch 23/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.1925 - acc: 0.9318 — val_f1: 0.640719 — val_precision: 0.646135 — val_recall 0.635392
+7570/7570 [==============================] - 34s 4ms/step - loss: 0.1930 - acc: 0.9316 - val_loss: 1.2577 - val_acc: 0.6390
+Epoch 24/100
+7552/7570 [============================>.] - ETA: 0s - loss: 0.1759 - acc: 0.9362 — val_f1: 0.627240 — val_precision: 0.631010 — val_recall 0.623515
+7570/7570 [==============================] - 39s 5ms/step - loss: 0.1756 - acc: 0.9363 - val_loss: 1.3581 - val_acc: 0.6295
+Epoch 25/100
+
